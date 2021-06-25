@@ -28,7 +28,8 @@
                 "url": "/contact",
                 "style": "primary"
             }
-        ]
+        ],
+        "logo": "images/s-box-logo.svg"
     },
     "footer": {
         "has_nav": true,
