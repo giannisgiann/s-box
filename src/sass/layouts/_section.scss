@@ -161,7 +161,15 @@
   100%{background-position:0% 43%}
 }
 
-
+.bg-gradient:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: inherit;
+  backdrop-filter: blur(5px);
+}
 
 .hero{
   .section__title{

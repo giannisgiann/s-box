@@ -8,7 +8,9 @@
 
   li {
     color: $color-nav-link;
-    line-height: 1.25;
+    font-size: 15px;
+    line-height: 25px;  
+    font-weight: normal;
 
     &.is-active {
       color: $color-nav-link-active;
