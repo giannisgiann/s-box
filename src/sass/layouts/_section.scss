@@ -28,7 +28,9 @@
 .bg-blue {
   background-color: $color-inverse-bg;
 }
-
+.bg-white{
+  background-color: $color-bg;
+}
 .bg-gray {
   background-color: $color-bg-alt;
 }
@@ -121,5 +123,58 @@
     .flex {
       justify-content: center;
     }
+  }
+}
+
+.bg-gradient{
+  background: radial-gradient(circle at 100%, #009fff, #d74e62, #e1eec3);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+  position: absolute;
+    bottom: 0;
+    top: -35%;
+    left: 0;
+    width: calc(100vw-15px);
+    min-width: 100%;
+    height: 100%;
+    transform-origin: top left;
+    transform: skewY((-12deg));
+    overflow: hidden;
+    border: none;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 43%}
+  50%{background-position:100% 58%}
+  100%{background-position:0% 43%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 43%}
+  50%{background-position:100% 58%}
+  100%{background-position:0% 43%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 43%}
+  50%{background-position:100% 58%}
+  100%{background-position:0% 43%}
+}
+
+
+
+.hero{
+  .section__title{
+    color: #2D3440;
+    font-size:80px;
+    font-weight: 800;
+    line-height: 90px;
+  }
+  .section__copy{
+    color: #2D3440;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
   }
 }

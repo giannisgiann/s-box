@@ -2,7 +2,10 @@
 title: Home
 sections:
   - type: hero_section
-    title: Welcome
+    title: >-
+      Welcome 
+      to SBOX
+      Feel Safe 24/7
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
       quis lorem malesuada luctus.
@@ -82,14 +85,14 @@ sections:
     has_background: true
     background_color: gray
 seo:
-  title: Stackbit Starter Theme
+  title: S-Box
   description: The preview of the Starter theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Starter Theme
+      value: S-Box
       keyName: property
     - name: 'og:description'
       value: The preview of the Starter theme
@@ -101,7 +104,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Starter Theme
+      value: S-Box
     - name: 'twitter:description'
       value: The preview of the Starter theme
     - name: 'twitter:image'
