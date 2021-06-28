@@ -1,7 +1,7 @@
 ---
 title: Home
 sections:
-  - type: hero_section
+  - type: home_hero_section
     title: >-
       Welcome 
       to SBOX

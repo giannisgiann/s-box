@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import _ from 'lodash';
-
+import Progress from './Progress';
 import {withPrefix, attribute} from '../utils';
 import '../sass/main.scss';
 import Header from './Header';
@@ -41,6 +41,7 @@ export default class Body extends React.Component {
                     )}
                 </Helmet>
                 <div id="site-wrap" className="site">
+                  <Progress/>
                   <Header {...this.props} />
                   <main id="content" className="site-content">
                     {this.props.children}

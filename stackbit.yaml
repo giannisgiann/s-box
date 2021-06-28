@@ -11,6 +11,7 @@ pageLayoutKey: template
 logicFields:
   - blog_feed_section.recent_count
   - hero_section.background.background_image_opacity
+  - home_hero_section.background.background_image_opacity
 models:
   config:
     type: config
@@ -54,6 +55,10 @@ models:
         name: logo
         label: Logo
         description: The logo image displayed in the header
+      - type: image
+        name: logo_alternative
+        label: Logo Alternative
+        description: The logo image displayed in the sticky header
       - type: string
         name: logo_alt
         label: Logo Alt Text
@@ -260,6 +265,7 @@ models:
             - cta_section
             - features_section
             - hero_section
+            - home_hero_section
             - team_section
       - type: model
         name: seo
@@ -365,6 +371,95 @@ models:
   hero_section:
     type: object
     label: Hero Section
+    labelField: title
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the section
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
+      - type: enum
+        name: align
+        label: Align
+        options:
+          - left
+          - right
+          - center
+        default: left
+        description: The alignment of the text content
+      - type: image
+        name: image
+        label: Image
+        description: The image of the section
+      - type: string
+        name: image_alt
+        label: Image Alt Text
+        description: The alt text of the image
+      - type: enum
+        name: image_position
+        label: Image Position
+        options:
+          - left
+          - right
+        default: left
+        description: The position of the image
+      - type: boolean
+        name: has_background
+        label: Enable section background
+        default: false
+      - type: object
+        name: background
+        label: Background Configuration
+        fields:
+          - type: enum
+            name: background_color
+            label: Background Color
+            options:
+              - white
+              - gray
+              - blue
+            default: white
+            description: The background color of the section
+          - type: image
+            name: background_image
+            label: Background Image
+            description: The image displayed in the background of the section
+          - type: number
+            name: background_image_opacity
+            label: Background Image Opacity
+            description: >-
+              An integer between 0 and 100. A lower value makes the image more
+              transparent.
+          - type: enum
+            name: background_image_size
+            label: Background Image Size
+            options:
+              - auto
+              - contain
+              - cover
+            default: cover
+            description: The size of the background image
+          - type: enum
+            name: background_image_repeat
+            label: Background Image Repeat
+            options:
+              - repeat
+              - no-repeat
+            default: no-repeat
+            description: Repeat the image to cover the whole area.
+  home_hero_section:
+    type: object
+    label: Home Hero Section
     labelField: title
     fields:
       - type: string
