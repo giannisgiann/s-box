@@ -29,7 +29,8 @@
                 "style": "primary"
             }
         ],
-        "logo": "images/s-box-logo.svg"
+        "logo": "images/s-box-logo.svg",
+        "logo_alternative": "images/s-box-logo-black.svg"
     },
     "footer": {
         "has_nav": true,
