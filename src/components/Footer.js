@@ -73,15 +73,15 @@ export default class Footer extends React.Component {
                   <div >
                   <div className="menu-title">Contact us</div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <span>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.address', null))}</span>
+                    <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.address', null))}</p>
                      
                   )}
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <span>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.telephone', null))}</span>
+                    <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.telephone', null))}</p>
                      
                   )}
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <span>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.email', null))}</span>
+                    <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.email', null))}</p>
                      
                   )}
                   </div>

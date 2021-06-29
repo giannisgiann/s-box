@@ -7,8 +7,11 @@
    }
    span,
    p{
+    font-family:"neuealtegrotesk-regular";
     color:#FFFFFF;
     font-size:14px;
+    font-weight: 400;
+    margin:0;
    }
    .menu-title{
      color:#FFFFFF;
@@ -40,11 +43,12 @@
   display: flex;
   padding-top: 3.5em;
   text-align: center;
-  background: url("/images/footer-bg.svg");
+  background: black;
+  clip-path: polygon(100% 0, -150% 100%, 100% 100%);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 680px;
+  min-height: 683px;
   .btn {
     padding: 0.3em 0.75rem;
   }
@@ -142,4 +146,9 @@
   background: -webkit-linear-gradient(45deg,#e3745d,#f4a16b,#ffbf74);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@include media-breakpoint-down(md) {
+.footer-content{
+  flex-direction:column;
+}
 }

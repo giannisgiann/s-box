@@ -291,6 +291,7 @@ models:
             - contact_section
             - content_section
             - cta_section
+            - how_works_section
             - features_section
             - hero_section
             - home_hero_section
@@ -383,6 +384,22 @@ models:
   features_section:
     type: object
     label: Features Section
+    labelField: title
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the section
+      - type: list
+        name: features
+        label: Features
+        items:
+          type: model
+          models:
+            - feature
+  how_works_section:
+    type: object
+    label: How It Works Section
     labelField: title
     fields:
       - type: string

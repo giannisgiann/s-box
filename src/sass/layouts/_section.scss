@@ -58,6 +58,29 @@
     }
   }
 }
+.section--how-works {
+  background-color:#2d34401a;
+  padding:2.5rem 0 ;
+  .cell {
+    max-width: $width-md;
+
+    &:only-child {
+      flex: 0 0 100%;
+    }
+  }
+  .title{
+    display: inline-flex;
+    margin:2.25rem 0 1.125rem;
+  }
+  .title_logo{
+    margin-right:1rem;
+  }
+  .section__title{
+    margin:0;
+  }
+
+
+}
 
 .hero {
   &:first-child {

@@ -12,12 +12,12 @@ export default class HomeHeroSection extends React.Component {
     AOS.init({
       // initialise with other settings
       duration : 2000,
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
       initClassName: 'aos-init', // class applied after initialization
       animatedClassName: 'aos-animate', // class applied on animation
       useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced),
     });
   }
   
