@@ -94,6 +94,14 @@ models:
           type: model
           models:
             - action
+      - type: list
+        name: nav_links_policy
+        label: Navigation Menu Links
+        description: List of navigation links in footer for policy
+        items:
+          type: model
+          models:
+            - action
       - type: boolean
         name: has_social
         label: Enable Social Links
@@ -111,6 +119,26 @@ models:
         name: content
         label: Footer Content
         description: The copyright text displayed in the footer
+      - type: string
+        name: developed_by
+        label: Developed by Content
+        description: The development credit
+      - type: string
+        name: address
+        label: Adress
+        description: Adress of the company
+      - type: string
+        name: telephone
+        label: Telephone
+        description: Telephone of the company
+      - type: string
+        name: email
+        label: Email
+        description: Email of the company
+      - type: string
+        name: newsletter
+        label: Newsletter text
+        description: Newsletter text description
       - type: list
         name: links
         label: Links

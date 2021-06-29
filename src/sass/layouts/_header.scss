@@ -2,29 +2,37 @@
  * Site Header
  */
 .site-header {
-  background-color: transparent;;
+  background: transparent;;
   border-bottom: transparent;
-  display: flex;
   position:fixed;
   width: 100%;
-  justify-content: center;
   padding-bottom: 1.125rem;
   padding-top: 1.125rem;
   z-index: 99999;
-}
-.nav{
-  position: fixed;
-  top: 10px;
+  top: 0px;
   transition: all 0.4s ease-in-out;
-  width:100%;
 }
-.nav-hidden{
-  top: -100px;
+.sticky-header{
+  background: white;
+  height:70px;
 }
-.nav-bg{
-  background-color: #fff!important;
+ 
+.site-header-hidden{
+  top: -150px;
+}
+.site-header-bg{
+  background: #fff!important;
 }
 
+.logo-hidden{
+  display:none;
+}
+.logo-sticky{
+  display:  none;
+}
+.logo-sticky-visible{
+  display: block;
+}
 .navbar {
   align-items: center;
   display: flex;

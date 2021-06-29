@@ -17,15 +17,16 @@ $color-blockquote-border:      #28aaff !default;
 
 // Buttons
 $color-btn:                    #fff !default;
-$color-btn-bg:                 #28aaff !default;
-$color-btn-border:             #28aaff !default;
-$color-btn-alt:                #28aaff !default;
+$color-btn-bg:                 #2D3440 !default;
+$color-btn-border:             #2D3440 !default;
+$color-btn-alt:                #2D3440 !default;
 $color-btn-alt-bg:             transparent !default;
-$color-btn-alt-border:         #28aaff !default;
+$color-btn-alt-border:         #2D3440 !default;
 $color-btn-clear:              #282f36 !default;
 
 // Navigation
 $color-nav-link:               #ffffff !default;
+$color-sticky-nav-link:        #2D3440 !default;
 $color-nav-link-hover:         #28aaff !default;
 $color-nav-link-active:        #28aaff !default;
 
@@ -49,12 +50,36 @@ $box-shadow: 0 0 1em rgba(0,0,0,.08) !default;
 
 // Typography
 @font-face {
-  font-family: "Neue Alte Grotesk";
-  src: url("/src/fonts/neuealtegrotesk-regular-webfont.woff");
+  font-family: 'neuealtegrotesk-regular';
+  src:  url("/fonts/neuealtegrotesk-regular-webfont.woff")format('woff');
+   
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'neuealtegrotesk-light';
+  src:  url("/fonts/neuealtegrotesk-light-webfont.woff")format('woff');
+   
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'neuealtegrotesk-heavy';
+  src:  url("/fonts/neuealtegrotesk-heavy-webfont.woff")format('woff');
+   
+       font-weight: normal;
+       font-style: normal;
+}
+@font-face {
+  font-family: 'neuealtegrotesk-semibold';
+  src:  url("/fonts/neuealtegrotesk-semibold-webfont.woff")format('woff');
+   
+       font-weight: normal;
+       font-style: normal;
 }
 
-$font-family-sans-serif: "Neue Alte Grotesk",sans-serif;
-$font-family-monospace:  Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+$font-family-sans-serif: "neuealtegrotesk-regular";
+$font-family-monospace:  "neuealtegrotesk-regular";
 $font-family-base:       $font-family-sans-serif;
 
 

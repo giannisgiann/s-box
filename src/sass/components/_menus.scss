@@ -7,6 +7,7 @@
   padding: 0;
 
   li {
+    font-family: "neuealtegrotesk-regular";
     color: $color-nav-link;
     font-size: 15px;
     line-height: 25px;  
@@ -27,6 +28,14 @@
       &:hover {
         color: $color-nav-link-hover;
       }
+    }
+  }
+}
+
+.site-header-bg{
+  .menu{
+    li{
+      color:$color-sticky-nav-link;
     }
   }
 }

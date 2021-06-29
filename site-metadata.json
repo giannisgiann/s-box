@@ -36,12 +36,39 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Contact Us",
-                "url": "/contact",
+                "label": "About us",
+                "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Privacy and Terms",
+                "label": "Sizes & Prices",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Insurance",
+                "url": "/",
+                "style": "link"
+            }
+        ],
+        "nav_links_policy": [
+            {
+                "label": "Terms & Conditions",
+                "url": "/terms",
+                "style": "link"
+            },
+            {
+                "label": "Payment Policy",
+                "url": "/terms",
+                "style": "link"
+            },
+            {
+                "label": "Private Policy",
+                "url": "/terms",
+                "style": "link"
+            },
+            {
+                "label": "FAQ",
                 "url": "/terms",
                 "style": "link"
             }
@@ -67,7 +94,12 @@
                 "new_window": true
             }
         ],
-        "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=starter&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
+        "address": "Amarousiou Chalandriou 36B, 15125, Marousi, Athens",
+        "telephone": "+30 210 6101478",
+        "email": "info@sbox.com",
+        "newsletter": "Subscribe to our newsletter for news, updates and offers.",
+        "content": "&copy; SBOX",
+        "developed_by": "<a class='footer-link' target='_blank' href='https://think-plus.gr/'> Designed by ThinkPlus</a>"
     },
     "title": "S-Box",
     "domain": "https://enthusiastic-lime-5ae88.netlify.app"

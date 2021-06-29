@@ -42,18 +42,19 @@ export default class Header extends React.Component {
 
         return (
          
-        
-        
-            <header className="site-header">
-              <div className={classnames("container nav container--lg", {
-              "nav-hidden": !this.state.visible, "nav-bg":this.state.prevScrollpos > 150
+        <header className={classnames("site-header", {
+              "site-header-hidden": !this.state.visible,"site-header-bg":this.state.prevScrollpos > 150
             })}>
+              <div className="container nav container--lg">
                 <nav className="navbar" aria-label="Main Navigation">
                   <Link className="sr-only" to="#content">Skip to main content</Link>
                   {_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null) ? (
                   <Link className="navbar__logo" to={withPrefix('/')}>
-                    <img src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
-                    <img src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alternative', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
+                    <img className={classnames("logo", {
+                      "logo-hidden": this.state.prevScrollpos > 150})}
+                      src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
+                    <img className={classnames("logo-sticky", {
+                      "logo-sticky-visible": this.state.prevScrollpos > 150})} src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alternative', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
                   </Link>
                   ) : 
                   <Link className="h4 navbar__title" to={withPrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link>

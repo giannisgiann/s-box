@@ -35,7 +35,7 @@ export default class Progress extends React.Component {
       const progressContainerStyle = {
         background: "#ffffff00",
        
-        height: "5px",
+        height: "7px",
         position: "fixed",
         top: 0,
         left: 0,
@@ -44,7 +44,7 @@ export default class Progress extends React.Component {
       };
   
       const progressBarStyle = {
-        height: "5px",
+        height: "7px",
         background: "linear-gradient(to right, #d53369, #cbad6d)",
         width: this.state.scrolled
       };
