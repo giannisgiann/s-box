@@ -4,27 +4,32 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Features",
-                "url": "/features",
+                "label": "Αρχική",
+                "url": "/",
                 "style": "link"
             },
             {
-                "label": "Blog",
-                "url": "/blog",
-                "style": "link"
-            },
-            {
-                "label": "About",
+                "label": "Σχετικά με εμάς",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
-                "url": "/style-guide",
+                "label": "Μεγέθη & Τιμές",
+                "url": "#",
                 "style": "link"
             },
             {
-                "label": "Contact Us",
+                "label": "Insurance",
+                "url": "#",
+                "style": "link"
+            },
+            {
+                "label": "Policies",
+                "url": "#",
+                "style": "link"
+            },
+            {
+                "label": "Επικοινωνία",
                 "url": "/contact",
                 "style": "primary"
             }

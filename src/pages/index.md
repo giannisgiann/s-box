@@ -3,12 +3,11 @@ title: Home
 sections:
   - type: home_hero_section
     title: >-
-      Welcome 
-      to SBOX
-      Feel Safe 24/7
+      Καλώς ήρθατε
+      στην SBOX
+      Feel safe 24/7 
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα.
     actions:
       - label: Learn More
         url: /features
@@ -30,15 +29,15 @@ sections:
   - type: how_works_section
     title: How it works
     features:
-      - title: How it works
+      - title: Πώς λειτουργεί
         content: >-
-         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit dictumst tortor in mi lectus. Viverra volutpat gravida eu lobortis. Vulputate quis mauris nam mi facilisis eget commodo mattis malesuada. Nunc eu vel id sed sem quis. Potenti dui a laoreet aenean ultricies. Cum semper lorem a at.
+         Η SBOX παρέχει λύσεις ασφαλούς αποθήκευσης αντικειμένων σε Θυρίδες Θησαυροφυλακίου 24/7, για όλα αυτά τα οποία έχουν αξία για εσάς. Εάν είστε φυσικό, ή νομικό πρόσωπο, δημιουργείστε ένα λογαριασμό και ολοκληρώστε την κράτησή σας με μερικά απλά βήματα μέσω της ιστοσελίδας μας.
         align: left
         image: images/feature.svg
         image_alt: Feature 1 placeholder image
         image_position: right
         actions:
-          - label: Read More
+          - label: Μάθετε περισσότερα
             url: /features
             style: primary
   - type: blog_feed_section

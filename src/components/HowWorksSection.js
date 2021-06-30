@@ -15,8 +15,8 @@ export default class HowWorksSection extends React.Component {
                 <div key={feature_idx} className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
                   
                   <div className="section__body cell">
-                <div class="title">
-                   <img data-aos-duration="2000" data-aos-delay="200" data-aos-easing="ease-out" data-aos="fade-right" class="title_logo" src="/images/how_works.svg" alt="icon" />{_.get(feature, 'title', null) && (
+                <div className="title">
+                   <img data-aos-duration="1500" data-aos-delay="200" data-aos-easing="ease-out" data-aos="fade-right" className="title_logo" src="/images/how_works.svg" alt="icon" />{_.get(feature, 'title', null) && (
                       _.get(section, 'title', null) ? (
                       <h3 className="section__title">{_.get(feature, 'title', null)}</h3>
                       ) : 

@@ -47,7 +47,7 @@ export default class HomeHeroSection extends React.Component {
                    
                   <div className="cell section__body" data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-right" data-aos-anchor-placement="top-center">
                     {_.get(section, 'title', null) && (
-                    <h1 className="section__title">Welcome <br></br>to SBOX <br></br>Feel Safe 24/7 </h1>
+                    <h1 className="section__title">{_.get(section, 'title', null)} </h1>
                     )}
                     {_.get(section, 'subtitle', null) && (
                     <div className="section__copy">

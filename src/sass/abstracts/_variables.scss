@@ -28,7 +28,7 @@ $color-btn-clear:              #282f36 !default;
 $color-nav-link:               #ffffff !default;
 $color-sticky-nav-link:        #2D3440 !default;
 $color-nav-link-hover:         #EF424C !default;
-$color-nav-link-active:        #EF424C !default;
+$color-nav-link-active:        #ffffff !default;
 
 // Inverse (light text on dark background)
 $color-inverse-text:           #f5f6f7 !default;
@@ -51,28 +51,28 @@ $box-shadow: 0 0 1em rgba(0,0,0,.08) !default;
 // Typography
 @font-face {
   font-family: 'neuealtegrotesk-regular';
-  src:  url("/fonts/neuealtegrotesk-regular-webfont.woff")format('woff');
+  src:  url("/fonts/Roboto-Regular.ttf")format('truetype');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-light';
-  src:  url("/fonts/neuealtegrotesk-light-webfont.woff")format('woff');
+  src:  url("/fonts/Roboto-Thin.ttf")format('truetype');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-heavy';
-  src:  url("/fonts/neuealtegrotesk-heavy-webfont.woff")format('woff');
+  src:  url("/fonts/Roboto-Black.ttf")format('truetype');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-semibold';
-  src:  url("/fonts/neuealtegrotesk-semibold-webfont.woff")format('woff');
+  src:  url("/fonts/Roboto-Bold.ttf")format('truetype');
    
        font-weight: normal;
        font-style: normal;
