@@ -16,7 +16,7 @@ sections:
         url: /contact
         style: secondary
     align: left
-    image: images/phone1 1.png
+    image: images/phone_shadow.png
     image_alt: Hero placeholder image
     image_position: right
     has_background: true

@@ -208,4 +208,30 @@
     font-size: 18px;
     line-height: 28px;
   }
+  .hero-images{
+    display:flex;
+  }
+  .phone-img{
+    z-index:2;
+  }
+  .key-wrap{
+    align-content: flex-end;
+    position: absolute;
+    bottom: 20%;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 1;
+    .wrap-cont{
+      width: inherit;
+      text-align: center;
+      padding: 30px;
+      background: #2D3440;
+    }
+    .key-img{
+      margin-left:10rem;
+    max-width:200px;
+    
+  }
+}
 }
