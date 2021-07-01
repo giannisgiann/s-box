@@ -8,6 +8,7 @@ import ContactSection from './ContactSection';
 import ContentSection from './ContentSection';
 import CtaSection from './CtaSection';
 import HowWorksSection from './HowWorksSection';
+import WhatMattersSection from './WhatMattersSection';
 import FeaturesSection from './FeaturesSection';
 import GradientDividerSection from './GradientDividerSection';
 import Footer from './Footer';
@@ -29,6 +30,7 @@ export {
     ContentSection,
     CtaSection,
     HowWorksSection,
+    WhatMattersSection,
     FeaturesSection,
     GradientDividerSection,
     Footer,
@@ -51,6 +53,7 @@ export default {
     ContentSection,
     CtaSection,
     HowWorksSection,
+    WhatMattersSection,
     FeaturesSection,
     GradientDividerSection,
     Footer,

@@ -40,6 +40,38 @@ sections:
           - label: Μάθετε περισσότερα
             url: /features
             style: primary
+  - type: what_matters_section
+    title: What matters most
+    features:
+      - title: 
+        content: >-
+         Είμαστε η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα. Στην SBOX, προτεραιότητά μας είναι η εξυπηρέτηση εκείνων που μας εμπιστεύονται και οδηγός μας οι παραδοσιακές αξίες εχεμύθειας, εμπιστοσύνης και αξιοπιστίας που χτίζουμε με τους πελάτες μας.
+        align: left
+        image: images/sima_logo.svg
+        image_alt: Feature 1 placeholder image
+        image_position: right
+        second_column:
+          image: images/photo.jpg
+          image_alt: what matters most image
+          icon1: 
+            image: images/icon1.svg
+            image_alt: Icon 1
+          icon2: 
+            image: images/icon2.svg
+            image_alt: Icon 2
+          icon3:
+            image: images/icon3.svg
+            image_alt: Icon 3
+          icon4: 
+            image: images/icon4.svg
+            image_alt: Icon 4
+          icon5:
+            image: images/icon5.svg
+            image_alt: Icon 5
+        actions:
+          - label: Μάθετε περισσότερα
+            url: /features
+            style: primary
   - type: blog_feed_section
     title: What's New
     show_recent: true

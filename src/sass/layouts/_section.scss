@@ -235,3 +235,72 @@
   }
 }
 }
+.section--what-matters{
+  padding:3.47rem 0 ;
+  .wm-wrapper{
+    flex-wrap:nowrap;
+    gap:0.9rem;
+  }
+  .ms-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+  .section__copy{
+    margin:2.5rem 0;
+  }
+  .logo-wrap,.logo-sub{
+    display: inline-flex;
+    
+  }
+  .logo-sub {
+    position:absolute;
+    left: 90%;
+    width:100%;
+    h3{
+    color:#EF424C;
+    margin-bottom:0;
+    }
+  }
+  .ms-wrap-r{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-end;
+    .r-1{
+      display: inline-flex;
+      align-items: flex-end;
+      .r-icon{
+        margin:0 1.25rem;
+        border: 1px solid #EF424C;
+        padding:1.25rem;
+        height: 3.3rem;
+        width: 3.3rem;
+      }
+
+    }
+    .r-2{
+      display: inline-flex;
+      align-items: flex-end;
+      margin-top:1.25rem;
+      .r-icon{
+        margin:0 1.25rem;
+        border: 1px solid #EF424C;
+        padding:1.25rem;
+        height: 3.3rem;
+        width: 3.3rem;
+
+            }
+      }
+  }
+  .divider{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    hr{
+      width:60%;
+      height:15px;
+      }
+  }
+}
