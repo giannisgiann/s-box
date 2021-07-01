@@ -42,7 +42,7 @@ export default class HomeHeroSection extends React.Component {
                   <div  className={classNames('cell', 'section__media','hero-images', {'section__media--right': _.get(section, 'image_position', null) === 'right'})}>
                     <img  data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-left" data-aos-anchor-placement="top-center" className="phone-img" src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                     <div className="flex key-wrap">
-                      <div className="wrap-cont" data-aos-delay="800" data-aos-once="false"  data-aos-duration="1700" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                      <div className="wrap-cont" data-aos-delay="800" data-aos-once="false"  data-aos-duration="1700" data-aos="fade-left" >
                     <img  className="key-img" src="/images/key.svg" alt={_.get(section, 'image_alt', null)} />
                     </div>
                     </div>

@@ -9,6 +9,7 @@ import ContentSection from './ContentSection';
 import CtaSection from './CtaSection';
 import HowWorksSection from './HowWorksSection';
 import FeaturesSection from './FeaturesSection';
+import GradientDividerSection from './GradientDividerSection';
 import Footer from './Footer';
 import Header from './Header';
 import HeroSection from './HeroSection';
@@ -29,6 +30,7 @@ export {
     CtaSection,
     HowWorksSection,
     FeaturesSection,
+    GradientDividerSection,
     Footer,
     Header,
     HeroSection,
@@ -50,6 +52,7 @@ export default {
     CtaSection,
     HowWorksSection,
     FeaturesSection,
+    GradientDividerSection,
     Footer,
     Header,
     HeroSection,

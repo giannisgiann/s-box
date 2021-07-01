@@ -55,6 +55,8 @@ sections:
         style: primary
     has_background: true
     background_color: gray
+  - type: gradient_divider_section
+    title: Divider
 seo:
   title: S-Box
   description: The preview of the Starter theme

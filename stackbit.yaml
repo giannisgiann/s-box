@@ -294,6 +294,7 @@ models:
             - how_works_section
             - features_section
             - hero_section
+            - gradient_divider_section
             - home_hero_section
             - team_section
       - type: model
@@ -591,6 +592,9 @@ models:
               - no-repeat
             default: no-repeat
             description: Repeat the image to cover the whole area.
+  gradient_divider_section: 
+    type: object
+    label: Gradient Divider Section
   team_section:
     type: object
     label: Team Section
