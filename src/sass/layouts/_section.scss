@@ -298,9 +298,61 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    margin-right: -1.65rem;
     hr{
-      width:60%;
+      width:65%;
       height:15px;
       }
+  }
+
+  .ins-wrap{
+    margin-top:5.625rem; 
+    .cell:nth-child(2){
+      align-self: center;
+    }
+    .text-big p{
+      display: inline-block;
+      font-size: 120px;
+      font-family: "neuealtegrotesk-heavy";
+      font-weight: 900;
+      line-height: 100px;
+      margin-bottom:0;
+      color: #EF424C;
+      opacity: 0.2;
+    }
+    .text-sub p {
+      margin-top: 1.875rem;
+      padding-left: 3.75rem;
+    }
+  }
+}
+.section--boxes{
+  .bx-wrap{
+    align-content: center;
+    flex-direction: column;
+    .title{
+      text-align: center;
+    }
+    .b-i-wrap{
+      margin: 1.875rem 0;
+      text-align: center;
+    }
+    .text-sub{
+      text-align: center;
+    }
+    .boxes{
+      margin-top:3.75rem;
+      align-items: stretch;
+      gap:5px;
+      
+      .cell{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border: 1px solid;
+        flex-wrap: wrap;
+        padding:10px;
+      }
+    }
   }
 }

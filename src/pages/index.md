@@ -68,14 +68,42 @@ sections:
           icon5:
             image: images/icon5.svg
             image_alt: Icon 5
+        second_row: 
+            image: images/macbook.png
+            image_alt: Insurance photo
+            content: >-
+              <p data-aos="fade-left">I</p><p data-aos="fade-left" data-aos-delay="500">N</p><p data-aos="fade-left" data-aos-delay="700">S</p><p data-aos="fade-left" data-aos-delay="900">U</p><p data-aos="fade-left" data-aos-delay="1000">R</p><p data-aos="fade-left" data-aos-delay="1100">A</p><br/><p data-aos="fade-left" data-aos-delay="1200">N</p><p data-aos="fade-left" data-aos-delay="1300">C</p><p data-aos="fade-left" data-aos-delay="1400">E</p>
+            subcontent: >-
+              Οι εγκαταστάσεις μας πληρούν διεθνή πρότυπα ασφάλειας έναντι όλων των κινδύνων από φυσικά φαινόμενα όπως σεισμό, φωτιά, πλημμύρα και φυλάσσονται τόσο με ηλεκτρονικά συστήματα όσο και μέσω 24ωρης, φυσικής φύλαξης.
         actions:
           - label: Μάθετε περισσότερα
             url: /features
             style: primary
-  - type: blog_feed_section
-    title: What's New
-    show_recent: true
-    recent_count: 3
+  - type: boxes_section
+    title: Boxes Section
+    features:
+      - title: Μεγέθη Θυρίδων
+        content: >-
+         Είμαστε η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα. Στην SBOX, προτεραιότητά μας είναι η εξυπηρέτηση εκείνων που μας εμπιστεύονται και οδηγός μας οι παραδοσιακές αξίες εχεμύθειας, εμπιστοσύνης και αξιοπιστίας που χτίζουμε με τους πελάτες μας.
+        align: left
+        image: images/icon.svg
+        image_alt: Boxes icon
+        image_position: right
+        text_sub: >-
+          Τα μεγέθη θυρίδων που προσφέρονται είναι 4 (μικρό, μεσαίο, μεγάλο, πολύ μεγάλο) και καλύπτουν κάθε ανάγκη σας. Το κόστος της μίσθωσης, αναλόγως της ζητούμενης μισθωτικής περιόδου περιγράφεται στον τιμοκατάλογο της Εταιρείας.
+        boxes: 
+          small: images/small.svg
+          small_alt: Small Box
+          medium: images/medium.svg
+          medium_alt: Medium Box
+          large: images/large.svg
+          large_alt: Large Box
+          xlarge: images/xlarge.svg
+          xlarge_alt: XLarge Box
+  # - type: blog_feed_section
+  #   title: What's New
+  #   show_recent: true
+  #   recent_count: 3
   - type: cta_section
     title: This Is A CTA
     subtitle: >-

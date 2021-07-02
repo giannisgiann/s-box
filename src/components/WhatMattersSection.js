@@ -13,10 +13,7 @@ export default class WhatMattersSection extends React.Component {
               <div className="container container--lg">
                 {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
                 <div key={feature_idx} className={classNames('wm-wrapper','flex', 'flex--col-2', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
-                  
-                 
-                      <div className="cell">
-                <div className="title">
+                  <div className="title">
                    {_.get(feature, 'title', null) && (
                       _.get(section, 'title', null) ? (
                       <h3 className="section__title">{_.get(feature, 'title', null)}</h3>
@@ -25,13 +22,16 @@ export default class WhatMattersSection extends React.Component {
                     )}
 
                     </div>
+                 
+                      <div className="cell">
+                
                     {_.get(feature, 'image', null) && (
                   <div className={classNames('section__media ms-wrap', {'section__media--right': _.get(feature, 'image_position', null) === 'right'})}>
                     <div className="logo-wrap">
                     <img src={withPrefix(_.get(feature, 'image', null))} alt={_.get(feature, 'image_alt', null)} />
                     </div>
                     <div className="logo-sub">
-                        <h3 data-aos="fade-left">What matters most</h3>
+                        <h3>What matters most</h3>
                     </div>
                   </div>
                   )}
@@ -64,7 +64,7 @@ export default class WhatMattersSection extends React.Component {
                             <img data-aos="fade-left" data-aos-delay="600" className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon3.image', null))} alt={_.get(feature, 'second_column.icon3.image_alt', null)} />
                             )}
                         {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-left" data-aos-delay="700" className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon4.image', null))} alt={_.get(feature, 'second_column.icon4.image_alt', null)} />
+                            <img data-aos="fade-left" data-aos-delay="700" className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon4.image', null))} alt={_.get(feature, 'second_column.icon4.image_alt', null)} />
                             )}
                              {_.get(feature, 'content', null) && (
                             <img data-aos="fade-left" data-aos-delay="800" className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon5.image', null))} alt={_.get(feature, 'second_column.icon5.image_alt', null)} />
@@ -76,9 +76,31 @@ export default class WhatMattersSection extends React.Component {
                  </div>
                  
                 ))}
-               <div className="divider">
+               <div className="divider flex">
                      <hr></hr>
                  </div>
+                 {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
+                <div key={feature_idx} className={classNames('ins-wrap','flex', 'flex--col-2', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
+                  
+                            <div className="cell">
+                            {_.get(feature, 'content', null) && (
+                            <img data-aos="fade-right" className="r-icon" src={withPrefix(_.get(feature, 'second_row.image', null))} alt={_.get(feature, 'second_row.image_alt', null)} />
+                            )}
+                            </div>
+                            <div className="cell">
+                                {_.get(feature, 'content', null) && (
+                                <div className="text-big">
+                                {markdownify(_.get(feature, 'second_row.content', null))}
+                                </div>
+                                )}
+                                 {_.get(feature, 'content', null) && (
+                                <div className="text-sub">
+                                {markdownify(_.get(feature, 'second_row.subcontent', null))}
+                                </div>
+                                )}
+                            </div>
+                 </div>
+                 ))}
               </div>
             </section>
         );
