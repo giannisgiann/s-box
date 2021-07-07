@@ -4,6 +4,12 @@ sections:
   - type: hero_section
     title: Who We Are
     align: center
+    background: 
+      has_background: true
+      background_image: images/hero_image.jpg
+      background_image_opacity: 20
+      background_image_size: auto
+      background_image_repeat: repeat
   - type: content_section
     content: >-
       Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim
