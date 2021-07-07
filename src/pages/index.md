@@ -81,7 +81,7 @@ sections:
             style: primary
   - type: boxes_section
     title: Boxes Section
-    features:
+    boxes:
       - title: Μεγέθη Θυρίδων
         content: >-
          Είμαστε η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα. Στην SBOX, προτεραιότητά μας είναι η εξυπηρέτηση εκείνων που μας εμπιστεύονται και οδηγός μας οι παραδοσιακές αξίες εχεμύθειας, εμπιστοσύνης και αξιοπιστίας που χτίζουμε με τους πελάτες μας.
@@ -115,8 +115,6 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-  - type: gradient_divider_section
-    title: Divider
 seo:
   title: S-Box
   description: The preview of the Starter theme

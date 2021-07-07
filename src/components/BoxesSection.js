@@ -11,47 +11,63 @@ export default class BoxesSection extends React.Component {
             <section className="section section--boxes">
               
               <div className="container container--lg">
-                {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
-                <div key={feature_idx} className={classNames('bx-wrap','flex', 'flex--center', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
+                {_.map(_.get(section, 'boxes', null), (boxes, boxes_idx) => (
+                <div key={boxes_idx} className={classNames('bx-wrap','flex', 'flex--center', {'align-center': _.get(boxes, 'align', null) === 'center', 'align-right': _.get(boxes, 'align', null) === 'right'})}>
                   <div className="title">
-                   {_.get(feature, 'title', null) && (
+                   {_.get(boxes, 'title', null) && (
                       _.get(section, 'title', null) ? (
-                      <h3 className="section__title">{_.get(feature, 'title', null)}</h3>
+                      <h3 className="section__title">{_.get(boxes, 'title', null)}</h3>
                       ) : 
-                      <h2 className="section__title">{_.get(feature, 'title', null)}</h2>
+                      <h2 className="section__title">{_.get(boxes, 'title', null)}</h2>
                     )}
                     </div>
-                    {_.get(feature, 'content', null) && (
+                    {_.get(boxes, 'content', null) && (
                       <div className="b-i-wrap">
-                        <img className="b-icon" src={withPrefix(_.get(feature, 'image', null))} alt={_.get(feature, 'image_alt', null)} />
+                        <img className="b-icon" src={withPrefix(_.get(boxes, 'image', null))} alt={_.get(boxes, 'image_alt', null)} />
                             </div>
                             )}
 
-                                {_.get(feature, 'content', null) && (
+                                {_.get(boxes, 'content', null) && (
                                 <div className="text-sub">
-                                {markdownify(_.get(feature, 'text_sub', null))}
+                                {markdownify(_.get(boxes, 'text_sub', null))}
                                 </div>
                                 )}
                         <div className="boxes flex flex--col-4">
-                          <div className="cell">
-                          {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-up" className="b-icon"src={withPrefix(_.get(feature, 'boxes.small', null))} alt={_.get(feature, 'boxes.small_alt', null)} />
+                          <div className="cell" data-aos="fade-up" data-aos-duration="1000">
+                          {_.get(boxes, 'content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.small', null))} alt={_.get(boxes, 'boxes.small_alt', null)} />
                             )}
+                           <div className="bx-text">
+                           <hr className="bx-divider" /> 
+                             <span>Μικρό<br></br>8x50x30</span>
+                             </div>
                           </div>
-                          <div className="cell">
-                          {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-up" data-aos-delay="500" className="b-icon"src={withPrefix(_.get(feature, 'boxes.medium', null))} alt={_.get(feature, 'boxes.medium_alt', null)} />
+                          <div className="cell" data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000">
+                          {_.get(boxes, 'content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.medium', null))} alt={_.get(boxes, 'boxes.medium_alt', null)} />
                             )}
+                           <div className="bx-text">
+                           <hr className="bx-divider" /> 
+                             <span>Μεσσαίο<br></br>10x50x30</span>
+                             </div>
                           </div>
-                          <div className="cell">
-                          {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-up"  data-aos-delay="800" className="b-icon"src={withPrefix(_.get(feature, 'boxes.large', null))} alt={_.get(feature, 'boxes.large_alt', null)} />
+                          <div className="cell" data-aos="fade-up"   data-aos-delay="800" data-aos-duration="1000"> 
+                          {_.get(boxes, 'content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.large', null))} alt={_.get(boxes, 'boxes.large_alt', null)} />
                             )}
+                           <div className="bx-text">
+                           <hr className="bx-divider" /> 
+                             <span>Μεγάλο<br></br>20x50x30</span>
+                             </div>
                           </div>
-                          <div className="cell">
-                          {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-up"  data-aos-delay="1100" className="b-icon"src={withPrefix(_.get(feature, 'boxes.xlarge', null))} alt={_.get(feature, 'boxes.xlarge_alt', null)} />
+                          <div className="cell" data-aos="fade-up" data-aos="fade-up"  data-aos-delay="1100" data-aos-duration="1000">
+                          {_.get(boxes, 'content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.xlarge', null))} alt={_.get(boxes, 'boxes.xlarge_alt', null)} />
                             )}
+                           <div className="bx-text">
+                           <hr className="bx-divider" /> 
+                             <span>Πολύ Μεγάλο<br></br>30x50x30</span>
+                             </div>
                           </div>
                      </div>
                   </div>

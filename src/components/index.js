@@ -11,7 +11,6 @@ import HowWorksSection from './HowWorksSection';
 import WhatMattersSection from './WhatMattersSection';
 import BoxesSection from './BoxesSection';
 import FeaturesSection from './FeaturesSection';
-import GradientDividerSection from './GradientDividerSection';
 import Footer from './Footer';
 import Header from './Header';
 import HeroSection from './HeroSection';
@@ -34,7 +33,6 @@ export {
     WhatMattersSection,
     BoxesSection,
     FeaturesSection,
-    GradientDividerSection,
     Footer,
     Header,
     HeroSection,
@@ -58,7 +56,6 @@ export default {
     WhatMattersSection,
     BoxesSection,
     FeaturesSection,
-    GradientDividerSection,
     Footer,
     Header,
     HeroSection,
