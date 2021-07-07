@@ -12,7 +12,7 @@ export default class HowWorksSection extends React.Component {
               
               <div className="container container--lg">
                 {_.map(_.get(section, 'features', null), (feature, feature_idx) => (
-                <div key={feature_idx} className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
+                <div key={feature_idx} className={classNames('flex', 'flex--start', 'flex--center', 'flex--col-2', {'align-center': _.get(feature, 'align', null) === 'center', 'align-right': _.get(feature, 'align', null) === 'right'})}>
                   
                   <div className="section__body cell">
                 <div className="title">

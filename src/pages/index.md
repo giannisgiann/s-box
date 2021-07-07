@@ -100,21 +100,24 @@ sections:
           large_alt: Large Box
           xlarge: images/xlarge.svg
           xlarge_alt: XLarge Box
+        actions:
+          - label: Book Now
+            url: /features
+            style: primary
   # - type: blog_feed_section
   #   title: What's New
   #   show_recent: true
   #   recent_count: 3
-  - type: cta_section
-    title: This Is A CTA
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
-    has_background: true
-    background_color: gray
+  - type: footer_banner_section
+    title: Footer Banner
+    features:
+      - title: Ασφάλεια Σιγουριά Άνεση
+        content: >-
+         Δημιουργήστε τον δικό σας λογαριασμό και κάντε κράτηση με 3 απλά βήματα!
+        align: left
+        image: images/image_footer.jpg
+        image_alt: Footer Banner 
+        image_position: right
 seo:
   title: S-Box
   description: The preview of the Starter theme

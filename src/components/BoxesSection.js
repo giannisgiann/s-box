@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {classNames, markdownify, withPrefix} from '../utils';
-// import SectionActions from './SectionActions';
+import SectionActions from './SectionActions';
 
 export default class BoxesSection extends React.Component {
     render() {
@@ -69,10 +69,14 @@ export default class BoxesSection extends React.Component {
                              <span>Πολύ Μεγάλο<br></br>30x50x30</span>
                              </div>
                           </div>
+                          {_.get(boxes, 'actions', null) && (
+                    <div className="section__actions btn-group">
+                      <SectionActions {...this.props} actions={_.get(boxes, 'actions', null)} />
+                    </div>
+                    )}
                      </div>
                   </div>
                 ))}
-             
               </div>
             </section>
         );
