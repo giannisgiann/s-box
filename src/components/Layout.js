@@ -3,13 +3,18 @@ import {Helmet} from 'react-helmet';
 import _ from 'lodash';
 import Progress from './Progress';
 import {withPrefix, attribute} from '../utils';
+import {Location} from '@reach/router' 
 import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
+import HeaderAlt from './HeaderAlt';
 
 export default class Body extends React.Component {
+
+ 
+
     render() {
-        return (
+      return (
             <React.Fragment>
               
                 <Helmet>
@@ -43,8 +48,15 @@ export default class Body extends React.Component {
                 </Helmet>
                 <div id="site-wrap" className="site">
                   <Progress/>
-                  <Header {...this.props} />
-                  <main id="content" className="site-content">
+                  <Location> 
+                    {({ location }) => {
+                      if(location.pathname === '/')
+                    return   <Header {...this.props} />  
+                    else 
+                    return <HeaderAlt {...this.props} />
+                    }}
+                  </Location>
+                  <main id="content" className = {"site-content " + _.get(this.props, 'pageContext.frontmatter.class', '') }>
                     {this.props.children}
                   </main>
                   <Footer {...this.props} />

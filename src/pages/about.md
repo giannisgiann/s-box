@@ -1,15 +1,18 @@
 ---
-title: Who We Are
+title: Σχετικά με εμάς
+class: about
 sections:
   - type: hero_section
-    title: Who We Are
-    align: center
+    title: >-
+     <h1>Σχετικά με <br> εμάς</h1>
+    subtitle: Η πρώτη ιδιωτική εταιρεία στο χώρο εκμίσθωσης θυρίδων θησαυροφυλακίου που ιδρύθηκε στην Ελλάδα.
+    align: right
+    has_background: true
     background: 
-      has_background: true
       background_image: images/hero_image.jpg
-      background_image_opacity: 20
-      background_image_size: auto
-      background_image_repeat: repeat
+      background_image_opacity: 0
+      background_image_size: cover
+      background_image_repeat: no-repeat
   - type: content_section
     content: >-
       Nisi porta lorem mollis aliquam ut porttitor. Pellentesque dignissim enim

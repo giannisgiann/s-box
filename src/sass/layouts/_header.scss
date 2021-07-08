@@ -55,7 +55,7 @@
 
 .navbar__logo {
   img {
-    max-height: 97px;
+    max-height: 77px;
   }
 }
 
@@ -213,4 +213,22 @@
 #progressBarContainer,
 #progressBar {
   height: 10px;
+}
+.header-alt{
+  background:white;
+  a:not(.btn){
+    border: 0;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #EF424C, #EF424C 49%, #030303 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+  .btn{
+    background:#2D3440;
+  }
 }

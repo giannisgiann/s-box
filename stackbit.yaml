@@ -269,6 +269,8 @@ models:
         name: seo
         models:
           - stackbit_page_meta
+      - type: string
+        name: class
   advanced:
     type: page
     label: Advanced Page
@@ -280,6 +282,8 @@ models:
         label: Title
         description: The title of the page
         required: true
+      - type: string
+        name: class
       - type: list
         name: sections
         label: Sections

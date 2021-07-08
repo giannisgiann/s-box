@@ -37,6 +37,54 @@
         "logo": "images/s-box-logo.svg",
         "logo_alternative": "images/s-box-logo-black.svg"
     },
+    "header_alt": {
+        "title": "S-Box",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Αρχική",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "Σχετικά με εμάς",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Μεγέθη & Τιμές",
+                "url": "#",
+                "style": "link"
+            },
+            {
+                "label": "Insurance",
+                "url": "#",
+                "style": "link"
+            },
+            {
+                "label": "Policies",
+                "url": "#",
+                "style": "link"
+            },
+            {
+                "label": "Επικοινωνία",
+                "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Apply",
+                "url": "#",
+                "style": "primary"
+            },
+            {
+                "label": "EN",
+                "url": "#",
+                "style": "link"
+            }
+        ],
+        "logo": "images/s-box-logo-black.svg",
+        "logo_alternative": "images/s-box-logo-black.svg"
+    },
     "footer": {
         "has_nav": true,
         "nav_links": [

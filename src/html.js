@@ -3,21 +3,6 @@ import PropTypes from "prop-types"
 export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
-
-{/* 
-  _______ _     _       _      _____  _                   
- |__   __| |   (_)     | |    |  __ \| |              _   
-    | |  | |__  _ _ __ | | __ | |__) | |_   _ ___   _| |_ 
-    | |  | '_ \| | '_ \| |/ / |  ___/| | | | / __| |_   _|
-    | |  | | | | | | | |   <  | |    | | |_| \__ \   |_|  
-    |_|  |_| |_|_|_| |_|_|\_\ |_|    |_|\__,_|___/        
-                                                          
-
-
-  We Build. We Create. We Share.
-  https://think-plus.gr/      
-                                        */}
-
       <head>
         {props.headComponents}
       </head>

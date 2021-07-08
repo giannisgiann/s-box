@@ -14,6 +14,7 @@ import FeaturesSection from './FeaturesSection';
 import FooterBannerSection from './FooterBannerSection';
 import Footer from './Footer';
 import Header from './Header';
+import HeaderAlt from './HeaderAlt';
 import HeroSection from './HeroSection';
 import HomeHeroSection from './HomeHeroSection';
 import SectionActions from './SectionActions';
@@ -37,6 +38,7 @@ export {
     FooterBannerSection,
     Footer,
     Header,
+    HeaderAlt,
     HeroSection,
     HomeHeroSection,
     SectionActions,
@@ -61,6 +63,7 @@ export default {
     FooterBannerSection,
     Footer,
     Header,
+    HeaderAlt,
     HeroSection,
     HomeHeroSection,
     SectionActions,
