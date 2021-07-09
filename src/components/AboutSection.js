@@ -1,45 +1,46 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {markdownify,withPrefix} from '../utils';
+import {markdownify} from '../utils';
 
-export default class ContentSection extends React.Component {
+export default class AboutSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         return (
-            <section className="section content">
+            <section className="section section--about">
               <div className="container container--lg">
                 {_.get(section, 'title', null) && (
                 <h2 className="section__title align-center">{_.get(section, 'title', null)}</h2>
                 )}
-
                 {_.get(section, 'content', null) && (
                 <div className="section__copy flex flex--col-2">
                   <div className="cell">
                   {markdownify(_.get(section, 'content.content_first', null))}
-                  {_.get(section, 'content', null) && (
-                    <img src={withPrefix(_.get(section, 'content.image', null))} alt={_.get(section, 'content.image_alt', null)} />
-                  )}
-                  {_.get(section, 'content', null) && (
-                    <div class="icon_wrap">
-                    <img className="login_icon" src={withPrefix(_.get(section, 'content.image_icon', null))} alt={_.get(section, 'content.image__icon_alt', null)} />
-                    </div>
-                  )}
                   </div>
-                  
                   {(_.get(section, 'has_second_content', null) && _.get(section, 'second_content.content_second', null)) && (
                   <div className="cell">
                   {markdownify(_.get(section, 'second_content.content_second', null))}
-                  {_.get(section, 'second_content.subtext', null) && (
-                <div className="sub">
-                {markdownify(_.get(section, 'second_content.subtext', null))}
-                </div>
-                    )}
-                  </div>
+                    </div>
                     )}
                 </div>
                 )}
               </div>
+              <div className="w1 ms">
+                <div className="container container--lg">
+                    <div className="flex">
+                        <div className="t1">
+                        {_.get(section, 'section_1.title', null) && (
+                        <h3 className="section__title align-center">{_.get(section, 'section_1.title', null)}</h3>
+                        )}
+                        </div>
+                        {_.get(section, 'section_1', null) && (
+                        <div className="ts1">
+                        {markdownify(_.get(section, 'section_1.list', null))}
+                        </div>
+                        )}
+                      </div>
+                </div>
+                </div>
             </section>
         );
     }

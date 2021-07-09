@@ -53,9 +53,10 @@
       color: inherit;
       display: inline-block;
       text-decoration: none;
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      background-image: linear-gradient( to right, #EF424C, #EF424C 49%, #030303 50%);
+      background-image: linear-gradient( to right, #EF424C, #EF424C 49%, #2D3440 50%);
       background-size: 200% 100%;
       background-position: 100%;
 
@@ -68,4 +69,27 @@
   }
 
 
+}
+footer{
+  .menu{
+    a {
+      &:not(.btn) {
+        border: 0;
+        color: inherit;
+        display: inline-block;
+        text-decoration: none;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient( to right, #EF424C, #EF424C 49%, #ffffff 50%);
+        background-size: 200% 100%;
+        background-position: 100%;
+  
+        &:hover {
+          color: $color-nav-link-hover;
+          transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+          background-position: 0%;
+        }
+      }
+    }
+  }
 }

@@ -51,12 +51,19 @@
     max-width: 20%;
   }
 }
+.flex--col-6 {
+  .cell {
+    flex: 0 0 16.666%;
+    max-width: 16.666%;
+  }
+}
 
 @include media-breakpoint-down(md) {
   .flex--col-2,
   .flex--col-3,
   .flex--col-4,
-  .flex--col-5 {
+  .flex--col-5,
+  .flex--col-6 {
     .cell {
       flex: 0 0 100%;
       max-width: 100%;

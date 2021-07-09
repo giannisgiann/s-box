@@ -3,11 +3,46 @@ import _ from 'lodash';
 
 import {Link, withPrefix, classNames} from '../utils';
 import Action from './Action';
+import classnames from "classnames";
 
 export default class HeaderAlt extends React.Component {
+  constructor(props) {
+    super(props);
+    const windowGlobal = typeof window !== 'undefined' && window;
+
+    this.state = {
+      prevScrollpos: windowGlobal.pageYOffset,
+      visible: true
+    };
+    
+  }
+
+  // Adds an event listener when the component is mount.
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  // Remove the event listener when the component is unmount.
+  // componentWillUnmount() {
+  //   window.removeEventListener("scroll", this.handleScroll);
+  // }
+
+  // Hide or show the menu.
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollpos > currentScrollPos;
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      visible
+    });
+  };
     render() {
         return (
-            <header className="site-header header-alt">
+            <header className={classnames("site-header header-alt",{
+              "site-header-alt-hidden": !this.state.visible,"site-header-alt-visible":this.state.visible 
+            })}>
               <div className="container container--lg">
                 <nav className="navbar" aria-label="Main Navigation">
                   <Link className="sr-only" to="#content">Skip to main content</Link>

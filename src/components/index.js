@@ -1,4 +1,5 @@
 import Action from './Action';
+import AboutSection from './AboutSection';
 import BlogFeedItemFilter from './BlogFeedItemFilter';
 import BlogFeedSection from './BlogFeedSection';
 import BlogPostCategories from './BlogPostCategories';
@@ -12,6 +13,7 @@ import WhatMattersSection from './WhatMattersSection';
 import BoxesSection from './BoxesSection';
 import FeaturesSection from './FeaturesSection';
 import FooterBannerSection from './FooterBannerSection';
+import FooterImageSection from './FooterImageSection';
 import Footer from './Footer';
 import Header from './Header';
 import HeaderAlt from './HeaderAlt';
@@ -23,6 +25,7 @@ import Layout from './Layout';
 
 export {
     Action,
+    AboutSection,
     BlogFeedItemFilter,
     BlogFeedSection,
     BlogPostCategories,
@@ -36,6 +39,7 @@ export {
     BoxesSection,
     FeaturesSection,
     FooterBannerSection,
+    FooterImageSection,
     Footer,
     Header,
     HeaderAlt,
@@ -48,6 +52,7 @@ export {
 
 export default {
     Action,
+    AboutSection,
     BlogFeedItemFilter,
     BlogFeedSection,
     BlogPostCategories,
@@ -61,6 +66,7 @@ export default {
     BoxesSection,
     FeaturesSection,
     FooterBannerSection,
+    FooterImageSection,
     Footer,
     Header,
     HeaderAlt,

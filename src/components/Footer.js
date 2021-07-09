@@ -12,17 +12,17 @@ export default class Footer extends React.Component {
             <footer className="site-footer">
               <div className="container container--lg">
               <div className="container container--lg footer-content flex--col-5">
-                <div className="cell">
+                <div className="cell logo-cell">
               {_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null) ? (
                   <Link className="footer__logo" to={withPrefix('/')}>
                     <img className="logo"
                       src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
-                    </Link>
+                     </Link>
                   ) : 
                   <Link className="h4 navbar__title" to={withPrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link>
                   }
                   </div>
-
+                  
                   {/* Footer nav menu */}
 
                 {(_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null)) && (
@@ -54,7 +54,7 @@ export default class Footer extends React.Component {
                 {(_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null)) && (
                 <div className="cell" >
                 <div className="site-footer__nav">
-                  <div className="menu-title">Policies</div>
+                  <div className="menu-title">Πολιτικές</div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) && (
                   <ul className="site-footer__menu menu">
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.nav_links_policy', null), (action, action_idx) => (
@@ -71,7 +71,7 @@ export default class Footer extends React.Component {
               {/* Contact menu */}
                 <div className="cell">
                   <div >
-                  <div className="menu-title">Contact us</div>
+                  <div className="menu-title">Επικοινωνία</div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
                     <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.address', null))}</p>
                      
@@ -81,7 +81,7 @@ export default class Footer extends React.Component {
                      
                   )}
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.email', null))}</p>
+                    <a href={"mailto:" + htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.email', null))}>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.email', null))}</a>
                      
                   )}
                   </div>

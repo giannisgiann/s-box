@@ -3,7 +3,7 @@
  */
 .section {
   margin-bottom: 3.75rem;
-
+  
   &:first-child {
     padding-top: 9.375rem;
   }
@@ -17,7 +17,9 @@
     margin-top: 2.25rem;
   }
 }
-
+.ms{
+  margin-top:6.25rem;
+}
 .bg-blue,
 .bg-gray,
 .has-bg {
@@ -382,5 +384,4 @@
 }
 .hero{
   min-height:780px;
-  margin-top:77px;
 }

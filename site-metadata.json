@@ -89,39 +89,39 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "About us",
+                "label": "Σχετικά με εμάς",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Sizes & Prices",
+                "label": "Μεγέθη & Τιμές",
                 "url": "/",
                 "style": "link"
             },
             {
-                "label": "Insurance",
+                "label": "Ασφάλιση",
                 "url": "/",
                 "style": "link"
             }
         ],
         "nav_links_policy": [
             {
-                "label": "Terms & Conditions",
+                "label": "Όροι & Προϋποθέσεις",
                 "url": "/terms",
                 "style": "link"
             },
             {
-                "label": "Payment Policy",
+                "label": "Πολιτική Πληρωμών",
                 "url": "/terms",
                 "style": "link"
             },
             {
-                "label": "Private Policy",
+                "label": "Πολιτική Απορρήτου",
                 "url": "/terms",
                 "style": "link"
             },
             {
-                "label": "FAQ",
+                "label": "Συχνές Ερωτήσεις",
                 "url": "/terms",
                 "style": "link"
             }
@@ -147,10 +147,10 @@
                 "new_window": true
             }
         ],
-        "address": "Amarousiou Chalandriou 36B, 15125, Marousi, Athens",
-        "telephone": "+30 210 6101478",
+        "address": "Σόλωνος 53, 10672, Αθήνα",
+        "telephone": "+30 6988 658 146",
         "email": "info@sbox.com",
-        "newsletter": "Subscribe to our newsletter for news, updates and offers.",
+        "newsletter": "Εγγραφείτε για να λαμβάνετε νέα και ενημερώσεις.",
         "content": "&copy; SBOX",
         "developed_by": "<a class='footer-link' target='_blank' href='https://think-plus.gr/'> Designed by ThinkPlus</a>"
     },

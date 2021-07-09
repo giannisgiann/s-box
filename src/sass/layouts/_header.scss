@@ -25,6 +25,7 @@
 .site-header-hidden{
   top: -150px;
 }
+
 .site-header-bg{
   background: #fff!important;
   .btn{
@@ -216,6 +217,8 @@
 }
 .header-alt{
   background:white;
+  position:sticky;
+  top:0px;
   a:not(.btn){
     border: 0;
     color: inherit;
@@ -224,11 +227,17 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #EF424C, #EF424C 49%, #030303 50%);
+    background-image: linear-gradient(to right, #EF424C, #EF424C 49%, #2D3440 50%);
     background-size: 200% 100%;
     background-position: 100%;
   }
   .btn{
     background:#2D3440;
   }
+}
+.header-alt.site-header-alt-hidden {
+  transform: translateY(-160px);
+}
+.header-alt.site-header-alt-visible {
+  transform: translateY(0px);
 }

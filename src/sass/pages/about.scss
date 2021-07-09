@@ -2,9 +2,125 @@
     .hero{
         .flex--col-2{
             justify-content: flex-end;
+            .cell{
+                flex: 0 0 50%;
+            }
         }
         .section__body{
             text-align:left;
         }
     }
+    .section--about{
+        margin-top:6.25rem;
+        .section__copy{
+            align-items: stretch;
+            justify-content: space-between;
+            gap:15px;
+            .cell{
+                flex: 0 0 45%;
+                max-width: 45%;
+            }
+            .cell:nth-child(2){
+                background:#2D3440;
+                border-radius: 8px;
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+                display: flex;
+                flex-direction: column;
+                align-self: stretch;
+                align-items:center;
+                justify-self: center;
+                padding:50px;
+                justify-content:center;
+                h3,p{
+                    color:#EF424C;
+                }
+            }
+        }
+        .w1{
+            background-color: #2d34401a;
+            padding:60px 0;
+            .ts1{
+                ol{
+                    list-style-image: url('/images/check_icon.svg');
+                    li{
+                        margin-top:1.875rem;
+                        padding-left:20px;
+                    }
+                }
+            }
+        }
+
+    }
+    .content{
+        .icon_wrap{
+            display: flex;
+            justify-content: flex-end;
+            margin-top:-50%;
+            .login_icon{
+             position: absolute;
+             animation: move 2.3s linear infinite;
+
+            }
+        }   
+        .section__copy{
+            justify-content: space-between;
+            
+        }
+        .cell{
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 45%;
+
+        }
+        .cell:nth-child(2){
+            
+            justify-content: flex-end;
+            h1{
+                font-size:100px;
+                line-height:90px;
+                margin:0;
+                
+                }
+            h2{
+                font-size:60px;
+                line-height: 70px;
+                margin:0;
+                
+               
+            }
+            h1:nth-child(4){
+                color:#EF424C;
+            }
+            h2:nth-child(3){
+                color:#EF424C;
+                margin-top:2rem;
+            }
+            .sub{
+                margin-top:1.875rem;
+            }
+        }
+    }
+    .section--footer-image{
+        margin-bottom:-31.25rem;
+        margin-top: 6rem;
+        .container{
+            padding:0;
+            .flex{
+                margin-right:0;
+                margin-left:0;
+            }
+            .cell{
+                padding: 0;
+            }
+        }
+    }
 }
+@keyframes move {
+    0%, 100% {
+        transform: translate(0px,0px);
+    }
+    50% {
+        transform: translate(-120px,-10px);
+
+    }
+  }

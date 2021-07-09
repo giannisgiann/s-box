@@ -16,7 +16,7 @@ body {
 
 a {
   color: $color-link;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover {
     text-decoration: none;
@@ -98,7 +98,10 @@ p {
   font-size: 18px;
   line-height: 28px;
 }
-
+span{  
+  font-family: "neuealtegrotesk-regular";
+  font-weight: 400;
+}
 ul,
 ol {
   margin: 0 0 1.5rem;
