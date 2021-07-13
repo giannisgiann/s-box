@@ -2,8 +2,14 @@
 title: Contact
 sections:
   - type: hero_section
-    title: Contact
+    title:
     align: center
+    has_background: true
+    background: 
+      background_image: images/contact_hero.png
+      background_image_opacity: 0
+      background_image_size: cover
+      background_image_repeat: no-repeat
   - type: contact_section
 seo:
   title: Contact

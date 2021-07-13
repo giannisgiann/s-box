@@ -385,3 +385,11 @@
 .hero{
   min-height:780px;
 }
+.section--footer-image{
+  .img-wrap{
+    min-height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}

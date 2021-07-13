@@ -59,8 +59,8 @@ sections:
         image_alt: Footer Banner 
         image_position: right
 seo:
-  title: Who We Are
-  description: This is the about us page
+  title: Σχετικά με εμάς
+  description: Σχετικά με εμάς σελίδα
   extra:
     - name: 'og:type'
       value: website

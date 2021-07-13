@@ -11,7 +11,7 @@ export default class CtaSection extends React.Component {
             <section className="section section--cta">
               <div className="container container--lg">
                 <div className={classNames('section__body', 'align-center', {'inverse bg-blue': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'blue'), 'bg-gray': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'gray')})}>
-                  <div className="container container--md">
+                  <div className="container container--lg">
                     {_.get(section, 'title', null) && (
                     <h2 className="section__title">{_.get(section, 'title', null)}</h2>
                     )}

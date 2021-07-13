@@ -19,6 +19,7 @@ import Header from './Header';
 import HeaderAlt from './HeaderAlt';
 import HeroSection from './HeroSection';
 import HomeHeroSection from './HomeHeroSection';
+import PricingSection from './PricingSection';
 import SectionActions from './SectionActions';
 import TeamSection from './TeamSection';
 import Layout from './Layout';
@@ -45,6 +46,7 @@ export {
     HeaderAlt,
     HeroSection,
     HomeHeroSection,
+    PricingSection,
     SectionActions,
     TeamSection,
     Layout
@@ -72,6 +74,7 @@ export default {
     HeaderAlt,
     HeroSection,
     HomeHeroSection,
+    PricingSection,
     SectionActions,
     TeamSection,
     Layout

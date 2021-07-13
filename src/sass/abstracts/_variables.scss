@@ -51,28 +51,28 @@ $box-shadow: 0 0 1em rgba(0,0,0,.08) !default;
 // Typography
 @font-face {
   font-family: 'neuealtegrotesk-regular';
-  src:  url("/fonts/Roboto-Regular.ttf")format('truetype');
+  src:  url("/fonts/neuealtegrotesk-regular-webfont.woff")format('woff');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-light';
-  src:  url("/fonts/Roboto-Thin.ttf")format('truetype');
+  src:  url("/fonts/neuealtegrotesk-light-webfont.woff")format('woff');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-heavy';
-  src:  url("/fonts/Roboto-Black.ttf")format('truetype');
+  src:  url("/fonts/neuealtegrotesk-heavy-webfont.woff")format('woff');
    
        font-weight: normal;
        font-style: normal;
 }
 @font-face {
   font-family: 'neuealtegrotesk-semibold';
-  src:  url("/fonts/Roboto-Bold.ttf")format('truetype');
+  src:  url("/fonts/neuealtegrotesk-semibold-webfont.woff")format('woff');
    
        font-weight: normal;
        font-style: normal;

@@ -27,15 +27,15 @@ export default class BoxesSection extends React.Component {
                             </div>
                             )}
 
-                                {_.get(boxes, 'content', null) && (
+                                {_.get(boxes, 'boxes_content', null) && (
                                 <div className="text-sub">
                                 {markdownify(_.get(boxes, 'text_sub', null))}
                                 </div>
                                 )}
                         <div className="boxes flex flex--col-4">
                           <div className="cell" data-aos="fade-up" data-aos-duration="1000">
-                          {_.get(boxes, 'content', null) && (
-                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.small', null))} alt={_.get(boxes, 'boxes.small_alt', null)} />
+                          {_.get(boxes, 'boxes_content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes_content.small', null))} alt={_.get(boxes, 'boxes_content.small_alt', null)} />
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
@@ -43,8 +43,8 @@ export default class BoxesSection extends React.Component {
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000">
-                          {_.get(boxes, 'content', null) && (
-                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.medium', null))} alt={_.get(boxes, 'boxes.medium_alt', null)} />
+                          {_.get(boxes, 'boxes_content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes_content.medium', null))} alt={_.get(boxes, 'boxes_content.medium_alt', null)} />
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
@@ -52,8 +52,8 @@ export default class BoxesSection extends React.Component {
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up"   data-aos-delay="800" data-aos-duration="1000"> 
-                          {_.get(boxes, 'content', null) && (
-                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.large', null))} alt={_.get(boxes, 'boxes.large_alt', null)} />
+                          {_.get(boxes, 'boxes_content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes_content.large', null))} alt={_.get(boxes, 'boxes_content.large_alt', null)} />
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
@@ -61,8 +61,8 @@ export default class BoxesSection extends React.Component {
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up" data-aos="fade-up"  data-aos-delay="1100" data-aos-duration="1000">
-                          {_.get(boxes, 'content', null) && (
-                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes.xlarge', null))} alt={_.get(boxes, 'boxes.xlarge_alt', null)} />
+                          {_.get(boxes, 'boxes_content', null) && (
+                            <img className="b-icon" src={withPrefix(_.get(boxes, 'boxes_content.xlarge', null))} alt={_.get(boxes, 'boxes_content.xlarge_alt', null)} />
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 

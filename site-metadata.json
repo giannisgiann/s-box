@@ -15,23 +15,33 @@
             },
             {
                 "label": "Μεγέθη & Τιμές",
+                "url": "/sizes-prices",
+                "style": "link"
+            },
+            {
+                "label": "Ασφάλεια",
                 "url": "#",
                 "style": "link"
             },
             {
-                "label": "Insurance",
-                "url": "#",
-                "style": "link"
-            },
-            {
-                "label": "Policies",
+                "label": "Πολιτικές",
                 "url": "#",
                 "style": "link"
             },
             {
                 "label": "Επικοινωνία",
                 "url": "/contact",
+                "style": "link"
+            },
+            {
+                "label": "Apply",
+                "url": "#",
                 "style": "primary"
+            },
+            {
+                "label": "EN",
+                "url": "#",
+                "style": "link"
             }
         ],
         "logo": "images/s-box-logo.svg",
@@ -53,18 +63,40 @@
             },
             {
                 "label": "Μεγέθη & Τιμές",
+                "url": "/sizes-prices",
+                "style": "link"
+            },
+            {
+                "label": "Ασφάλεια",
                 "url": "#",
                 "style": "link"
             },
             {
-                "label": "Insurance",
+                "label": "Πολιτικές",
                 "url": "#",
-                "style": "link"
-            },
-            {
-                "label": "Policies",
-                "url": "#",
-                "style": "link"
+                "style": "link",
+                "submenu": [
+                    {
+                        "label": "Όροι & Προϋποθέσεις",
+                        "url": "/terms",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Πολιτική Πληρωμών",
+                        "url": "/terms",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Πολιτική Απορρήτου",
+                        "url": "/terms",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Συχνές Ερωτήσεις",
+                        "url": "/terms",
+                        "style": "link"
+                    }
+                ]
             },
             {
                 "label": "Επικοινωνία",
@@ -95,7 +127,7 @@
             },
             {
                 "label": "Μεγέθη & Τιμές",
-                "url": "/",
+                "url": "/sizes-prices",
                 "style": "link"
             },
             {

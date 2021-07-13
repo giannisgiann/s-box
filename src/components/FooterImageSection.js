@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {classNames,withPrefix} from '../utils';
+import {toStyleObj} from '../utils';
 
 export default class FooterImageSection extends React.Component {
     render() {
@@ -13,12 +13,13 @@ export default class FooterImageSection extends React.Component {
                 {_.map(_.get(section, 'attributes', null), (attribute, attribute_idx) => (
                 <div key={attribute_idx} className='flex flex--start flex--center'>
                    <div className="cell">
-                <div className="img-wrap">
-                {_.get(attribute, 'image', null) && (
-                            <img className="b-icon" src={withPrefix(_.get(attribute, 'image', null))} alt={_.get(attribute, 'image_alt', null)} />
-                            )}
-                    </div>
+                   {_.get(attribute, 'image', null) && (
+                <div className="img-wrap" style={toStyleObj('background: url(' + _.get(attribute, 'image', null) + ')')}>
+
+                           
                 </div>
+                 )}
+                 </div>
                 </div>
                 ))}
               </div>

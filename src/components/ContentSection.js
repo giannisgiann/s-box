@@ -21,7 +21,7 @@ export default class ContentSection extends React.Component {
                     <img src={withPrefix(_.get(section, 'content.image', null))} alt={_.get(section, 'content.image_alt', null)} />
                   )}
                   {_.get(section, 'content', null) && (
-                    <div class="icon_wrap">
+                    <div className="icon_wrap">
                     <img className="login_icon" src={withPrefix(_.get(section, 'content.image_icon', null))} alt={_.get(section, 'content.image__icon_alt', null)} />
                     </div>
                   )}

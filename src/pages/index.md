@@ -91,7 +91,7 @@ sections:
         image_position: right
         text_sub: >-
           Τα μεγέθη θυρίδων που προσφέρονται είναι 4 (μικρό, μεσαίο, μεγάλο, πολύ μεγάλο) και καλύπτουν κάθε ανάγκη σας. Το κόστος της μίσθωσης, αναλόγως της ζητούμενης μισθωτικής περιόδου περιγράφεται στον τιμοκατάλογο της Εταιρείας.
-        boxes: 
+        boxes_content: 
           small: images/small.svg
           small_alt: Small Box
           medium: images/medium.svg
