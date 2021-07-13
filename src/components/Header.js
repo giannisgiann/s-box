@@ -3,6 +3,8 @@ import _ from 'lodash';
 import {Link, withPrefix, classNames} from '../utils';
 import Action from './Action';
 import classnames from "classnames";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 export default class Header extends React.Component {
   
@@ -75,9 +77,31 @@ export default class Header extends React.Component {
                           {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.nav_links', null), (action, action_idx) => {
                               let pageUrl = _.trim(_.get(this.props, 'pageContext.url', null), '/');
                               let actionUrl = _.trim(_.get(action, 'url', null), '/');
-                              return (
+                               return (
                                 <li key={action_idx} className={classNames('navbar__item', {'navbar__item--btn': _.get(action, 'style', null) !== 'link', 'is-active': pageUrl === actionUrl})}>
                                   <Action {...this.props} action={action} />
+                                  {_.get(action, 'has_subnav', null) && (
+                                  <span className="arrow_wrap">
+                                  <FontAwesomeIcon className="sub-icon" icon={faAngleRight} />
+                                  </span>
+                                  )}
+                                  {_.get(action, 'has_subnav', null) && (  
+                                  <ul className="dropdown">  
+                                     {_.map(_.get(action, 'submenu', null), (submenu, submenu_idx) => {
+                              let pageUrl = _.trim(_.get(this.props, 'pageContext.url', null), '/');
+                              let actionUrl = _.trim(_.get(action, 'url', null), '/');
+                               return (
+                                
+                                <li key={submenu_idx} className={classNames('navbar__item', {'navbar__item--btn': _.get(submenu, 'style', null) !== 'link', 'is-active': pageUrl === actionUrl})}>
+                                  <Action {...this.props} action={submenu} />
+                                 </li>
+                                
+                              )
+                          })}
+                           </ul>
+                                 
+                                   )}
+                                 
                                 </li>
                               )
                           })}

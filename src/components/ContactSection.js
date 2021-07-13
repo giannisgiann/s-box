@@ -1,10 +1,44 @@
 import React from 'react';
+import _ from 'lodash';
 
 export default class ContactSection extends React.Component {
     render() {
+      let section = _.get(this.props, 'section', null);
+
         return (
-            <section className="section">
-              <div className="container container--md">
+            <section className="section contact">
+              <div className="container container--lg mt-5">
+                <div className="flex flex--col-2">
+                  <div className="cell">
+                  {_.get(section, 'title_first', null) && (
+                <h3 className="section__title align-left">{_.get(section, 'title_first', null)}</h3>
+                )}
+                {_.get(section, 'sub_first', null) && (
+                <span className="sub align-left">{_.get(section, 'sub_first', null)}</span>
+                )}
+                 {_.get(section, 'title_second', null) && (
+                <h3 className="section__title align-left mt-3">{_.get(section, 'title_second', null)}</h3>
+                )}
+                <ul className="info-list mt-3">
+                {_.get(section, 'address', null) && (
+                  
+                <li className="adress"> <a href="https://goo.gl/maps/C7NDbGrJY6yqRAwp7" target="_blank" rel="noreferrer">{_.get(section, 'address', null)}</a></li>
+                )}
+                  {_.get(section, 'phone', null) && (
+                <li className="phone">
+                   <a href={"tel:" + (_.get(section, 'phone', null))} target="_blank" rel="noreferrer">{_.get(section, 'phone', null)}
+                   </a>
+                  </li>
+                )}
+                  {_.get(section, 'email', null) && (
+                <li className="email">
+                <a href={"mailto:" + (_.get(section, 'email', null))} target="_blank" rel="noreferrer">{_.get(section, 'email', null)}</a>
+                  </li>
+                )}
+
+                </ul>
+                  </div>
+                  <div className="cell">
                 <form name="contactForm" id="contactForm" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                   <div className="sr-only">
                     <label id="honeypot-label" htmlFor="honeypot">Don't fill this out if you're human:</label>
@@ -12,37 +46,32 @@ export default class ContactSection extends React.Component {
                   </div>
                   <input aria-labelledby="honeypot-label" type="hidden" name="form-name" value="contactForm" />
                   <div className="form-group">
-                    <label id="name-label" htmlFor="name">Name</label>
-                    <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Your name" required />
+                    {/* <label id="name-label" htmlFor="name"></label> */}
+                    <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Όνομα*" required />
                   </div>
                   <div className="form-group">
-                    <label id="email-label" htmlFor="email">Email</label>
-                    <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder="Your email" required />
+                    {/* <label id="email-label" htmlFor="email"></label> */}
+                    <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder="Email*" required />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="subject">Subject</label>
-                    <div className="form-select-wrap">
-                      <select name="subject" id="subject">
-                        <option value="">Please select</option>
-                        <option value="Business Inquiries">Business Inquiries</option>
-                        <option value="Sponsorship">Partnerships</option>
-                        <option value="Other">Other</option>
-                      </select>
-                    </div>
+                    {/* <label htmlFor="subject"></label> */}
+                    <input aria-labelledby="subject-label" type="text" name="subject" id="subject" placeholder="Θέμα*" required />
                   </div>
                   <div className="form-group">
-                    <label id="message-label" htmlFor="message">Message</label>
-                    <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder="Your message" />
+                    {/* <label id="message-label" htmlFor="message"></label> */}
+                    <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder="Μήνυμα" />
                   </div>
-                  <div className="form-group form-checkbox">
+                  {/* <div className="form-group form-checkbox">
                     <input aria-labelledby="consent-label" type="checkbox" name="consent" id="consent" />
                     <label id="consent-label" htmlFor="consent">I understand that this form is storing my submitted information so I can be
                       contacted.</label>
-                  </div>
+                  </div> */}
                   <div className="form-submit">
-                    <button type="submit" className="button">Get In Touch</button>
+                    <button type="submit" className="button">Αποστολή</button>
                   </div>
                 </form>
+                </div>
+                </div>
               </div>
             </section>
         );

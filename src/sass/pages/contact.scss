@@ -1,0 +1,29 @@
+.contact{
+    .section__title{
+        color:#EF424C;
+    }
+    .info-list{
+        li{
+            margin:1.5rem 0;
+            padding-left:0.75rem;
+            a{
+                color:inherit;
+            }
+        }
+        .adress{
+            list-style-image:url('/images/address_contact.svg');
+        }
+        .phone{
+            list-style-image:url('/images/phone_contact.svg');
+        }
+        .email{
+            list-style-image:url('/images/email_contact.svg');
+        }
+    }
+    .button{
+        background-color: #2D3440;
+        border: unset;
+        border-radius: 5px;
+        padding: 0.625em 3rem;
+    }
+}

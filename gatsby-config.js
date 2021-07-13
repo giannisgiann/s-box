@@ -7,6 +7,7 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
         `gatsby-plugin-postcss`,
+        `gatsby-plugin-fontawesome-css`,
         `gatsby-transformer-remark`,
         {
             resolve: `gatsby-source-filesystem`,

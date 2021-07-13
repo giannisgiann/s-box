@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {markdownify,withPrefix} from '../utils';
+import {markdownify} from '../utils';
 import SectionActions from './SectionActions';
 
 export default class PricingSection extends React.Component {
