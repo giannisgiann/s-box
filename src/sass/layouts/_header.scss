@@ -217,7 +217,7 @@
 }
 .header-alt{
   background:white;
-  position:sticky;
+  position:fixed;
   top:0px;
   a:not(.btn){
     border: 0;
@@ -266,6 +266,7 @@
  .dropdown  {
     background-color: white;
     border-radius:5px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     list-style: none;
     padding-left: 1rem;
     padding-right: 1rem;

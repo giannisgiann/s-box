@@ -25,13 +25,13 @@
             },
             {
                 "label": "Πολιτικές",
-                "url": "/terms",
+                "url": "#",
                 "style": "link",
                 "has_subnav": true,
                 "submenu": [
                     {
                         "label": "Όροι & Προϋποθέσεις",
-                        "url": "/terms",
+                        "url": "/terms-and-conditions",
                         "style": "link"
                     },
                     {
@@ -96,13 +96,13 @@
             },
             {
                 "label": "Πολιτικές",
-                "url": "/terms",
+                "url": "#",
                 "style": "link",
                 "has_subnav": true,
                 "submenu": [
                     {
                         "label": "Όροι & Προϋποθέσεις",
-                        "url": "/terms",
+                        "url": "/terms-and-conditions",
                         "style": "link"
                     },
                     {

@@ -25,9 +25,9 @@ export default class Header extends React.Component {
     }
   
     // Remove the event listener when the component is unmount.
-    // componentWillUnmount() {
-    //   window.removeEventListener("scroll", this.handleScroll);
-    // }
+    componentWillUnmount() {
+      window.removeEventListener("scroll", this.handleScroll);
+    }
   
     // Hide or show the menu.
     handleScroll = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {classNames} from '../utils';
+import {classNames,markdownify,withPrefix} from '../utils';
 import SectionActions from './SectionActions';
 
 export default class CtaSection extends React.Component {
@@ -12,6 +12,11 @@ export default class CtaSection extends React.Component {
               <div className="container container--lg">
                 <div className={classNames('section__body', 'align-center', {'inverse bg-blue': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'blue'), 'bg-gray': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'gray')})}>
                   <div className="container container--lg">
+                    {_.get(section,'has_markdown',null) && (
+                      <div className="section__title">
+                        {markdownify(_.get(section, 'markdown', null))}
+                      </div>
+                    )}
                     {_.get(section, 'title', null) && (
                     <h2 className="section__title">{_.get(section, 'title', null)}</h2>
                     )}
@@ -19,6 +24,15 @@ export default class CtaSection extends React.Component {
                     <div className="section__copy">
                       <p>{_.get(section, 'subtitle', null)}</p>
                     </div>
+                    )}
+                      {_.get(section, 'image', null) && (
+                        <img className="mt-4" src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                      )}
+                       <div className="section__text mt-3">
+                        {markdownify(_.get(section, 'text', null))}
+                      </div>
+                      {_.get(section,'has_divider',null) && (
+                     <hr></hr>
                     )}
                     {_.get(section, 'actions', null) && (
                     <div className="section__actions btn-group">

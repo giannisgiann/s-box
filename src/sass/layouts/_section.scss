@@ -377,10 +377,27 @@
 }
 .section--footer-banner{
   background-color: #2d34401a;
-  margin-top:8rem;
+  margin-top:20vh;
+  margin-bottom: -35vh!important;
+  z-index: 999;
   .title{
     padding: 0 30px;
   }
+  .b-icon{
+    margin-top: -10%;
+  }
+}
+.section--footer-banner:before{
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 10vh;
+    left: 0;
+    width: 105%;
+    height: 55vh;
+    background: linear-gradient(to right, #d68994, #ffdde1);
+    z-index: -1;
+    transform: rotate(350deg);
 }
 .hero{
   min-height:780px;

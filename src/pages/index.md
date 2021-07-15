@@ -1,5 +1,6 @@
 ---
 title: Home
+class: home
 sections:
   - type: home_hero_section
     title: >-

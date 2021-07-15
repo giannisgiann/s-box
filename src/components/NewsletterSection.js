@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ContactSection extends React.Component {
+export default class NewsletterSection extends React.Component {
     render() {
         return (
             <section className="section">
@@ -17,7 +17,7 @@ export default class ContactSection extends React.Component {
                   </div>
                 
                   <div className="form-submit">
-                    <button type="submit" className="button">Subscribe</button>
+                    <button type="submit" className="button">Εγγραφή</button>
                   </div>
                 </form>
               </div>

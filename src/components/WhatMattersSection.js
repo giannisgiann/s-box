@@ -23,7 +23,7 @@ export default class WhatMattersSection extends React.Component {
 
                     </div>
                  
-                      <div className="cell">
+                      <div className="cell" data-aos="fade-right">
                 
                     {_.get(feature, 'image', null) && (
                   <div className={classNames('section__media ms-wrap', {'section__media--right': _.get(feature, 'image_position', null) === 'right'})}>
@@ -46,14 +46,14 @@ export default class WhatMattersSection extends React.Component {
                     </div>
                     )} */}
                   </div>
-                  <div className="cell">
+                  <div className="cell"  data-aos="fade-left" >
                     <div className="ms-wrap-r">
                         <div className="r-1">
                         {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-right"  data-aos-delay="500"  className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon1.image', null))} alt={_.get(feature, 'second_column.icon1.image_alt', null)} />
+                            <img className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon1.image', null))} alt={_.get(feature, 'second_column.icon1.image_alt', null)} />
                             )}
                         {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-right" className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon2.image', null))} alt={_.get(feature, 'second_column.icon2.image_alt', null)} />
+                            <img className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon2.image', null))} alt={_.get(feature, 'second_column.icon2.image_alt', null)} />
                             )}
                         {_.get(feature, 'content', null) && (
                             <img src={withPrefix(_.get(feature, 'second_column.image', null))} alt={_.get(feature, 'second_column.image_alt', null)} />
@@ -61,13 +61,13 @@ export default class WhatMattersSection extends React.Component {
                         </div>
                         <div className="r-2">
                         {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-left" data-aos-delay="600" className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon3.image', null))} alt={_.get(feature, 'second_column.icon3.image_alt', null)} />
+                            <img className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon3.image', null))} alt={_.get(feature, 'second_column.icon3.image_alt', null)} />
                             )}
                         {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-left" data-aos-delay="700" className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon4.image', null))} alt={_.get(feature, 'second_column.icon4.image_alt', null)} />
+                            <img className="r-icon" src={withPrefix(_.get(feature, 'second_column.icon4.image', null))} alt={_.get(feature, 'second_column.icon4.image_alt', null)} />
                             )}
                              {_.get(feature, 'content', null) && (
-                            <img data-aos="fade-left" data-aos-delay="800" className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon5.image', null))} alt={_.get(feature, 'second_column.icon5.image_alt', null)} />
+                            <img className="r-icon"src={withPrefix(_.get(feature, 'second_column.icon5.image', null))} alt={_.get(feature, 'second_column.icon5.image_alt', null)} />
                             )}
                         </div>
                     </div>
