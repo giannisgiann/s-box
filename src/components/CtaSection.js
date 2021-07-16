@@ -10,7 +10,7 @@ export default class CtaSection extends React.Component {
         return (
             <section className="section section--cta">
               <div className="container container--lg">
-                <div className={classNames('section__body', 'align-center', {'inverse bg-blue': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'blue'), 'bg-gray': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'gray')})}>
+                <div className={classNames('section__body', 'align-center', {'inverse bg-blue': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'blue'), 'bg-gray': _.get(section, 'has_background', null) && (_.get(section, 'background_color', null) === 'gray')})} >
                   <div className="container container--lg">
                     {_.get(section,'has_markdown',null) && (
                       <div className="section__title">
@@ -28,19 +28,25 @@ export default class CtaSection extends React.Component {
                       {_.get(section, 'image', null) && (
                         <img className="mt-4" src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                       )}
+                      {_.get(section,'has_double_divider',null) && (
+                     <hr></hr>
+                    )}
                        <div className="section__text mt-3">
                         {markdownify(_.get(section, 'text', null))}
                       </div>
                       {_.get(section,'has_divider',null) && (
                      <hr></hr>
                     )}
-                    {_.get(section, 'actions', null) && (
+                   
+                  </div>
+                </div>
+                {_.get(section, 'actions', null) && (
+                  <div className="container container--lg">
                     <div className="section__actions btn-group">
                       <SectionActions {...this.props} actions={_.get(section, 'actions', null)} />
                     </div>
+                    </div>
                     )}
-                  </div>
-                </div>
               </div>
             </section>
         );

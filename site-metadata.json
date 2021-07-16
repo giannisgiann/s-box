@@ -36,12 +36,12 @@
                     },
                     {
                         "label": "Πολιτική Πληρωμών",
-                        "url": "/terms",
+                        "url": "/payment_policy",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Απορρήτου",
-                        "url": "/terms",
+                        "url": "/private_policy",
                         "style": "link"
                     },
                     {
@@ -107,12 +107,12 @@
                     },
                     {
                         "label": "Πολιτική Πληρωμών",
-                        "url": "/terms",
+                        "url": "/payment_policy",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Απορρήτου",
-                        "url": "/terms",
+                        "url": "/private_policy",
                         "style": "link"
                     },
                     {
@@ -173,7 +173,7 @@
             },
             {
                 "label": "Πολιτική Απορρήτου",
-                "url": "/terms",
+                "url": "/private_policy",
                 "style": "link"
             },
             {

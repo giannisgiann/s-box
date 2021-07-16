@@ -15,8 +15,15 @@ export default class HeroSection extends React.Component {
         let background_repeat = _.get(background, 'background_image_repeat', null) || 'no-repeat';
         return (
             <section className={classNames('section', 'hero', {'bg-image': _.get(section, 'has_background', null) && _.get(background, 'background_image', null), 'inverse bg-blue': _.get(section, 'has_background', null) && (background_color === 'blue'), 'bg-gray': _.get(section, 'has_background', null) && (background_color === 'gray'), 'section--padding': _.get(section, 'has_background', null) || _.get(section, 'image', null)})}>
+               {_.get(section, 'has_gradient', null) && (
+                 <div className="gradient"></div>
+                )}
+                {_.get(section, 'has_banner', null) && (
+                    <h1  className="banner"><span className="banner_icon"><img src={withPrefix(_.get(section, 'banner_image', null))} alt={_.get(section, 'banner_image_alt', null)} /></span><span className="banner_text" >{_.get(section, 'banner', null)}</span></h1>
+                )}
               {(_.get(section, 'has_background', null) && _.get(background, 'background_image', null)) && (
-              <div className="bg-image__image" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(background, 'background_image', null)) + '\'); opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}/>
+              <div className="bg-image__image" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(background, 'background_image', null)) + '\'); opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}
+              data-aos={ "" + _.get(background, 'animation', '')}/>
               )}
               <div className="container container--lg">
                 <div className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(section, 'align', null) === 'center', 'align-right': _.get(section, 'align', null) === 'right'})}>

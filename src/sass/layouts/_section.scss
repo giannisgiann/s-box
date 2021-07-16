@@ -5,7 +5,7 @@
   margin-bottom: 3.75rem;
   
   &:first-child {
-    padding-top: 9.375rem;
+    margin-top: 7.563rem;
   }
 
   &:last-child {
@@ -36,7 +36,9 @@
 .bg-gray {
   background-color: $color-bg-alt;
 }
-
+.primary{
+  color:$color-link;
+}
 .section__media,
 .section__body {
   position: relative;
