@@ -8,8 +8,10 @@ import BlogPostTags from './BlogPostTags';
 import ContactSection from './ContactSection';
 import ContentSection from './ContentSection';
 import CtaSection from './CtaSection';
+import FaqSection from './FaqSection';
 import HowWorksSection from './HowWorksSection';
 import WhatMattersSection from './WhatMattersSection';
+import InsuranceSection from './InsuranceSection';
 import BoxesSection from './BoxesSection';
 import FeaturesSection from './FeaturesSection';
 import FooterBannerSection from './FooterBannerSection';
@@ -35,7 +37,9 @@ export {
     ContactSection,
     ContentSection,
     CtaSection,
+    FaqSection,
     HowWorksSection,
+    InsuranceSection,
     WhatMattersSection,
     BoxesSection,
     FeaturesSection,
@@ -63,7 +67,9 @@ export default {
     ContactSection,
     ContentSection,
     CtaSection,
+    FaqSection,
     HowWorksSection,
+    InsuranceSection,
     WhatMattersSection,
     BoxesSection,
     FeaturesSection,

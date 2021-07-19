@@ -1,0 +1,60 @@
+$brown: #f0ebe1;
+$black: #372717;
+$gray: #756658;
+
+
+
+.accordion{
+	width :100%;
+	max-width: 470px;
+}
+	
+.panel{
+	background-color: $brown;
+	
+	&__label{
+		position :relative;
+		display :block;
+		width:100%;
+		background :none;
+		border:none;
+		text-align:left;
+		padding: 25px 60px 25px 25px;
+		font-weight: 500;
+		font-size: 17px;
+		font-family :inherit;
+		transition: color .2s linear;
+		cursor :pointer;
+    }
+		&:focus{
+			outline :none;
+        }
+		&:after,
+		&:before{
+			content: '';
+			position: absolute;
+			right:25px;
+			top:50%;
+			width :22px;
+			height: 2px;
+			background-color:$black;
+        }
+		&:before{
+			transform:rotate(-90deg);
+			transition: transform .35s cubic-bezier(.65, .05, .36, 1)
+        }
+	
+	&__inner{
+		overflow: hidden;
+    }		
+	&__content{
+		margin: 5px 25px 25px;
+		font-size:14px;
+		color:$gray;
+		opacity:0;
+		transition: opacity .3s linear .18s;
+    }
+	&:not(:last-child){
+		margin-bottom: 3px;
+    }
+}

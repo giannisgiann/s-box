@@ -3,7 +3,7 @@ import _ from 'lodash';
 
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
 import SectionActions from './SectionActions';
-
+ 
 export default class HeroSection extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);

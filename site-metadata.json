@@ -20,7 +20,7 @@
             },
             {
                 "label": "Ασφάλεια",
-                "url": "#",
+                "url": "insurance",
                 "style": "link"
             },
             {
@@ -46,7 +46,7 @@
                     },
                     {
                         "label": "Συχνές Ερωτήσεις",
-                        "url": "/terms",
+                        "url": "/faq",
                         "style": "link"
                     }
                 ]
@@ -57,7 +57,7 @@
                 "style": "link"
             },
             {
-                "label": "Apply",
+                "label": "Αίτηση",
                 "url": "#",
                 "style": "primary"
             },
@@ -91,7 +91,7 @@
             },
             {
                 "label": "Ασφάλεια",
-                "url": "#",
+                "url": "insurance",
                 "style": "link"
             },
             {
@@ -117,7 +117,7 @@
                     },
                     {
                         "label": "Συχνές Ερωτήσεις",
-                        "url": "/terms",
+                        "url": "/faq",
                         "style": "link"
                     }
                 ]
@@ -128,7 +128,7 @@
                 "style": "link"
             },
             {
-                "label": "Apply",
+                "label": "Αίτηση",
                 "url": "#",
                 "style": "primary"
             },
@@ -156,19 +156,19 @@
             },
             {
                 "label": "Ασφάλιση",
-                "url": "/",
+                "url": "insurance",
                 "style": "link"
             }
         ],
         "nav_links_policy": [
             {
                 "label": "Όροι & Προϋποθέσεις",
-                "url": "/terms",
+                "url": "/terms-and-conditions",
                 "style": "link"
             },
             {
                 "label": "Πολιτική Πληρωμών",
-                "url": "/terms",
+                "url": "/payment_policy",
                 "style": "link"
             },
             {
@@ -178,7 +178,7 @@
             },
             {
                 "label": "Συχνές Ερωτήσεις",
-                "url": "/terms",
+                "url": "/faq",
                 "style": "link"
             }
         ],
