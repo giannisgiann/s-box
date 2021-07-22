@@ -59,7 +59,7 @@ sections:
         image: images/about_image_footer.jpg
         image_alt: Footer Banner 
         image_position: right
-        seo:
+seo:
   title: About us
   description: This is the about us page
   lang: en
