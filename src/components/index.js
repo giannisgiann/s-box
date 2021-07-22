@@ -1,5 +1,6 @@
 import Action from './Action';
 import AboutSection from './AboutSection';
+import ApplySection from './ApplySection';
 import BlogFeedItemFilter from './BlogFeedItemFilter';
 import BlogFeedSection from './BlogFeedSection';
 import BlogPostCategories from './BlogPostCategories';
@@ -29,6 +30,7 @@ import Layout from './Layout';
 export {
     Action,
     AboutSection,
+    ApplySection,
     BlogFeedItemFilter,
     BlogFeedSection,
     BlogPostCategories,
@@ -59,6 +61,7 @@ export {
 export default {
     Action,
     AboutSection,
+    ApplySection,
     BlogFeedItemFilter,
     BlogFeedSection,
     BlogPostCategories,

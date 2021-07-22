@@ -1,3 +1,4 @@
+const { TRUE } = require('node-sass');
 const siteMetadata = require('./site-metadata.json')
 
 module.exports = {
@@ -17,6 +18,13 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `en`,
+                path: `${__dirname}/src/pages/en/`
+            }
+        },
+        {
             resolve: `gatsby-plugin-sass`,
             options: {}
         },
@@ -30,6 +38,18 @@ module.exports = {
                 sourceUrlPath: `fields.url`,
                 pageContextProperty: `menus`,
             }
-        }
+        },
+        {
+            resolve: `gatsby-plugin-react-intl`,
+            options: {
+              path: `${__dirname}/src/intl`,
+              languages: [`el`, `en`],
+              defaultLanguage: `el`,
+              // This prevents gatsby-plugin-intl from auto-redirecting to default language versions
+              redirect: true,
+              redirectDefaultLanguageToRoot: true,
+
+        },
+    }
     ]
 };

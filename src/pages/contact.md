@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Επικοινωνία
 sections:
   - type: hero_section
     title: 
@@ -18,7 +18,7 @@ sections:
     phone: +30 6988 658 146
     email: info@sbox.com
 seo:
-  title: Contact
+  title: Επικοινωνία
   description: This is the contact page
   extra:
     - name: 'og:type'

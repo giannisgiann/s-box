@@ -1,5 +1,5 @@
 ---
-title: Sizes & Prices
+title: Μεγέθη & Τιμές
 class: sizes_prices
 sections:
   - type: hero_section
@@ -122,14 +122,14 @@ sections:
         image_alt: Footer Banner 
         image_position: right
 seo:
-  title: Sizes & Prices
+  title: Μεγέθη & Τιμές
   description: This is the sizes & prices page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Who We Are
+      value: Μεγέθη & Τιμές
       keyName: property
     - name: 'og:description'
       value: This is the about us page
@@ -141,7 +141,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Μεγέθη & Τιμές
     - name: 'twitter:description'
       value: This is the about us page
     - name: 'twitter:image'

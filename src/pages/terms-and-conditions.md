@@ -1,5 +1,5 @@
 ---
-title: Terms & Conditions
+title: Όροι & Προϋποθέσεις
 class: terms_conditions
 sections:
   - type: hero_section
@@ -179,7 +179,7 @@ sections:
         url: #
         style: primary
 seo:
-  title: Terms & Conditions
+  title: Όροι & Προϋποθέσεις
   description: This is the terms & conditions page
   extra:
     - name: 'og:type'

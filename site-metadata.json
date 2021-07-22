@@ -58,13 +58,8 @@
             },
             {
                 "label": "Αίτηση",
-                "url": "#",
+                "url": "/apply",
                 "style": "primary"
-            },
-            {
-                "label": "EN",
-                "url": "#",
-                "style": "link"
             }
         ],
         "logo": "images/s-box-logo.svg",
@@ -129,13 +124,8 @@
             },
             {
                 "label": "Αίτηση",
-                "url": "#",
+                "url": "/apply",
                 "style": "primary"
-            },
-            {
-                "label": "EN",
-                "url": "#",
-                "style": "link"
             }
         ],
         "logo": "images/s-box-logo-black.svg",

@@ -1,11 +1,12 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, withPrefix, classNames} from '../utils';
+import {Link,withPrefix, classNames} from '../utils';
 import Action from './Action';
 import classnames from "classnames";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import Language from "./language"
 
 export default class HeaderAlt extends React.Component {
   constructor(props) {
@@ -95,8 +96,9 @@ export default class HeaderAlt extends React.Component {
                                 </li>
                               )
                           })}
+                          <li className="navbar__item lang"> <Language/></li>
                         </ul>
-                      </div>
+                       </div>
                     </div>
                   </div>
                   </React.Fragment>)}

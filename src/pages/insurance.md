@@ -1,5 +1,5 @@
 ---
-title: Insurance
+title: Ασφάλεια
 class: insurance
 sections:
   - type: insurance_section
@@ -18,28 +18,6 @@ sections:
         subtext: Η δωρεάν ασφάλιση καλύπτει κινδύνους από απώλεια, φυσικά φαινόμενα, φθορά, ακόμα και η κλοπή με παραβίαση, διάρρηξη.
         subtitle: Οι εγκαταστάσεις μας πληρούν
         title: διεθνή πρότυπα ασφάλειας
-    items: [
-        {
-        heading: test,
-        content: sfdsteststtststststtf
-        },
-        {
-        heading: test,
-        content: sfdsteststtststststtf
-        },
-        {
-        heading: test,
-        content: sfdsteststtststststtf
-        },
-        {
-        heading: test,
-        content: sfdsteststtststststtf
-        },
-        {
-        heading: test,
-        content: sfdsteststtststststtf
-        },
-        ]
   - type: footer_image_section
     title: Footer Banner
     attributes:
@@ -48,7 +26,7 @@ sections:
         image_alt: Footer Banner 
         image_position: right
 seo:
-  title: Insruance
+  title: Ασφάλεια
   description: This is the insurance page
   extra:
     - name: 'og:type'

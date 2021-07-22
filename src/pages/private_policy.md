@@ -1,5 +1,5 @@
 ---
-title: Private Policy
+title: Πολιτική Απορρήτου
 class: private_policy
 sections:
   - type: hero_section
@@ -43,8 +43,8 @@ sections:
         Εάν υπάρχουν ερωτήσεις σχετικά με αυτήν την πολιτική απορρήτου, μπορείτε να επικοινωνήσετε μαζί μας χρησιμοποιώντας τις παρακάτω πληροφορίες.</p>
 
 seo:
-  title: Terms & Conditions
-  description: This is the terms & conditions page
+  title: Πολιτική Απορρήτου
+  description: This is the private policy page
   extra:
     - name: 'og:type'
       value: website

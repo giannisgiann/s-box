@@ -1,11 +1,11 @@
 ---
-title: Σχετικά με εμάς
-lang: el
+title: About us
 class: about
+lang: el
 sections:
   - type: hero_section
     title: >-
-     <h1>Σχετικά με <br> εμάς</h1>
+     <h1>About <br> us</h1>
     subtitle: Η πρώτη ιδιωτική εταιρεία στο χώρο εκμίσθωσης θυρίδων θησαυροφυλακίου που ιδρύθηκε στην Ελλάδα.
     align: right
     has_background: true
@@ -59,9 +59,9 @@ sections:
         image: images/about_image_footer.jpg
         image_alt: Footer Banner 
         image_position: right
-seo:
-  title: Σχετικά με εμάς
+        seo:
+  title: About us
   description: This is the about us page
-  lang: el
+  lang: en
 template: advanced
 ---

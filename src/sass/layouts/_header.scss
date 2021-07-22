@@ -67,7 +67,9 @@
 .navbar__item {
   font-size: 0.875em;
 }
-
+.lang{
+  cursor: pointer;
+}
 @include media-breakpoint-up(md) {
   .js-nav-toggle {
     display: none;

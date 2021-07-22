@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import {graphql} from 'gatsby';
+import { injectIntl } from "gatsby-plugin-react-intl"
 
 import components, {Layout} from '../components/index';
 
@@ -14,7 +15,7 @@ export const query = graphql`
   }
 `;
 
-export default class Advanced extends React.Component {
+export default injectIntl(class Advanced extends React.Component {
     render() {
         return (
             <Layout {...this.props}>
@@ -28,4 +29,4 @@ export default class Advanced extends React.Component {
             </Layout>
         );
     }
-}
+})

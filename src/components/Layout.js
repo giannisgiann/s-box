@@ -8,8 +8,9 @@ import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
 import HeaderAlt from './HeaderAlt';
+import { injectIntl } from "gatsby-plugin-react-intl"
 
-export default class Body extends React.Component {
+export default injectIntl(class Body extends React.Component {
 
  
 
@@ -64,4 +65,4 @@ export default class Body extends React.Component {
             </React.Fragment>
         );
     }
-}
+})
