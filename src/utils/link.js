@@ -8,13 +8,25 @@ export default function Link({ children, to, activeClassName, partiallyActive, .
     // Tailor the following test to your environment.
     // This example assumes that any internal link (intended for Gatsby)
     // will start with exactly one slash, and that anything else is external.
-    const internal = /^\/(?!\/)/.test(to);
-
+    const internal = /^\/(?!\/)/.test(to); 
+    console.log('To===' , to)
+ 
+    const langTo = () => {
+        
+        const local = JSON.parse(localStorage.getItem('locale')) ; 
+        if(local && local === 'en'){
+           
+                return '/en' + to
+            
+        } else{
+             return to 
+        }
+    }
     // Use Gatsby Link for internal links, and <a> for others
     if (internal) {
         return (
             <GatsbyLink
-                to={to}
+                to={langTo()}
                 activeClassName={activeClassName}
                 partiallyActive={partiallyActive}
                 {...other}

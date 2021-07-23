@@ -8,10 +8,17 @@ import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
 import HeaderAlt from './HeaderAlt';
-import { injectIntl } from "gatsby-plugin-react-intl"
+import {navigate} from "gatsby" ;
+import { path } from 'ramda';
 
-export default injectIntl(class Body extends React.Component {
-
+export default class Body extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      locale: JSON.parse(localStorage.getItem('locale')) || 'el'
+    }
+  }
+ 
  
 
     render() {
@@ -49,13 +56,17 @@ export default injectIntl(class Body extends React.Component {
                 </Helmet>
                 <div id="site-wrap" className="site">
                   <Progress/>
+                 
                   <Location> 
+                    
                     {({ location }) => {
+                      
                       if(location.pathname === '/')
-                    return   <Header {...this.props} />  
+                    return   <Header {...this.props} locale={this.state.locale} />  
                     else 
-                    return <HeaderAlt {...this.props} />
+                    return <HeaderAlt {...this.props} locale={this.state.locale} />
                     }}
+                     
                   </Location>
                   <main id="content" className = {"site-content " + _.get(this.props, 'pageContext.frontmatter.class', '') }>
                     {this.props.children}
@@ -65,4 +76,4 @@ export default injectIntl(class Body extends React.Component {
             </React.Fragment>
         );
     }
-})
+}

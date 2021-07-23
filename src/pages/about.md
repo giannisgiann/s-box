@@ -1,6 +1,5 @@
 ---
-title: Σχετικά με εμάς
-lang: el
+title: About Us
 class: about
 sections:
   - type: hero_section
@@ -62,6 +61,26 @@ sections:
 seo:
   title: Σχετικά με εμάς
   description: This is the about us page
-  lang: el
+  extra:
+    - name: 'og:type'
+      value: website
+      keyName: property
+    - name: 'og:title'
+      value: Who We Are
+      keyName: property
+    - name: 'og:description'
+      value: This is the about us page
+      keyName: property
+    - name: 'og:image'
+      value: images/1.png
+      keyName: property
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:title'
+      value: Who We Are
+    - name: 'twitter:description'
+      value: This is the about us page
+    - name: 'twitter:image'
+      value: images/1.png
 template: advanced
 ---

@@ -1,8 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import { withPrefix, classNames} from '../utils';
-import { Link } from "gatsby-plugin-react-intl"
+import { Link ,withPrefix, classNames} from '../utils';
 
 export default class Action extends React.Component {
     render() {

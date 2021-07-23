@@ -39,7 +39,9 @@ export default class BoxesSection extends React.Component {
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
-                             <span>Μικρό<br></br>8x50x30</span>
+                           {_.get(boxes, 'boxes_content', null) && (
+                             <span>{_.get(boxes, 'boxes_content.small_text', null)}<br></br>8x50x30</span>
+                           )}
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up"  data-aos-delay="500" data-aos-duration="1000">
@@ -48,7 +50,9 @@ export default class BoxesSection extends React.Component {
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
-                             <span>Μεσσαίο<br></br>10x50x30</span>
+                           {_.get(boxes, 'boxes_content', null) && (
+                             <span>{_.get(boxes, 'boxes_content.medium_text', null)}<br></br>10x50x30</span>
+                           )}
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up"   data-aos-delay="800" data-aos-duration="1000"> 
@@ -57,7 +61,7 @@ export default class BoxesSection extends React.Component {
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
-                             <span>Μεγάλο<br></br>20x50x30</span>
+                             <span>{_.get(boxes, 'boxes_content.large_text', null)}<br></br>20x50x30</span>
                              </div>
                           </div>
                           <div className="cell" data-aos="fade-up" data-aos="fade-up"  data-aos-delay="1100" data-aos-duration="1000">
@@ -66,7 +70,7 @@ export default class BoxesSection extends React.Component {
                             )}
                            <div className="bx-text">
                            <hr className="bx-divider" /> 
-                             <span>Πολύ Μεγάλο<br></br>30x50x30</span>
+                             <span>{_.get(boxes, 'boxes_content.xlarge_text', null)}<br></br>30x50x30</span>
                              </div>
                           </div>
                           {_.get(boxes, 'actions', null) && (

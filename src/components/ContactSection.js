@@ -47,19 +47,19 @@ export default class ContactSection extends React.Component {
                   <input aria-labelledby="honeypot-label" type="hidden" name="form-name" value="contactForm" />
                   <div className="form-group">
                     {/* <label id="name-label" htmlFor="name"></label> */}
-                    <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder="Όνομα*" required />
+                    <input aria-labelledby="name-label" type="text" name="name" id="name" placeholder={_.get(section, 'name_label', null)} required />
                   </div>
                   <div className="form-group">
                     {/* <label id="email-label" htmlFor="email"></label> */}
-                    <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder="Email*" required />
+                    <input aria-labelledby="email-label" type="email" name="email" id="email" placeholder={_.get(section, 'email_label', null)} required />
                   </div>
                   <div className="form-group">
                     {/* <label htmlFor="subject"></label> */}
-                    <input aria-labelledby="subject-label" type="text" name="subject" id="subject" placeholder="Θέμα*" required />
+                    <input aria-labelledby="subject-label" type="text" name="subject" id="subject" placeholder={_.get(section, 'subject_label', null)} required />
                   </div>
                   <div className="form-group">
                     {/* <label id="message-label" htmlFor="message"></label> */}
-                    <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder="Μήνυμα" />
+                    <textarea aria-labelledby="message-label" name="message" id="message" rows="5" placeholder={_.get(section, 'message_label', null)} />
                   </div>
                   {/* <div className="form-group form-checkbox">
                     <input aria-labelledby="consent-label" type="checkbox" name="consent" id="consent" />
@@ -67,7 +67,7 @@ export default class ContactSection extends React.Component {
                       contacted.</label>
                   </div> */}
                   <div className="form-submit">
-                    <button type="submit" className="button">Αποστολή</button>
+                    <button type="submit" className="button">{_.get(section, 'submit_text', null)}</button>
                   </div>
                 </form>
                 </div>

@@ -1,12 +1,12 @@
 ---
-title: About us
+title: About Us
+langKey: el
 class: about
-lang: el
 sections:
   - type: hero_section
     title: >-
-     <h1>About <br> us</h1>
-    subtitle: Η πρώτη ιδιωτική εταιρεία στο χώρο εκμίσθωσης θυρίδων θησαυροφυλακίου που ιδρύθηκε στην Ελλάδα.
+     <h1>About <br> Us</h1>
+    subtitle: the first privately owned company of Safe Deposit Boxes rental established in Greece.
     align: right
     has_background: true
     background: 
@@ -17,23 +17,22 @@ sections:
   - type: about_section
     content:
       content_first: >-
-        <h3>Η εταιρεία</h3>
-        <p>Η SBOX, είναι η πρώτη ιδιωτική εταιρεία στο χώρο εκμίσθωσης θυρίδων θησαυροφυλακίου που ιδρύθηκε στην Ελλάδα. Το πρώτο κατάστημά της λειτουργεί στη νήσο Μύκονο στις Κυκλάδες, παρέχοντάς σας πρόσβαση 24/7 όλο το χρόνο.
-        Η Εταιρεία διαθέτει από τον Οκτώβριο 2020 άδεια λειτουργίας ιδιωτικής επιχείρησης παροχής υπηρεσιών ασφαλείας απο το Αρχηγείο της Ελληνικής Αστυνομίας, σύμφωνα με οριζόμενα στο άρθρο 1 παρ. 1 του Ν. 2518/97 όπως τροποποιήθηκε και συμπληρώθηκε με τον Ν. 3707/2008.  Ως προς τις διατάξεις του Ν. 4557/2018 που αφορούν την πρόληψη – καταστολή της νομιμοποίησης εσόδων απο εγκληματικές δραστηριότητες εποπτεύεται από την Τράπεζα της Ελλάδος. </p>
+        <h3>The Company</h3>
+        <p>SBOX is the first privately owned company of Safe Deposit Boxes rental established in Greece. Its first Branch operates in the island of Mykonos in Cyclades, giving you access 24/7, 365 days a year.
+        The Company has since October 2020 obtained a license to operate a private security company from the Hellenic Police Headquarters, in accordance with the provisions of article 1 par. 1 of L. 2518/97 as amended and supplemented by L. 3707/2008. Regarding the provisions of L. 4557/2018 related to the prevention of Money Laundering, the Company is supervised by the Bank of Greece.  </p>
     has_second_content: true
     second_content:
       content_second: >-
-        <h3>Τα προηγμένα συστήματα ασφάλειας, τα εξειδικευμένα μέτρα προστασίας και το έμπειρο προσωπικό της, εγγυώνται την προστασία του περιεχομένου της θυρίδας σας.</h3>
+        <h3>Advanced security systems, specialized protection measures and experienced staff guarantee the protection of your Safe Deposit Box contents.</h3>
     section_1:
-      title: Πρόσβαση στην υπηρεσία
+      title: Access to the service
       list: >-
         <ol>
-        <li>Ενημερωθείτε για το προϊόν και τα χαρακτηριστικά του.</li>
-        <li>Εάν πληροίτε τις προϋποθέσεις, ανοίξτε λογαριασμό και προσκομίστε τα δικαιολογητικά που απορρέουν απο την ισχύουσα
-        νομοθεσία για την πιστοποίηση της ταυτότητάς σας.</li> 
-        <li>Επιλέξτε τύπο θυρίδας και περίοδο μίσθωσης, ολοκληρώνοντας έτσι την αίτησή σας. </li>
-        <li>Διαθέτοντας λογαριασμό πελάτη, σας εξυπηρετούμε εύκολα και απλά την επόμενη φορά που θα μας επιλέξετε.</li>
-        <li>Οι αιτήσεις ικανοποιούνται κατά προτεραιότητα σύμφωνα με την διαθεσιμότητα των θυρίδων.</li>
+        <li>Learn about the product and it's features</li>
+        <li>If you meet our requirements, apply for a customer account and upload supporting documentation according to current legislation, for customer identification purposes.</li> 
+        <li>Select a Safe Deposit Box size and rental period, thus completing your reservation. </li>
+        <li>By opening a customer account, you save time the next time you choose SBOX.</li>
+        <li>Requests are satisfied in priority according to availability.</li>
   - type: content_section
     content:
       image: /images/login_screen.png
@@ -43,12 +42,12 @@ sections:
     has_second_content: true
     second_content:
       content_second: >-
-        <h2>Γιατί</h2>
-        <h1>θυρίδα</h1>
-        <h2>Γιατί</h2>
-        <h1>την SBOX</h1>
+        <h2>Why</h2>
+        <h1>Safe Box</h1>
+        <h2>Why</h2>
+        <h1>SBOX</h1>
       subtext: >- 
-        <span>Απολαύστε ξένοιαστη διαμονή έχοντας ασφαλίσει τα προσωπικά σας αντικείμενα στα οποία έχετε απεριόριστη πρόσβαση          ανεξαρτήτως  ημέρας ή ώρας.<br/></br>  Η SBOX είναι η μόνη αδειοδοτημένη ιδιωτική εταιρεία με υπηρεσίες 24/7.  </span>
+        <span>Enjoy a carefree stay in Mykonos whether for holiday or business, by having your personal belongings secured. You have unlimited access to them, regardless of the day or time.<br/></br>SBOX is the only licensed privately owned company with 24/7 services.</span>
   - type: footer_image_section
     title: Footer Banner
     attributes:
@@ -56,12 +55,32 @@ sections:
         content: >-
          Δημιουργήστε τον δικό σας λογαριασμό και κάντε κράτηση με 3 απλά βήματα!
         align: left
-        image: images/about_image_footer.jpg
+        image: /images/about_image_footer.jpg
         image_alt: Footer Banner 
         image_position: right
 seo:
   title: About us
   description: This is the about us page
-  lang: en
+  extra:
+    - name: 'og:type'
+      value: website
+      keyName: property
+    - name: 'og:title'
+      value: Who We Are
+      keyName: property
+    - name: 'og:description'
+      value: This is the about us page
+      keyName: property
+    - name: 'og:image'
+      value: images/1.png
+      keyName: property
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:title'
+      value: Who We Are
+    - name: 'twitter:description'
+      value: This is the about us page
+    - name: 'twitter:image'
+      value: images/1.png
 template: advanced
 ---

@@ -4,9 +4,10 @@ class: home
 sections:
   - type: home_hero_section
     title: >-
-      <h1 class="section__title">Καλώς ήρθατε<br> στην SBOX <br>Feel Safe 24/7</h1>
+     <h1 class="section__title">Welcome to SBOX<br>
+     Feel Safe 24/7</h1>
     subtitle: >-
-      η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα.
+      the first licensed and privately owned company of Safe Deposit Boxes rental, established in Greece.
     actions:
       - label: Learn More
         url: /features
@@ -28,15 +29,15 @@ sections:
   - type: how_works_section
     title: How it works
     features:
-      - title: Πώς λειτουργεί
+      - title: How it works
         content: >-
-         Η SBOX παρέχει λύσεις ασφαλούς αποθήκευσης αντικειμένων σε Θυρίδες Θησαυροφυλακίου 24/7, για όλα αυτά τα οποία έχουν αξία για εσάς. Εάν είστε φυσικό, ή νομικό πρόσωπο, δημιουργείστε ένα λογαριασμό και ολοκληρώστε την κράτησή σας με μερικά απλά βήματα μέσω της ιστοσελίδας μας.
+         SBOX provides solutions for safe storage for all your valuable items, on a 24/7 basis, in Safe Deposit Boxes. Whether a natural or legal person, open a customer account and complete your reservation with a few simple steps through our website.
         align: left
         image: images/feature.svg
         image_alt: Feature 1 placeholder image
         image_position: right
         actions:
-          - label: Μάθετε περισσότερα
+          - label: Learn More
             url: /features
             style: primary
   - type: what_matters_section
@@ -44,7 +45,7 @@ sections:
     features:
       - title: 
         content: >-
-         Είμαστε η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα. Στην SBOX, προτεραιότητά μας είναι η εξυπηρέτηση εκείνων που μας εμπιστεύονται και οδηγός μας οι παραδοσιακές αξίες εχεμύθειας, εμπιστοσύνης και αξιοπιστίας που χτίζουμε με τους πελάτες μας.
+         We are the first licensed and privately owned company of Safe Deposit Boxes rental, established in Greece.  In SBOX, our priority is to serve those who trust us and we are guided by the traditional values ​​of confidentiality, trust and reliability that we build with our customers.
         align: left
         image: images/sima_logo.svg
         image_alt: Feature 1 placeholder image
@@ -73,35 +74,33 @@ sections:
             content: >-
               <p data-aos="fade-left">I</p><p data-aos="fade-left" data-aos-delay="500">N</p><p data-aos="fade-left" data-aos-delay="700">S</p><p data-aos="fade-left" data-aos-delay="900">U</p><p data-aos="fade-left" data-aos-delay="1000">R</p><p data-aos="fade-left" data-aos-delay="1100">A</p><br/><p data-aos="fade-left" data-aos-delay="1200">N</p><p data-aos="fade-left" data-aos-delay="1300">C</p><p data-aos="fade-left" data-aos-delay="1400">E</p>
             subcontent: >-
-              Οι εγκαταστάσεις μας πληρούν διεθνή πρότυπα ασφάλειας έναντι όλων των κινδύνων από φυσικά φαινόμενα όπως σεισμό, φωτιά, πλημμύρα και φυλάσσονται τόσο με ηλεκτρονικά συστήματα όσο και μέσω 24ωρης, φυσικής φύλαξης.
+              Our facilities meet international safety standards against all hazards from natural phenomena such as earthquake, fire, flood and are protected both electronically and through a 24-hour physical security service.
         actions:
-          - label: Μάθετε περισσότερα
+          - label: Learn More
             url: /features
             style: primary
   - type: boxes_section
     title: Boxes Section
     boxes:
-      - title: Μεγέθη Θυρίδων
-        content: >-
-         Είμαστε η πρώτη ανεξάρτητη αδειοδοτημένη ιδιωτική εταιρεία παροχής υπηρεσιών μίσθωσης Θυρίδων Θησαυροφυλακίου στην Ελλάδα. Στην SBOX, προτεραιότητά μας είναι η εξυπηρέτηση εκείνων που μας εμπιστεύονται και οδηγός μας οι παραδοσιακές αξίες εχεμύθειας, εμπιστοσύνης και αξιοπιστίας που χτίζουμε με τους πελάτες μας.
+      - title: Safe Box Sizes
         align: left
         image: images/icon.svg
         image_alt: Boxes icon
         image_position: right
         text_sub: >-
-          Τα μεγέθη θυρίδων που προσφέρονται είναι 4 (μικρό, μεσαίο, μεγάλο, πολύ μεγάλο) και καλύπτουν κάθε ανάγκη σας. Το κόστος της μίσθωσης, αναλόγως της ζητούμενης μισθωτικής περιόδου περιγράφεται στον τιμοκατάλογο της Εταιρείας.
+          Safe Deposit Boxes are offered in 4 sizes (small, medium, large, extra-large) that cover all needs. Details of the cost of the rental, depending on the requested period (Week, Month, Six-Month, 12-Month) can be found in our price list
         boxes_content: 
           small: images/small.svg
-          small_text: Μικρό
+          small_text: Small
           small_alt: Small Box
           medium: images/medium.svg
-          medium_text: Μεσαίο
+          medium_text: Medium
           medium_alt: Medium Box
           large: images/large.svg
-          large_text: Μεγάλο
+          large_text: Large
           large_alt: Large Box
           xlarge: images/xlarge.svg
-          xlarge_text: Πολύ Μεγάλο
+          xlarge_text: Extra Large
           xlarge_alt: XLarge Box
         actions:
           - label: Book Now
@@ -114,9 +113,9 @@ sections:
   - type: footer_banner_section
     title: Footer Banner
     features:
-      - title: Ασφάλεια Σιγουριά Άνεση
+      - title: Safety Confidence Comfort
         content: >-
-         Δημιουργήστε τον δικό σας λογαριασμό και κάντε κράτηση με 3 απλά βήματα!
+         Create your own account and bok with 3 simple steps! 
         align: left
         image: images/image_footer.jpg
         image_alt: Footer Banner 

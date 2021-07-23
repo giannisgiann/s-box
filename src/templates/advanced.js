@@ -1,8 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import {graphql} from 'gatsby';
-import { injectIntl } from "gatsby-plugin-react-intl"
-
+import AOS from 'aos';
 import components, {Layout} from '../components/index';
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
@@ -15,7 +14,20 @@ export const query = graphql`
   }
 `;
 
-export default injectIntl(class Advanced extends React.Component {
+export default class Advanced extends React.Component {
+  componentDidMount() {
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration : 2000,
+      disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced),
+    });
+  }
     render() {
         return (
             <Layout {...this.props}>
@@ -29,4 +41,4 @@ export default injectIntl(class Advanced extends React.Component {
             </Layout>
         );
     }
-})
+}

@@ -69,6 +69,10 @@
 }
 .lang{
   cursor: pointer;
+  button{
+    background-color: transparent;
+    border:none;
+  }
 }
 @include media-breakpoint-up(md) {
   .js-nav-toggle {
@@ -222,6 +226,18 @@
   position:fixed;
   top:0px;
   a:not(.btn){
+    border: 0;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #EF424C, #EF424C 49%, #2D3440 50%);
+    background-size: 200% 100%;
+    background-position: 100%;
+  }
+  .lang button{
     border: 0;
     color: inherit;
     display: inline-block;

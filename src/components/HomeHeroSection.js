@@ -3,7 +3,7 @@ import _ from 'lodash';
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
-import {classNames, toStyleObj, withPrefix} from '../utils';
+import {classNames, toStyleObj, withPrefix,markdownify} from '../utils';
 // import SectionActions from './SectionActions';
 
 export default class HomeHeroSection extends React.Component {
@@ -49,10 +49,12 @@ export default class HomeHeroSection extends React.Component {
                   </div>
                   )}
                    
-                  <div className="cell section__body" data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                  <div className="cell text section__body" data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-right" data-aos-anchor-placement="top-center">
                     {_.get(section, 'title', null) && (
-                    <h1 className="section__title">{_.get(section, 'title', null)} </h1>
+                    <div>{markdownify(_.get(section, 'title', null))} </div>
+                    
                     )}
+                    
                     {_.get(section, 'subtitle', null) && (
                     <div className="section__copy">
                       <p>{_.get(section, 'subtitle', null)}</p>

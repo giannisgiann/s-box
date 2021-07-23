@@ -1,10 +1,24 @@
 import React from 'react';
 import _ from 'lodash';
+import AOS from 'aos';
 
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
 import SectionActions from './SectionActions';
  
 export default class HeroSection extends React.Component {
+  componentDidMount() {
+    // or simply just AOS.init();
+    AOS.init({
+      // initialise with other settings
+      duration : 2000,
+      disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced),
+    });
+  }
     render() {
         let section = _.get(this.props, 'section', null);
         let background = _.get(section, 'background', null);

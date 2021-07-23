@@ -15,7 +15,7 @@ export default class FooterImageSection extends React.Component {
                    <div className="cell">
                    {_.get(attribute, 'image', null) && (
                 <div className="img-wrap" style={toStyleObj('background: url(' + _.get(attribute, 'image', null) + ')')}>
-
+                  
                            
                 </div>
                  )}
