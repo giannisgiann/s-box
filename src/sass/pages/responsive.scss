@@ -241,6 +241,7 @@
     }
     
 }
+ 
 
 //Contact
 
@@ -251,4 +252,17 @@
 }
 
 //End of breakpoint
+}
+
+
+//Tabs mobile
+@media(min-width:951px){
+    .section--tabs{
+        display:none;
+    }
+}
+@media(max-width:950px){
+.section--tabs{
+    display: block;
+}
 }

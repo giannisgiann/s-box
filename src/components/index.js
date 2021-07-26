@@ -24,6 +24,7 @@ import HeroSection from './HeroSection';
 import HomeHeroSection from './HomeHeroSection';
 import PricingSection from './PricingSection';
 import SectionActions from './SectionActions';
+import TabsSection from './TabsSection';
 import TeamSection from './TeamSection';
 import Layout from './Layout';
 
@@ -54,6 +55,7 @@ export {
     HomeHeroSection,
     PricingSection,
     SectionActions,
+    TabsSection,
     TeamSection,
     Layout
 };
@@ -85,6 +87,7 @@ export default {
     HomeHeroSection,
     PricingSection,
     SectionActions,
+    TabsSection,
     TeamSection,
     Layout
 };

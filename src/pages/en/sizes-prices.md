@@ -53,7 +53,7 @@ sections:
         image: /images/small.svg
         image_alt: small box image
         row2: 8x50x30
-        row3: Μικρό
+        row3: Small
         row4:  
         row5: 100,00 €
         row6: 150,00 €
@@ -68,7 +68,7 @@ sections:
         image: /images/medium.svg
         image_alt: medium box image
         row2: 10x50x30
-        row3: Μεσαίο
+        row3: Medium
         row4:  
         row5: 150,00 €
         row6: 225,00 €
@@ -82,13 +82,13 @@ sections:
       column4: 
         image: /images/large.svg
         image_alt: large box image
-        row2: 10x50x30
-        row3: Μεσαίο
+        row2: 20x50x30
+        row3: Large
         row4:  
-        row5: 150,00 €
-        row6: 225,00 €
-        row7: 450,00 €
-        row8: 750,00 €
+        row5: 300,00 €
+        row6: 450,00 €
+        row7: 540,00 €
+        row8: 900,00 €
         row9:   
         actions:
           - label: Book Now
@@ -98,12 +98,12 @@ sections:
         image: /images/xlarge.svg
         image_alt: xlarge box image
         row2: 10x50x30
-        row3: Μεσαίο
+        row3: Xlarge
         row4:  
-        row5: 150,00 €
-        row6: 225,00 €
-        row7: 450,00 €
-        row8: 750,00 €
+        row5: 350,00 €
+        row6: 525,00 €
+        row7: 750,00 €
+        row8: 1.250,00 €
         row9:   
         actions:
           - label: Book Now

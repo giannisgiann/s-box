@@ -83,13 +83,13 @@ sections:
       column4: 
         image: images/large.svg
         image_alt: large box image
-        row2: 10x50x30
-        row3: Μεσαίο
+        row2: 20x50x30
+        row3: Μεγάλο
         row4:  
-        row5: 150,00 €
-        row6: 225,00 €
-        row7: 450,00 €
-        row8: 750,00 €
+        row5: 300,00 €
+        row6: 450,00 €
+        row7: 540,00 €
+        row8: 900,00 €
         row9:   
         actions:
           - label: Book Now
@@ -98,13 +98,13 @@ sections:
       column5: 
         image: images/xlarge.svg
         image_alt: xlarge box image
-        row2: 10x50x30
-        row3: Μεσαίο
+        row2: 30x50x30
+        row3: Πολύ Μεγάλο
         row4:  
-        row5: 150,00 €
-        row6: 225,00 €
-        row7: 450,00 €
-        row8: 750,00 €
+        row5: 350,00 €
+        row6: 525,00 €
+        row7: 750,00 €
+        row8: 1.250,00 €
         row9:   
         actions:
           - label: Book Now
@@ -113,6 +113,59 @@ sections:
       text: 
         title: καλύπτουμε κάθε ανάγκη σας
         subtitle: Οι προσφερόμενες περίοδοι μίσθωσης αρχίζουν από την μία εβδομάδα και σας προσφέρονται επίσης σε μηνιαία, εξαμηνιαία και ετήσια βάση σε ειδικές τιμές (μακροχρόνια μίσθωση). Το κόστος της μίσθωσης, αναλόγως του μεγέθους της θυρίδας και της ζητούμενης μισθωτικής περιόδου περιγράφεται στον τιμοκατάλογο της Εταιρείας.
+  - type: tabs_section
+    tab1_label: Μικρό
+    tab2_label: Μεσαίο
+    tab3_label: Μεγάλο
+    tab4_label: Πολύ μεγάλο
+    size_label: ΜΕΓΕΘΟΣ ΘΥΡΙΔΑΣ
+    period_label: ΥΠΗΡΕΣΙΑ ΜΙΣΘΩΣΗΣ ΘΥΡΙΔΑΣ / ΠΕΡΙΟΔΟΣ
+    tab1:
+      text: >-
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>100,00 €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>150,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>360,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>600,00 €</p>
+      text2: >-
+        8x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab2:
+      text: >-
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>150,00  €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>225,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>750,00 €</p>
+      text2: >-
+        10x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab3:
+      text: >-
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>150,00 €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>225,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>750,00 €</p>
+      text2: >-
+        10x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab4:
+      text: >-
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>150,00 €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>225,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>750,00 €</p>
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
   - type: footer_image_section
     title: Footer Banner
     attributes:
