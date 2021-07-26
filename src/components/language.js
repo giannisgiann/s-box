@@ -4,8 +4,10 @@ import React from "react"
 
 class Language extends React.Component{
     handler(lang,path) {
-     
-        localStorage.setItem('locale', JSON.stringify(lang))
+      if (typeof window !== 'undefined') {
+
+
+        localStorage.setItem('locale', JSON.stringify(lang))}
         navigate(path)
       }
     render() {

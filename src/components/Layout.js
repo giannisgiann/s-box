@@ -13,9 +13,19 @@ import HeaderAlt from './HeaderAlt';
 export default class Body extends React.Component {
   constructor(props) {
     super(props);
+    if (typeof window !== 'undefined') {
+
     this.state = {
+      
       locale: JSON.parse(localStorage.getItem('locale')) || 'el'
     }
+  }
+  else{
+    this.state = {
+      
+      locale:  'el'
+    }
+  }
   }
  
  

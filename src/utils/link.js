@@ -12,8 +12,12 @@ export default function Link({ children, to, activeClassName, partiallyActive, .
    
  
     const langTo = () => {
-        
-        const local = JSON.parse(localStorage.getItem('locale')) ; 
+        if (typeof window !== 'undefined') {
+        var local = JSON.parse(localStorage.getItem('locale')) ; 
+        }
+        else{
+            var local = 'el';
+        }
         if(local && local === 'en'){
            
                 return '/en' + to
