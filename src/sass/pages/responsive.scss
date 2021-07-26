@@ -49,6 +49,7 @@
         a:not(.btn),.lang button{
             color:white;
             background-image: unset!important;
+            background-clip:unset;
             -webkit-background-clip: unset!important;
             -webkit-text-fill-color: unset!important;
             text-align:left;

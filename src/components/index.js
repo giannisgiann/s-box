@@ -1,4 +1,5 @@
 import Action from './Action';
+import ActionHeader from './ActionHeader';
 import AboutSection from './AboutSection';
 import ApplySection from './ApplySection';
 import BlogFeedItemFilter from './BlogFeedItemFilter';
@@ -30,6 +31,7 @@ import Layout from './Layout';
 
 export {
     Action,
+    ActionHeader,
     AboutSection,
     ApplySection,
     BlogFeedItemFilter,
@@ -62,6 +64,7 @@ export {
 
 export default {
     Action,
+    ActionHeader,
     AboutSection,
     ApplySection,
     BlogFeedItemFilter,

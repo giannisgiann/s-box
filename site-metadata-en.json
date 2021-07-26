@@ -4,57 +4,48 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Αρχική",
-                "label-en": "Home",
+                "label": "Home",
                 "url": "/",
                 "style": "link"
             },
             {
-                "label": "Σχετικά με εμάς",
-                 "label-en": "About us",
+                "label": "About us",
                 "url": "/about",
                 "style": "link"
             },
             {
                 "label": "Μεγέθη & Τιμές",
-                "label-en": "Sizes & Prices",
                 "url": "/sizes-prices",
                 "style": "link"
             },
             {
                 "label": "Ασφάλεια",
-                "label-en": "Insurance",
                 "url": "insurance",
                 "style": "link"
             },
             {
                 "label": "Πολιτικές",
-                "label-en": "Policies",
                 "url": "#",
                 "style": "link",
                 "has_subnav": true,
                 "submenu": [
                     {
                         "label": "Όροι & Προϋποθέσεις",
-                        "label-en": "Terms & Conditions",
                         "url": "/terms-and-conditions",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Πληρωμών",
-                        "label-en": "Payment policy",
                         "url": "/payment_policy",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Απορρήτου",
-                        "label-en": "Private policy",
                         "url": "/private_policy",
                         "style": "link"
                     },
                     {
                         "label": "Συχνές Ερωτήσεις",
-                        "label-en": "FAQ",
                         "url": "/faq",
                         "style": "link"
                     }
@@ -62,13 +53,11 @@
             },
             {
                 "label": "Επικοινωνία",
-                "label-en": "Contact",
                 "url": "/contact",
                 "style": "link"
             },
             {
                 "label": "Αίτηση",
-                "label-en": "Apply",
                 "url": "/apply",
                 "style": "primary"
             }
@@ -82,56 +71,47 @@
         "nav_links": [
             {
                 "label": "Αρχική",
-                "label-en": "Home",
                 "url": "/",
                 "style": "link"
             },
             {
                 "label": "Σχετικά με εμάς",
-                 "label-en": "About us",
                 "url": "/about",
                 "style": "link"
             },
             {
                 "label": "Μεγέθη & Τιμές",
-                "label-en": "Sizes & Prices",
                 "url": "/sizes-prices",
                 "style": "link"
             },
             {
                 "label": "Ασφάλεια",
-                "label-en": "Insurance",
                 "url": "insurance",
                 "style": "link"
             },
             {
                 "label": "Πολιτικές",
-                "label-en": "Policies",
-                "url": "#",
+                "url": "",
                 "style": "link",
                 "has_subnav": true,
                 "submenu": [
                     {
                         "label": "Όροι & Προϋποθέσεις",
-                        "label-en": "Terms & Conditions",
                         "url": "/terms-and-conditions",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Πληρωμών",
-                        "label-en": "Payment policy",
                         "url": "/payment_policy",
                         "style": "link"
                     },
                     {
                         "label": "Πολιτική Απορρήτου",
-                        "label-en": "Private policy",
                         "url": "/private_policy",
                         "style": "link"
                     },
                     {
                         "label": "Συχνές Ερωτήσεις",
-                        "label-en": "FAQ",
                         "url": "/faq",
                         "style": "link"
                     }
@@ -139,13 +119,11 @@
             },
             {
                 "label": "Επικοινωνία",
-                "label-en": "Contact",
                 "url": "/contact",
                 "style": "link"
             },
             {
                 "label": "Αίτηση",
-                "label-en": "Apply",
                 "url": "/apply",
                 "style": "primary"
             }
@@ -159,19 +137,16 @@
         "nav_links": [
             {
                 "label": "Σχετικά με εμάς",
-                "label-en":"About us",
                 "url": "/about",
                 "style": "link"
             },
             {
                 "label": "Μεγέθη & Τιμές",
-                "label-en":"Sizes & Prices",
                 "url": "/sizes-prices",
                 "style": "link"
             },
             {
                 "label": "Ασφάλιση",
-                "label-en":"Insurance",
                 "url": "insurance",
                 "style": "link"
             }
@@ -179,25 +154,21 @@
         "nav_links_policy": [
             {
                 "label": "Όροι & Προϋποθέσεις",
-                "label-en": "Terms & Conditions",
                 "url": "/terms-and-conditions",
                 "style": "link"
             },
             {
                 "label": "Πολιτική Πληρωμών",
-                "label-en": "Payment policy",
                 "url": "/payment_policy",
                 "style": "link"
             },
             {
                 "label": "Πολιτική Απορρήτου",
-                "label-en":"Private policy",
                 "url": "/private_policy",
                 "style": "link"
             },
             {
                 "label": "Συχνές Ερωτήσεις",
-                "label-en":"FAQ",
                 "url": "/faq",
                 "style": "link"
             }

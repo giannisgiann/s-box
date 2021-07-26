@@ -38,7 +38,7 @@ sections:
         image_position: right
         actions:
           - label: Learn More
-            url: /applyg
+            url: /apply
             style: primary
   - type: what_matters_section
     title: What matters most

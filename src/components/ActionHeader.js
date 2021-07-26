@@ -12,10 +12,10 @@ export default class ActionHeader extends React.Component {
             else{
                 var local = 'el';
             }
-            if (local==='el' ||  _.get(action, 'label-en') == null ){
+            if (local==='el' && _.get(action, 'label-en', null) !== null){
                 var label =  _.get(action, 'label', null)
             }
-            else if(local ==='en'){
+            else{
                 var label =  _.get(action, 'label-en', null)
 
             }
