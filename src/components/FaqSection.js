@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {markdownify,withPrefix} from '../utils';
+import {withPrefix} from '../utils';
 import AccordionFaq from './Accordion';
 export default class FaqSection extends React.Component {
     render() {

@@ -1,8 +1,6 @@
 import { navigate } from "gatsby"
 import React from "react"
 
-import { Link } from "../utils"
-// added this block here
 
 class Language extends React.Component{
     handler(lang,path) {

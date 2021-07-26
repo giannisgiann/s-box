@@ -91,7 +91,7 @@
             },
             {
                 "label": "Πολιτικές",
-                "url": "#",
+                "url": "",
                 "style": "link",
                 "has_subnav": true,
                 "submenu": [
@@ -132,6 +132,7 @@
         "logo_alternative": "images/s-box-logo-black.svg"
     },
     "footer": {
+        "footer_logo": "/images/logo_footer.svg",
         "has_nav": true,
         "nav_links": [
             {

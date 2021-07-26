@@ -131,8 +131,8 @@ margin-bottom:2rem
   .flex--col-5,
   .flex--col-6 {
     .cell {
-      flex: 0 0 100%;
-      max-width: 100%;
+      flex: 0 0 100%!important;
+      max-width: 100%!important;
     }
   }
 }

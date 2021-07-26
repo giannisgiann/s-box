@@ -373,6 +373,9 @@
       }
       .btn-group{
         margin-top:1.875rem;
+        .btn{
+          padding:0.625em 3.5em;
+        }
       }
     }
   }
@@ -380,20 +383,22 @@
 .section--footer-banner{
   background-color: #2d34401a;
   margin-top:20vh;
-  margin-bottom: -35vh!important;
+  margin-bottom: -30vh!important;
+  padding-top:3.75rem;
   z-index: 999;
+
   .title{
     padding: 0 30px;
   }
   .b-icon{
-    margin-top: -10%;
+    margin-bottom: -10%;
   }
 }
 .section--footer-banner:before{
     content: '';
     position: absolute;
     display: block;
-    bottom: 10vh;
+    bottom: 2%;
     left: 0;
     width: 105%;
     height: 55vh;
@@ -407,8 +412,8 @@
 .section--footer-image{
   .img-wrap{
     min-height: 1000px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
     background-position: center center;
   }
 }

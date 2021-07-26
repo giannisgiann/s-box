@@ -9,7 +9,7 @@ export default function Link({ children, to, activeClassName, partiallyActive, .
     // This example assumes that any internal link (intended for Gatsby)
     // will start with exactly one slash, and that anything else is external.
     const internal = /^\/(?!\/)/.test(to); 
-    console.log('To===' , to)
+   
  
     const langTo = () => {
         

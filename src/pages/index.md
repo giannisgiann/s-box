@@ -37,7 +37,7 @@ sections:
         image_position: right
         actions:
           - label: Μάθετε περισσότερα
-            url: /features
+            url: /apply
             style: primary
   - type: what_matters_section
     title: What matters most
@@ -76,7 +76,7 @@ sections:
               Οι εγκαταστάσεις μας πληρούν διεθνή πρότυπα ασφάλειας έναντι όλων των κινδύνων από φυσικά φαινόμενα όπως σεισμό, φωτιά, πλημμύρα και φυλάσσονται τόσο με ηλεκτρονικά συστήματα όσο και μέσω 24ωρης, φυσικής φύλαξης.
         actions:
           - label: Μάθετε περισσότερα
-            url: /features
+            url: /apply
             style: primary
   - type: boxes_section
     title: Boxes Section
@@ -105,7 +105,7 @@ sections:
           xlarge_alt: XLarge Box
         actions:
           - label: Book Now
-            url: /features
+            url: /apply
             style: primary
   # - type: blog_feed_section
   #   title: What's New
@@ -118,7 +118,7 @@ sections:
         content: >-
          Δημιουργήστε τον δικό σας λογαριασμό και κάντε κράτηση με 3 απλά βήματα!
         align: left
-        image: images/image_footer.jpg
+        image: /images/photohome_footer.jpg
         image_alt: Footer Banner 
         image_position: right
 seo:

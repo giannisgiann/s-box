@@ -79,7 +79,7 @@ export default class Header extends React.Component {
                               let pageUrl = _.trim(_.get(this.props, 'pageContext.url', null), '/');
                               let actionUrl = _.trim(_.get(action, 'url', null), '/');
                                return (
-                                <li key={action_idx} className={classNames('navbar__item', {'navbar__item--btn': _.get(action, 'style', null) !== 'link', 'is-active': pageUrl === actionUrl})}>
+                                <li key={action_idx} className={classNames('navbar__item', { 'has__dropdown' : _.get(action, 'has_subnav', null) ,'navbar__item--btn': _.get(action, 'style', null) !== 'link', 'is-active':  pageUrl === actionUrl})}>
                                   <Action {...this.props} action={action} />
                                   {_.get(action, 'has_subnav', null) && (
                                   <span className="arrow_wrap">

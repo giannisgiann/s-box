@@ -16,7 +16,7 @@ export default class Footer extends React.Component {
               {_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null) ? (
                   <Link className="footer__logo" to={withPrefix('/')}>
                     <img className="logo"
-                      src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
+                      src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.footer.footer_logo', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.logo_alt', null)} />
                      </Link>
                   ) : 
                   <Link className="h4 navbar__title" to={withPrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link>

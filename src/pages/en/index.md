@@ -77,7 +77,7 @@ sections:
               Our facilities meet international safety standards against all hazards from natural phenomena such as earthquake, fire, flood and are protected both electronically and through a 24-hour physical security service.
         actions:
           - label: Learn More
-            url: /features
+            url: /apply
             style: primary
   - type: boxes_section
     title: Boxes Section
@@ -104,7 +104,7 @@ sections:
           xlarge_alt: XLarge Box
         actions:
           - label: Book Now
-            url: /features
+            url: /apply
             style: primary
   # - type: blog_feed_section
   #   title: What's New
@@ -117,7 +117,7 @@ sections:
         content: >-
          Create your own account and bok with 3 simple steps! 
         align: left
-        image: images/image_footer.jpg
+        image: /images/photohome_footer.jpg
         image_alt: Footer Banner 
         image_position: right
 seo:

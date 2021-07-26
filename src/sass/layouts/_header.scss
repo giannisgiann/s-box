@@ -96,7 +96,7 @@
 @include media-breakpoint-down(md) {
   .navbar {
     &:after {
-      background: $color-bg-overlay;
+      // background: $color-bg-overlay;
       content: "";
       height: 100vh;
       left: 0;
@@ -106,6 +106,7 @@
       transition: opacity .25s, visibility 0s .25s;
       visibility: hidden;
       width: 100%;
+      backdrop-filter: blur(3px);
     }
   }
 

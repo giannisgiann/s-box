@@ -8,8 +8,7 @@ import '../sass/main.scss';
 import Header from './Header';
 import Footer from './Footer';
 import HeaderAlt from './HeaderAlt';
-import {navigate} from "gatsby" ;
-import { path } from 'ramda';
+
 
 export default class Body extends React.Component {
   constructor(props) {

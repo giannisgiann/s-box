@@ -70,10 +70,10 @@
     }
   }
   .bg-image__image{
-    background-size:contain!important;
-    background-position:bottom;
-    max-width:900px;
-    margin: auto auto auto 30%;
+    background-size:cover!important;
+    background-position:top;
+    min-height: 900px;
+   
   }
   .section__text{
     text-align: left;
