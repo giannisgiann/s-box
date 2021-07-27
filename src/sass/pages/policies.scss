@@ -20,6 +20,13 @@
         &::-webkit-scrollbar-track-piece{
             margin: 5px 0;
         }
+        ol{
+          text-align: justify;
+          padding:2rem;
+          li{
+            margin:1.5rem 0;
+          }
+        }
     }
     hr{
       background-color: #2D3440;
