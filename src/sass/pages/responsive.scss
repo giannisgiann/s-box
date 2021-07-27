@@ -261,9 +261,44 @@
     .section--tabs{
         display:none;
     }
+    .pricing{
+        display: block;
+    }
 }
 @media(max-width:950px){
 .section--tabs{
     display: block;
+}
+.pricing{
+    display: none;
+}
+}
+section.section.section--tabs{
+    padding:0 1rem;
+    text-align:center;
+.react-tabs__tab-panel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h3{
+        background: linear-gradient(to right, #e1eec3, #f05053);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.react-tabs__tab--selected {
+    border-color: transparent!important;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;
+}
+.deposit{
+    background-color: #2d3440;
+    color: #fff;
+    padding:1rem 2rem;
 }
 }

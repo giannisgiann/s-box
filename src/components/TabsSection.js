@@ -80,6 +80,7 @@ export default class TabsSection extends React.Component {
                 </TabPanel>
                 {/* end tab5 */}
           </Tabs>
+          <h3 className="deposit">{markdownify(_.get(section, 'deposit', null))}</h3>
           </section>
       );
   }
