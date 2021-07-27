@@ -31,7 +31,7 @@ sections:
   - type: cta_section
     actions:
           - label: Η διαδικασία για το άνοιγμα ενός λογαριασμού ηλεκτρονικά είναι απλή και μαζί με τα δικαιολογητικά περιγράφονται αναλυτικά εδώ >
-            url: /features
+            url: /apply
             style: primary
   - type: pricing_section
     title: >-
@@ -114,12 +114,21 @@ sections:
         title: καλύπτουμε κάθε ανάγκη σας
         subtitle: Οι προσφερόμενες περίοδοι μίσθωσης αρχίζουν από την μία εβδομάδα και σας προσφέρονται επίσης σε μηνιαία, εξαμηνιαία και ετήσια βάση σε ειδικές τιμές (μακροχρόνια μίσθωση). Το κόστος της μίσθωσης, αναλόγως του μεγέθους της θυρίδας και της ζητούμενης μισθωτικής περιόδου περιγράφεται στον τιμοκατάλογο της Εταιρείας.
   - type: tabs_section
+    title: 'Τα μεγέθη θυρίδων που προσφέρονται είναι 4 :'
     tab1_label: Μικρό
     tab2_label: Μεσαίο
     tab3_label: Μεγάλο
     tab4_label: Πολύ μεγάλο
     size_label: ΜΕΓΕΘΟΣ ΘΥΡΙΔΑΣ
     period_label: ΥΠΗΡΕΣΙΑ ΜΙΣΘΩΣΗΣ ΘΥΡΙΔΑΣ / ΠΕΡΙΟΔΟΣ
+    image1: images/small.svg
+    image1_alt: Small box 
+    image2: images/medium.svg
+    image2_alt: Medium box
+    image3: images/large.svg
+    image3_alt: Large box
+    image4: images/xlarge.svg
+    image4_alt: Xlarge box
     tab1:
       text: >-
         <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>100,00 €</p>
@@ -146,22 +155,24 @@ sections:
          style: primary
     tab3:
       text: >-
-        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>150,00 €</p>
-        <h4>ΜΗΝΙΑΙΑ</h4><p>225,00 €</p>
-        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
-        <h4>ΕΤΗΣΙΑ</h4><p>750,00 €</p>
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>300,00 €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>540,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>900,00 €</p>
       text2: >-
-        10x50x30
+        20x50x30
       actions: 
        - label: Book Now
          url: /apply
          style: primary
     tab4:
       text: >-
-        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>150,00 €</p>
-        <h4>ΜΗΝΙΑΙΑ</h4><p>225,00 €</p>
-        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>450,00 €</p>
-        <h4>ΕΤΗΣΙΑ</h4><p>750,00 €</p>
+        <h4>ΕΒΔΟΜΑΔΙΑΙΑ</h4><p>350,00 €</p>
+        <h4>ΜΗΝΙΑΙΑ</h4><p>525,00 €</p>
+        <h4>ΕΞΑΜΗΝΙΑΙΑ</h4><p>750,00 €</p>
+        <h4>ΕΤΗΣΙΑ</h4><p>1.250,00 €</p>
+      text2: >-
+        30x50x30
       actions: 
        - label: Book Now
          url: /apply

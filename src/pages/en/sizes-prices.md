@@ -97,7 +97,7 @@ sections:
       column5: 
         image: /images/xlarge.svg
         image_alt: xlarge box image
-        row2: 10x50x30
+        row2: 30x50x30
         row3: Xlarge
         row4:  
         row5: 350,00 €
