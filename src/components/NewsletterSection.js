@@ -1,7 +1,26 @@
 import React from 'react';
+import _ from 'lodash';
+import {htmlToReact} from '../utils';
 
 export default class NewsletterSection extends React.Component {
     render() {
+      if (typeof window !== 'undefined') {
+        var local = JSON.parse(localStorage.getItem('locale')) ; 
+        }
+        else{
+            var local = 'el';
+        }
+        if (local==='el' ||   htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn', null)) == null ){
+           
+            var newsletterBtn =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn', null))
+
+        }
+        else if(local ==='en'){
+          var newsletterBtn =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn_en', null))
+
+
+        }
+        
         return (
             <section className="section">
               <div className="container-newsletter">
@@ -17,7 +36,8 @@ export default class NewsletterSection extends React.Component {
                   </div>
                 
                   <div className="form-submit">
-                    <button type="submit" className="button">Εγγραφή</button>
+                    <button type="submit" className="button">{newsletterBtn}</button>
+                  
                   </div>
                 </form>
               </div>

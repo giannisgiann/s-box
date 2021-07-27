@@ -8,6 +8,25 @@ export default class Footer extends React.Component {
 
        
     render() {
+      if (typeof window !== 'undefined') {
+        var local = JSON.parse(localStorage.getItem('locale')) ; 
+        }
+        else{
+            var local = 'el';
+        }
+        if (local==='el' ||  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title', null)) == null ){
+            var contact =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title', null))
+            var policies =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.policies_title', null))
+            var newsletter =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_text', null))
+
+        }
+        else if(local ==='en'){
+            var contact = htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title_en', null))
+            var policies =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.policies_title_en', null))
+            var newsletter =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_text_en', null))
+
+
+        }
         return (
             <footer className="site-footer">
               <div className="container container--lg">
@@ -54,7 +73,7 @@ export default class Footer extends React.Component {
                 {(_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) || _.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null)) && (
                 <div className="cell" >
                 <div className="site-footer__nav">
-                  <div className="menu-title">Πολιτικές</div>
+                  <div className="menu-title">{policies}</div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_nav', null) && (
                   <ul className="site-footer__menu menu">
                     {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.nav_links_policy', null), (action, action_idx) => (
@@ -71,7 +90,7 @@ export default class Footer extends React.Component {
               {/* Contact menu */}
                 <div className="cell">
                   <div >
-                  <div className="menu-title">Επικοινωνία</div>
+                  <div className="menu-title">{contact}</div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
                     <p>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.address', null))}</p>
                      
@@ -93,10 +112,10 @@ export default class Footer extends React.Component {
                     <div>
                     <div className="menu-title">Newsletter</div>
                     {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
-                    <span>{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter', null))}</span>
+                    <span>{newsletter}</span>
                      
                   )}
-                  <NewsletterSection />
+                  <NewsletterSection {...this.props} />
                     </div>
                   </div>
                  </div>

@@ -156,6 +156,14 @@
     "footer": {
         "footer_logo": "/images/logo_footer.svg",
         "has_nav": true,
+        "policies_title": "Πολιτικές",
+        "policies_title_en": "Policies",
+        "contact_title": "Επικοινωνία",
+        "contact_title_en": "Contact",
+        "newsletter_text": "Εγγραφείτε για να λαμβάνετε νέα και ενημερώσεις.",
+        "newsletter_text_en": "Sign up to our newsletter",
+        "newsletter_btn": "Εγγραφή",
+        "newsletter_btn_en" : "Subscribe",
         "nav_links": [
             {
                 "label": "Σχετικά με εμάς",
