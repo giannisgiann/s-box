@@ -72,7 +72,7 @@ seo:
       value: This is the about us page
       keyName: property
     - name: 'og:image'
-      value: images/1.png
+      value: images/s-box_preview.png
       keyName: property
     - name: 'twitter:card'
       value: summary_large_image
@@ -81,6 +81,6 @@ seo:
     - name: 'twitter:description'
       value: This is the about us page
     - name: 'twitter:image'
-      value: images/1.png
+      value: images/s-box_preview.png
 template: advanced
 ---

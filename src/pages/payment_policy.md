@@ -25,7 +25,7 @@ sections:
         <p>Ο πελάτης έχει επίσης δικαίωμα έως και σαράντα οχτώ (48) ώρες πριν την έναρξη της μισθωτικής περιόδου να μεταβάλει ηλεκτρονικά την περίοδο μίσθωσης ή τον τύπο της θυρίδας που επιθυμεί, με την προϋπόθεση της διαθεσιμότητας από την πλευρά της Εταιρείας. Τυχόν επιπλέον χρέωση από την μεταβολή επιβαρύνει τον πελάτη, ενώ αντίστοιχα, σε περίπτωση μικρότερης χρέωσης της αρχικής, η διαφορά του επιστρέφεται.</p>
 seo:
   title: Πολιτική Πληρωμών
-  description: This is the terms & conditions page
+  description: This is payment policy page
   extra:
     - name: 'og:type'
       value: website
@@ -34,10 +34,10 @@ seo:
       value: Who We Are
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: This is the payment policy page
       keyName: property
     - name: 'og:image'
-      value: images/1.png
+      value: images/s-box_preview.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -47,7 +47,7 @@ seo:
     - name: 'twitter:description'
       value: This is the about us page
     - name: 'twitter:image'
-      value: images/1.png
+      value: images/s-box_preview.png
       relativeUrl: true
 template: advanced
 ---

@@ -56,10 +56,10 @@ seo:
       value: Who We Are
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: This is the private policy page
       keyName: property
     - name: 'og:image'
-      value: images/1.png
+      value: images/s-box_preview.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -67,9 +67,9 @@ seo:
     - name: 'twitter:title'
       value: Who We Are
     - name: 'twitter:description'
-      value: This is the about us page
+      value: This is the private policy page
     - name: 'twitter:image'
-      value: images/1.png
+      value: images/s-box_preview.png
       relativeUrl: true
 template: advanced
 ---

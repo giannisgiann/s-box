@@ -132,10 +132,10 @@ seo:
       value: S-Box
       keyName: property
     - name: 'og:description'
-      value: The preview of the Starter theme
+      value: S-Box Site
       keyName: property
     - name: 'og:image'
-      value: images/starter-preview.png
+      value: images/s-box_preview.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -145,7 +145,7 @@ seo:
     - name: 'twitter:description'
       value: The preview of the Starter theme
     - name: 'twitter:image'
-      value: images/starter-preview.png
+      value: images/s-box_preview.png
       relativeUrl: true
 template: advanced
 ---
