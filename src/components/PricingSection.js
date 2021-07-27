@@ -190,7 +190,7 @@ export default class PricingSection extends React.Component {
                         <p>{_.get(content, 'column1.row9', null)}</p>
                             </div>
                             <div className="cell">
-                            <p>{markdownify(_.get(content, 'column1.row9b', null))}</p>
+                            <div>{markdownify(_.get(content, 'column1.row9b', null))}</div>
                             </div>
                            
                          

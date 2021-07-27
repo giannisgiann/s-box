@@ -25,9 +25,9 @@ export default class TabsSection extends React.Component {
                         <img className="mt-2" src={withPrefix(_.get(section, 'image1', null))} alt={_.get(section, 'image1_alt', null)} />
                       )}
                 <h3 className="title">{_.get(section, 'size_label', null)}</h3>
-                <p className="content">{markdownify(_.get(section, 'tab1.text2', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab1.text2', null))}</div>
                 <h3 className="title mt-2 mb-2">{_.get(section, 'period_label', null)}</h3>
-                <p className="content">{markdownify(_.get(section, 'tab1.text', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab1.text', null))}</div>
                 
                    <div className="section__actions btn-group">
                             <SectionActions {...this.props} actions={_.get(section, 'tab1.actions', null)} />
@@ -40,10 +40,10 @@ export default class TabsSection extends React.Component {
                         <img className="mt-2" src={withPrefix(_.get(section, 'image2', null))} alt={_.get(section, 'image2_alt', null)} />
                       )}
                 <h3 className="title">{_.get(section, 'size_label', null)}</h3>
-                <p className="content">{markdownify(_.get(section, 'tab2.text2', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab2.text2', null))}</div>
                 <h3 className="title mt-2 mb-2">{_.get(section, 'period_label', null)}</h3>
 
-                <p className="content">{markdownify(_.get(section, 'tab2.text', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab2.text', null))}</div>
                    <div className="section__actions btn-group">
                             <SectionActions {...this.props} actions={_.get(section, 'tab2.actions', null)} />
                   </div>
@@ -55,10 +55,10 @@ export default class TabsSection extends React.Component {
                         <img className="mt-2" src={withPrefix(_.get(section, 'image3', null))} alt={_.get(section, 'image3_alt', null)} />
                       )}
                   <h3 className="title">{_.get(section, 'size_label', null)}</h3>
-                  <p className="content">{markdownify(_.get(section, 'tab3.text2', null))}</p>
+                  <div className="content">{markdownify(_.get(section, 'tab3.text2', null))}</div>
                   <h3 className="title mt-2 mb-2">{_.get(section, 'period_label', null)}</h3>
 
-                <p className="content">{markdownify(_.get(section, 'tab3.text', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab3.text', null))}</div>
                    <div className="section__actions btn-group">
                             <SectionActions {...this.props} actions={_.get(section, 'tab3.actions', null)} />
                   </div>
@@ -70,10 +70,10 @@ export default class TabsSection extends React.Component {
                         <img className="mt-2" src={withPrefix(_.get(section, 'image4', null))} alt={_.get(section, 'image4_alt', null)} />
                       )}
                   <h3 className="title">{_.get(section, 'size_label', null)}</h3>
-                  <p className="content">{markdownify(_.get(section, 'tab4.text2', null))}</p>
+                  <div className="content">{markdownify(_.get(section, 'tab4.text2', null))}</div>
                   <h3 className="title mt-2 mb-2">{_.get(section, 'period_label', null)}</h3>
 
-                <p className="content">{markdownify(_.get(section, 'tab4.text', null))}</p>
+                <div className="content">{markdownify(_.get(section, 'tab4.text', null))}</div>
                    <div className="section__actions btn-group">
                             <SectionActions {...this.props} actions={_.get(section, 'tab4.actions', null)} />
                   </div>
