@@ -112,6 +112,73 @@ sections:
       text: 
         title: covering all needs
         subtitle: Rental periods are flexible and start from a Weekly basis, Monthly and on a Six – Month and 12 – Month periods at special prices (long-term rental agreement). The cost of the rental, depending on the size of the box and the requested period can be found in our Price List .
+  - type: tabs_section
+    title: 'The Safe Deposit Boxes Sizes offered are 4 :'
+    tab1_label: Small
+    tab2_label: Medium
+    tab3_label: Large
+    tab4_label: Xlarge
+    size_label: SAFE BOX SIZE
+    period_label: SAFE BOX RENTAL SERVICE / PERIOD
+    image1: images/small.svg
+    image1_alt: Small box 
+    image2: images/medium.svg
+    image2_alt: Medium box
+    image3: images/large.svg
+    image3_alt: Large box
+    image4: images/xlarge.svg
+    image4_alt: Xlarge box
+    deposit: >-
+      <span>70,00 €</span><br>
+         The amount of Deposit is refunded in full at the end of the rental period, provided that any of the conditions regarding correct use included in Terms and Conditions are not violated.
+    tab1:
+      text: >-
+        <h4>WEEKLY</h4><p>100,00 €</p>
+        <h4>MONTHLY</h4><p>150,00 €</p>
+        <h4>6 - MONTH</h4><p>360,00 €</p>
+        <h4>YEARLY</h4><p>600,00 €</p>
+      text2: >-
+        8x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab2:
+      text: >-
+        <h4>WEEKLY</h4><p>150,00  €</p>
+        <h4>MONTHLY</h4><p>225,00 €</p>
+        <h4>6 - MONTH</h4><p>450,00 €</p>
+        <h4>YEARLY</h4><p>750,00 €</p>
+      text2: >-
+        10x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab3:
+      text: >-
+        <h4>WEEKLY</h4><p>300,00 €</p>
+        <h4>MONTHLY</h4><p>450,00 €</p>
+        <h4>6 - MONTH</h4><p>540,00 €</p>
+        <h4>YEARLY</h4><p>900,00 €</p>
+      text2: >-
+        20x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
+    tab4:
+      text: >-
+        <h4>WEEKLY</h4><p>350,00 €</p>
+        <h4>MONTHLY</h4><p>525,00 €</p>
+        <h4>6 - MONTH</h4><p>750,00 €</p>
+        <h4>YEARLY</h4><p>1.250,00 €</p>
+      text2: >-
+        30x50x30
+      actions: 
+       - label: Book Now
+         url: /apply
+         style: primary
   - type: footer_image_section
     title: Footer Banner
     attributes:
