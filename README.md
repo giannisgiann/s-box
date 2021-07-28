@@ -1,4 +1,4 @@
-# ✨ S-Box ✨
+# ✨ S-Box  ✨
 
 <img src="static/images/s-box_preview.png" width="700">
 
