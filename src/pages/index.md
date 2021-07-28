@@ -75,9 +75,9 @@ sections:
             subcontent: >-
               Οι εγκαταστάσεις μας πληρούν διεθνή πρότυπα ασφάλειας έναντι όλων των κινδύνων από φυσικά φαινόμενα όπως σεισμό, φωτιά, πλημμύρα και φυλάσσονται τόσο με ηλεκτρονικά συστήματα όσο και μέσω 24ωρης, φυσικής φύλαξης.
         actions:
-          - label: Μάθετε περισσότερα
-            url: /apply
-            style: primary
+          - label: Μάθετε περισσότερα >
+            url: /insurance
+            style: secondary
   - type: boxes_section
     title: Boxes Section
     boxes:

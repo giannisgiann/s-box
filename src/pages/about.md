@@ -55,7 +55,7 @@ sections:
         content: >-
          Δημιουργήστε τον δικό σας λογαριασμό και κάντε κράτηση με 3 απλά βήματα!
         align: left
-        image: images/about_image_footer.jpg
+        image: /images/about_image_footer.jpg
         image_alt: Footer Banner 
         image_position: right
 seo:

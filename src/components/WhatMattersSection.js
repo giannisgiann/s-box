@@ -1,5 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
+import SectionActions from './SectionActions';
 
 import {classNames, markdownify, withPrefix} from '../utils';
 // import SectionActions from './SectionActions';
@@ -96,6 +97,8 @@ export default class WhatMattersSection extends React.Component {
                                  {_.get(feature, 'content', null) && (
                                 <div className="text-sub">
                                 {markdownify(_.get(feature, 'second_row.subcontent', null))}
+                                <SectionActions {...this.props} actions={_.get(feature, 'actions', null)} />
+
                                 </div>
                                 )}
                             </div>

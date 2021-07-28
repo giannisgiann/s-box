@@ -1,12 +1,39 @@
 //MAX WIDTH 1000px-----------
 @media(max-width:1000px){
+    .home{
+        .section:last-child{
+            padding-bottom: 0;
+        }
+    }
     .section--footer-banner{
         margin-bottom:2rem!important;
+        background-color: white;
+        .section-wrap{
+            h1{
+                width:50%;
+                margin-top:5rem;
+                line-height: 44spx;
+            }
+        }
     }
     .site-footer{
         padding-top:10rem;
         clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
         -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    }
+    footer{
+        .flex--col-5{
+            .cell:last-child{
+                margin-top:1.5rem;
+            }
+        }
+        .logo{
+            max-width: 75%;
+            margin-bottom:2rem;
+        }
+        .container{
+            padding:0;
+        }
     }
 }
 
@@ -128,17 +155,22 @@
         }
         .ms-wrap-r{
             .r-1{
+                order:2;
                 flex-wrap:wrap;
                 .r-icon{
                     margin-bottom:2rem ;
                 }
             }
             .r-2{
+                order:1;
                 flex-wrap: wrap;
                 .r-icon{
                     margin-bottom:1rem;
                 }
             }
+        }
+        .divider{
+            margin-top:2rem;
         }
     }
 
@@ -169,7 +201,8 @@
         .cell.cell:nth-child(2){
             margin-top: 12rem;
             h1{
-                line-height: 100px;
+                line-height: 85px;
+                font-size:80px;
             }
         }
     }
@@ -179,7 +212,9 @@
         }
     }
 }
-
+.about .content .cell:nth-child(2) h2:nth-child(3), .about .content .cell:nth-child(2) .h2:nth-child(3){
+    margin-top:0.8rem;
+}
 //sizes-prices
 
 .sizes_prices{
@@ -191,28 +226,44 @@
         }
     }
 }
+.sizes_prices .section--cta a{
+    font-size:23px;
+    line-height: 30px;
+    text-align: left;
+}
 //insurance
 
 
 .insurance{
+
     .section__copy{
         background-size:40%;
         margin-top:0!important;
+        background-position: 95% 5%;
+        img{
+            margin-top:6rem;
+        }
     }
     .cell {
         padding-top:3rem;
         .title{
-            margin-top:3rem;
+            margin-top:0rem;
             font-size:60px;
         }
     }
     .s{
-        margin-top:6rem;
         .s-text{
             width:100%!important;
         }
     }
     .w-sec{
+        margin-top:0rem;
+        .container{
+            margin-top:0rem;
+            .flex{
+                margin-top:4rem;
+            }
+        }
         .sec_img{
             margin-top:0!important;
         }
@@ -238,17 +289,81 @@
         }
     }
 }
+.insurance .section__copy:before{
+    margin-top:100px;
+}
 //faq
 .faq{
 
     .wrap{
         padding-bottom:5.75rem;
-        clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 95%)
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 95%);
+        .cell{
+            .title{
+                width:90%;
+                max-width: 90%;
+            }
+        }
     }
     
 }
- 
+ //Terms & Conditions 
+ .terms_conditions{
 
+  .section__text{
+     text-align: left!important;
+     p{
+         text-align: left!important;
+     }
+ }
+}
+
+//private policy
+.private_policy{
+    .banner {
+        font-size: 80px;
+        line-height: 80px;
+        font-weight: 900;
+        transform: none!important;
+        -webkit-transform: none!important;
+        top:105%;
+        padding:5px;
+        .banner_icon{
+            img{
+                transform: none!important;
+                -webkit-transform: none!important;
+            width:40px;            }
+        }
+        .banner_text{
+            font-size: 80px!important;
+            line-height: 80px!important;
+        }
+    }
+    .section--cta{
+        .container{
+            margin-top:5rem;
+            padding-top:1rem;
+            
+        }
+    }
+}
+//apply
+.apply{
+    .doc{
+        font-size:14px;
+        line-height: 18px;
+    }
+
+     .section_divider {
+         h3{
+             width:100%;
+             text-align: center;
+         }
+         hr{
+         width:200px;
+     }
+    }
+}
 //Contact
 
 .contact{
@@ -289,8 +404,13 @@ section.section.section--tabs{
     justify-content: center;
     align-items: center;
     text-align: center;
+    .content{
+        p{
+        font-weight: 900;
+        }
+    }
     h3{
-        background: linear-gradient(to right, #e1eec3, #f05053);
+        background: #ef424c;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -298,7 +418,7 @@ section.section.section--tabs{
 .react-tabs__tab--selected {
     border-color: transparent!important;
     border-radius: 5px;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ef424c;
     color:white;
 }
 .deposit{

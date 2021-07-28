@@ -45,7 +45,7 @@ export default class Progress extends React.Component {
   
       const progressBarStyle = {
         height: "7px",
-        background: "linear-gradient(to right, #d53369, #cbad6d)",
+        background: "linear-gradient(to right, #d53369, #009FFF)",
         width: this.state.scrolled
       };
   
