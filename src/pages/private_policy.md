@@ -47,16 +47,16 @@ sections:
 
 seo:
   title: Πολιτική Απορρήτου
-  description: This is the private policy page
+  description: Private Policy
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Who We Are
+      value: Private Policy
       keyName: property
     - name: 'og:description'
-      value: This is the private policy page
+      value: Private Policy
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -65,9 +65,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Private Policy
     - name: 'twitter:description'
-      value: This is the private policy page
+      value: Private Policy
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

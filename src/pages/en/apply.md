@@ -53,7 +53,7 @@ sections:
     
 seo:
   title: Apply
-  description: This is the apply page
+  description: Apply
   extra:
     - name: 'og:type'
       value: website
@@ -62,7 +62,7 @@ seo:
       value: Who We Are
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Apply
       keyName: property
     - name: 'og:image'
       value: images/1.png
@@ -71,9 +71,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Apply
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Apply
     - name: 'twitter:image'
       value: images/1.png
       relativeUrl: true

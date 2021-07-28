@@ -54,16 +54,16 @@ sections:
     
 seo:
   title: Αίτηση
-  description: This is the apply page
+  description: Apply 
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Who We Are
+      value: Apply
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Apply
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -72,9 +72,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Apply
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Apply
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

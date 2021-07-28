@@ -195,10 +195,10 @@ seo:
       value: website
       keyName: property
     - name: 'og:title'
-      value: Μεγέθη & Τιμές
+      value: This is the sizes & prices page
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: This is the sizes & prices page
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -207,9 +207,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Μεγέθη & Τιμές
+      value: This is the sizes & prices page
     - name: 'twitter:description'
-      value: This is the about us page
+      value: This is the sizes & prices page
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

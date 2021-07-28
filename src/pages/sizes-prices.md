@@ -191,16 +191,16 @@ sections:
         image_position: right
 seo:
   title: Μεγέθη & Τιμές
-  description: This is the sizes & prices page
+  description: Sizes & Prices
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Μεγέθη & Τιμές
+      value: Sizes & Prices
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Sizes & Prices
       keyName: property
     - name: 'og:image'
       value: images/1.png
@@ -209,9 +209,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Μεγέθη & Τιμές
+      value: Sizes & Prices
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Sizes & Prices
     - name: 'twitter:image'
       value: images/1.png
       relativeUrl: true

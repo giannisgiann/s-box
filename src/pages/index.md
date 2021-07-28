@@ -123,7 +123,7 @@ sections:
         image_position: right
 seo:
   title: S-Box
-  description: The preview of the Starter theme
+  description:  Safe Deposit Boxes Rental
   extra:
     - name: 'og:type'
       value: website
@@ -132,7 +132,7 @@ seo:
       value: S-Box
       keyName: property
     - name: 'og:description'
-      value: S-Box Site
+      value: Safe Deposit Boxes Rental
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -143,7 +143,7 @@ seo:
     - name: 'twitter:title'
       value: S-Box
     - name: 'twitter:description'
-      value: The preview of the Starter theme
+      value: Safe Deposit Boxes Rental
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

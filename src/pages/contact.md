@@ -34,13 +34,13 @@ seo:
       value: Contact
       keyName: property
     - name: 'og:description'
-      value: This is the contact page
+      value: Contact
       keyName: property
     - name: 'twitter:card'
       value: summary
     - name: 'twitter:title'
       value: Contact
     - name: 'twitter:description'
-      value: This is the contact page
+      value: Contact
 template: advanced
 ---

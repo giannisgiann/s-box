@@ -36,7 +36,7 @@ seo:
       value: Who We Are
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: This is the insurance page
       keyName: property
     - name: 'og:image'
       value: images/1.png
@@ -47,7 +47,7 @@ seo:
     - name: 'twitter:title'
       value: Who We Are
     - name: 'twitter:description'
-      value: This is the about us page
+      value: This is the insurance page
     - name: 'twitter:image'
       value: images/1.png
       relativeUrl: true

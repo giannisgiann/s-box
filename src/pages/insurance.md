@@ -27,16 +27,16 @@ sections:
         image_position: right
 seo:
   title: Ασφάλεια
-  description: This is the insurance page
+  description: Insurance
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Who We Are
+      value: Insurance
       keyName: property
     - name: 'og:description'
-      value: This is the insurance us page
+      value: Insurance
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -45,9 +45,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Insurance
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Insurance
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

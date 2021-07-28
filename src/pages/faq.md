@@ -98,16 +98,16 @@ sections:
         ]
 seo:
   title: Faq
-  description: This is the insurance page
+  description: Frequently asked questions
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Who We Are
+      value: Frequently asked questions
       keyName: property
     - name: 'og:description'
-      value: This is the faq us page
+      value: Frequently asked questions
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -116,9 +116,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Who We Are
+      value: Frequently asked questions
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Frequently asked questions
     - name: 'twitter:image'
       value: images/s-box_preview.png
       relativeUrl: true

@@ -60,7 +60,7 @@ sections:
         image_position: right
 seo:
   title: Σχετικά με εμάς
-  description: This is the about us page
+  description: Who We Are
   extra:
     - name: 'og:type'
       value: website
@@ -69,7 +69,7 @@ seo:
       value: Who We Are
       keyName: property
     - name: 'og:description'
-      value: This is the about us page
+      value: Who We Are
       keyName: property
     - name: 'og:image'
       value: images/s-box_preview.png
@@ -79,7 +79,7 @@ seo:
     - name: 'twitter:title'
       value: Who We Are
     - name: 'twitter:description'
-      value: This is the about us page
+      value: Who We Are
     - name: 'twitter:image'
       value: images/s-box_preview.png
 template: advanced
