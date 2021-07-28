@@ -2,6 +2,10 @@
     .section__text{
         max-height: 650px;
         overflow-y: scroll;
+        padding:3rem;
+        p:not(:first-child){
+        text-align: justify;}
+        
         &::-webkit-scrollbar
         {
           width: 13px !important;
@@ -86,3 +90,4 @@
     text-align: left;
   }
 }
+

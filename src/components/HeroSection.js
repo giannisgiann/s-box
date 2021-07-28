@@ -1,7 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
 import AOS from 'aos';
-import { StaticImage } from "gatsby-plugin-image"
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
 import SectionActions from './SectionActions';
  
@@ -34,7 +33,7 @@ export default class HeroSection extends React.Component {
                 )}
                 {_.get(section, 'has_banner', null) && (
                   <div className="wrap">
-                    <h1  className="banner"><span  className="banner_icon"><StaticImage  placeholder="blurred" src={withPrefix(_.get(section, 'banner_image', null))} alt={_.get(section, 'banner_image_alt', null)} /></span><span  className="banner_text" >{_.get(section, 'banner', null)}</span></h1>
+                    <h1  className="banner"><span  className="banner_icon"><img src={(_.get(section, 'banner_image', null))} alt={_.get(section, 'banner_image_alt', null)} /></span><span  className="banner_text" >{_.get(section, 'banner', null)}</span></h1>
                     </div>
                 )}
               {(_.get(section, 'has_background', null) && _.get(background, 'background_image', null)) && (
@@ -45,7 +44,7 @@ export default class HeroSection extends React.Component {
                 <div className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(section, 'align', null) === 'center', 'align-right': _.get(section, 'align', null) === 'right'})}>
                   {_.get(section, 'image', null) && (
                   <div className={classNames('cell', 'section__media', {'section__media--right': _.get(section, 'image_position', null) === 'right'})}>
-                    <StaticImage placeholder="blurred" src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                    <img  src={(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
                   <div className="cell section__body">
