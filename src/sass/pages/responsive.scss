@@ -95,6 +95,11 @@
 //Home------------------
 .home{
     .hero{
+        .section__copy{
+            p{
+                color:white;
+            }
+        }
         .flex{
             .cell:nth-child(1){
                 order:2;

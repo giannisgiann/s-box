@@ -51,7 +51,7 @@ sections:
          Το ποσό της Εγγύησης διασφαλίζει την ορθή τήρηση από τον μισθωτή των όρων που περιλαμβάνονται
          στους Γενικούς Όρους Συναλλαγών και επιστρέφεται κατά τη λήξη της Mίσθωσης.
       column2:
-        image: images/small.svg
+        image: /images/small.svg
         image_alt: small box image
         row2: 8x50x30
         row3: Μικρό
@@ -63,10 +63,10 @@ sections:
         row9:   
         actions:
           - label: Book Now
-            url: /contact
+            url: /apply
             style: primary
       column3: 
-        image: images/medium.svg
+        image: /images/medium.svg
         image_alt: medium box image
         row2: 10x50x30
         row3: Μεσαίο
@@ -78,10 +78,10 @@ sections:
         row9:   
         actions:
           - label: Book Now
-            url: /contact
+            url: /apply
             style: primary
       column4: 
-        image: images/large.svg
+        image: /images/large.svg
         image_alt: large box image
         row2: 20x50x30
         row3: Μεγάλο
@@ -93,10 +93,10 @@ sections:
         row9:   
         actions:
           - label: Book Now
-            url: /contact
+            url: /apply
             style: primary
       column5: 
-        image: images/xlarge.svg
+        image: /images/xlarge.svg
         image_alt: xlarge box image
         row2: 30x50x30
         row3: Πολύ Μεγάλο
@@ -108,7 +108,7 @@ sections:
         row9:   
         actions:
           - label: Book Now
-            url: /contact
+            url: /apply
             style: primary
       text: 
         title: καλύπτουμε κάθε ανάγκη σας
@@ -121,13 +121,13 @@ sections:
     tab4_label: Πολύ μεγάλο
     size_label: ΜΕΓΕΘΟΣ ΘΥΡΙΔΑΣ
     period_label: ΥΠΗΡΕΣΙΑ ΜΙΣΘΩΣΗΣ ΘΥΡΙΔΑΣ / ΠΕΡΙΟΔΟΣ
-    image1: images/small.svg
+    image1: /images/small.svg
     image1_alt: Small box 
-    image2: images/medium.svg
+    image2: /images/medium.svg
     image2_alt: Medium box
     image3: images/large.svg
     image3_alt: Large box
-    image4: images/xlarge.svg
+    image4: /images/xlarge.svg
     image4_alt: Xlarge box
     deposit: >-
       <span>70,00 €</span><br>
@@ -186,7 +186,7 @@ sections:
     attributes:
       - title: 
         align: left
-        image: images/sizes-footer.png
+        image: /images/sizes-footer.png
         image_alt: Footer Banner 
         image_position: right
 seo:

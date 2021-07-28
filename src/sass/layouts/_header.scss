@@ -45,6 +45,16 @@
 .navbar {
   align-items: center;
   display: flex;
+  .navbar__item{
+  &:hover{
+    svg{
+      padding-left:0.4rem;
+    }
+  }
+  }
+  .dropdown{
+    text-align: left!important;
+  }
 }
 
 .navbar__logo,

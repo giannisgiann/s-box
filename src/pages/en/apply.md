@@ -27,7 +27,7 @@ sections:
     title:  Business (Legal Entities)
     has_divider: true
     divider: 
-        title: Feel safe 24/7s
+        title: Feel safe 24/7
     content: 
         image: 
         image_alt:

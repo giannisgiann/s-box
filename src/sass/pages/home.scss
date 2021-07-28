@@ -1,5 +1,8 @@
 .home{
     .hero{
+        .flex{
+            gap:25px;
+        }
         .section__media{
             flex: 0 0 45%;
 
@@ -7,6 +10,9 @@
         .section__body{
             flex: 0 0 52%;
 
+        }
+        .section__title{
+            font-size: 79px;
         }
 }
 }

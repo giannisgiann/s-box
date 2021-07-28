@@ -16,6 +16,12 @@
     }
 }
 .faq_wrap {
+    .accordion__button{
+        font-size:23px;
+    }
+    .accordion__panel{
+        font-size:18px;
+    }
     .cell{
         max-width: 100%;
         .accordion{
@@ -36,7 +42,7 @@
                     display: inline-block;
                     position: absolute;
                     content: '';
-                    top:2rem;
+                    top:2.3rem;
                     left:10px;
                     height: 2px;
                     width: 15px;
@@ -49,7 +55,7 @@
                     display: inline-block;
                     position: absolute;
                     content: '';
-                    top:2rem;
+                    top:2.3rem;
                     left:10px;
                     height: 2px;
                     width: 15px;

@@ -66,7 +66,7 @@
   background-color:#2d34401a;
   padding:2.5rem 0 ;
   .cell {
-    max-width: $width-md;
+    max-width: 100%;
 
     &:only-child {
       flex: 0 0 100%;
@@ -216,6 +216,7 @@
     display:flex;
   }
   .phone-img{
+    object-fit: contain;
     z-index:2;
   }
   .key-wrap{
@@ -374,7 +375,7 @@
       .btn-group{
         margin-top:1.875rem;
         .btn{
-          padding:0.625em 3.5em;
+          padding:0.625em 5.5em;
         }
       }
     }

@@ -45,27 +45,27 @@ export default class PricingSection extends React.Component {
                 {_.get(content, 'column1', null) && _.get(content, 'column2', null) &&  _.get(content, 'column3', null)  && _.get(content, 'column4', null)  && _.get(content, 'column5', null) && (
                         <div className="row w-100 flex ">
                         <div className="cell">
-                          <p>{_.get(content, 'column1.row2', null)}</p>
+                          <p><b>{_.get(content, 'column1.row2', null)}</b></p>
                           <p>{_.get(content, 'column1.row3', null)}</p>
 
                             </div>
                             <div className="cell">
-                            <p>{_.get(content, 'column2.row2', null)}</p>
+                            <p><b>{_.get(content, 'column2.row2', null)}</b></p>
                             <span>{_.get(content, 'column2.row3', null)}</span>
 
                             </div>
                             <div className="cell">
-                            <p>{_.get(content, 'column3.row2', null)}</p>
+                            <p><b>{_.get(content, 'column3.row2', null)}</b></p>
                             <span>{_.get(content, 'column3.row3', null)}</span>
 
                             </div>
                             <div className="cell">
-                            <p>{_.get(content, 'column4.row2', null)}</p>
+                            <p><b>{_.get(content, 'column4.row2', null)}</b></p>
                             <span>{_.get(content, 'column4.row3', null)}</span>
 
                             </div>
                             <div className="cell">
-                            <p>{_.get(content, 'column5.row2', null)}</p>
+                            <p><b>{_.get(content, 'column5.row2', null)}</b></p>
                             <span>{_.get(content, 'column5.row3', null)}</span>
 
                             </div>
@@ -77,7 +77,7 @@ export default class PricingSection extends React.Component {
               {_.get(content, 'column1', null) && _.get(content, 'column2', null) &&  _.get(content, 'column3', null)  && _.get(content, 'column4', null)  && _.get(content, 'column5', null) && (
                         <div className="row w-100 flex ">
                         <div className="cell">
-                             <p>{_.get(content, 'column1.row4', null)}</p>
+                             <p><b>{_.get(content, 'column1.row4', null)}</b></p>
                             </div>
                             <div className="cell">
                             <p>{_.get(content, 'column2.row4', null)}</p>
@@ -187,7 +187,7 @@ export default class PricingSection extends React.Component {
                 {_.get(content, 'column1', null) && _.get(content, 'column2', null) &&  _.get(content, 'column3', null)  && _.get(content, 'column4', null)  && _.get(content, 'column5', null) && (
                         <div className="row w-100 flex ds">
                         <div className="cell">
-                        <p>{_.get(content, 'column1.row9', null)}</p>
+                        <p><b>{_.get(content, 'column1.row9', null)}</b></p>
                             </div>
                             <div className="cell">
                             <div>{markdownify(_.get(content, 'column1.row9b', null))}</div>

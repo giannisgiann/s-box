@@ -22,7 +22,7 @@ sections:
     title: Footer Banner
     attributes:
       - title: 
-        image: images/insurance_footer.png
+        image: /images/insurance_footer.png
         image_alt: Footer Banner 
         image_position: right
 seo:
