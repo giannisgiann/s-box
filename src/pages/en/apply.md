@@ -40,8 +40,8 @@ sections:
             <li>Completion of reservation with payment, conditional on availability. </li>
             </ul>
             Visit our Branch to sign the rental agreement and receive the Safe Deposit Box keys.
-            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΑΛΛΟΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" target="_blank" class="doc"> Legal Documents - Foreign Legal Entities</a>
-            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΗΜΕΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf"  target="_blank" class="doc"> Legal Documents - Legal Entities of the Homeland</a>
+            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΑΛΛΟΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener " target="_blank" class="doc"> Legal Documents - Foreign Legal Entities</a>
+            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΗΜΕΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener "  target="_blank" class="doc"> Legal Documents - Legal Entities of the Homeland</a>
     actions:
       - label: Apply
         url: /#
