@@ -176,8 +176,10 @@ sections:
     has_divider: true
     actions:
       - label: Λήψη Σύμβασης
-        url: #
+        url: ../Safety_Box_Agreement.pdf
         style: primary
+        no_follow: true
+        new_window: _blank
 seo:
   title: Όροι & Προϋποθέσεις
   description: Terms & Conditions

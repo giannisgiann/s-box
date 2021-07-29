@@ -200,7 +200,7 @@
             {
                 "label": "Πολιτική Απορρήτου",
                 "label-en":"Private policy",
-                "url": "/private_policy",
+                "url": "/private-policy-page",
                 "style": "link"
             },
             {
