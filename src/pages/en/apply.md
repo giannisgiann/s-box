@@ -64,7 +64,7 @@ sections:
             <li> Legal Documents - Cypriot Companies <a href="/files/Legal-Documents-Cypriot-Companies.pdf" target="_blank"></a></li>
             <li> Legal Documents - Shipping Company   <a href="/files/Legal-Documents-Shipping-Company.pdf" target="_blank"></a></li>
             <li> Legal Documents - General-Liability Company   <a href="/files/Legal-Documents-General-Liability-Company.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Offshore Companies <a href="/files/Legal-Documents-Offshore-Companies.pdf"></a></li>
+            <li> Legal Documents - Offshore Companies <a target="_blank" href="/files/Legal-Documents-Offshore-Companies.pdf"></a></li>
     
 seo:
   title: Apply

@@ -65,7 +65,7 @@ sections:
             <li>Νομιμοποιητικά έγγραφα - Κυπριακές Εταιρίες <a href="/files/Legal-Documents-Cypriot-Companies.pdf" target="_blank"></a></li>
             <li>Νομιμοποιητικά έγγραφα - Ναυτική Εταιρία / Ν.Ε.Π.Α  <a href="/files/Legal-Documents-Shipping-Company.pdf" target="_blank"></a></li>
             <li>Νομιμοποιητικά έγγραφα - Ομόρρυθμη-Ετερόρρυθμη Εταιρία  <a href="/files/Legal-Documents-General-Liability-Company.pdf" target="_blank"></a></li>
-            <li>Νομιμοποιητικά έγγραφα - Υπεράκτιες Εταιρίες <a href="/files/Legal-Documents-Offshore-Companies.pdf"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Υπεράκτιες Εταιρίες <a href="/files/Legal-Documents-Offshore-Companies.pdf" target="_blank"></a></li>
 seo:
   title: Αίτηση
   description: Apply 
