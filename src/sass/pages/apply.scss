@@ -93,4 +93,41 @@
         background-color: #2D3440;
         border-color: #2D3440;
     }
+
+    .list{
+
+        .col-1{
+            align-self: flex-start!important;
+            order:1!important;
+            padding-top:0!important;
+        }
+        .col-2{
+            align-self: flex-start!important;
+            order: 2!important;
+        }
+        ul{
+            margin-top:1.5rem;
+            padding-left:0;
+            list-style: none!important;
+            li{
+                padding: 0 1rem;
+                margin:2rem 0;
+                display: flex;
+                list-style: none!important;
+                align-items:center;
+                justify-content: space-between;
+                a{
+                    background: url('/images/download-icon.svg');
+                    background-repeat: no-repeat;
+                    background-size: auto;
+                    background-position: center center;
+                    display: inline-block;
+                    min-width: 27px;
+                    min-height: 21px;
+                    max-height: 21px;
+                    border: 0.5px solid #EF424C
+                }
+            }
+        }
+    }
 }

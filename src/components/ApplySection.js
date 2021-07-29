@@ -28,18 +28,37 @@ export default class ApplySection extends React.Component {
                     </div>
                     )}
                   {_.get(section, 'content', null) && (
-                    <div className="icon_wrap">
-                    <img className="login_icon" src={withPrefix(_.get(section, 'content.image_icon', null))} alt={_.get(section, 'content.image__icon_alt', null)} />
+                    <div  className="icon_wrap">
+                    <img data-aos="fade-up" className="login_icon" src={withPrefix(_.get(section, 'content.image_icon', null))} alt={_.get(section, 'content.image__icon_alt', null)} />
                     </div>
                   )}
                   </div>
                   {(_.get(section, 'has_second_content', null) && _.get(section, 'second_content', null)) && (
                   <div className="cell">
-                   <img className="login_icon" src={withPrefix(_.get(section, 'second_content.image', null))} alt={_.get(section, 'second_content.image__icon_alt', null)} />
+                   <img data-aos="fade-up" className="login_icon" src={withPrefix(_.get(section, 'second_content.image', null))} alt={_.get(section, 'second_content.image__icon_alt', null)} />
                  </div>
+                
                     )}
+                    
                 </div>
                 )}
+                 {(_.get(section, 'has_second_content', null) && _.get(section, 'second_content', null))  && (
+                   <div className="container container--lg mt-5">
+                       <h3>{_.get(section, 'second_content.list.title', null)}</h3>
+                       <div className="flex flex--col-2 mt-4 list">
+                         <div className="cell col-1">
+                           <ul>
+                         {markdownify(_.get(section, 'second_content.list.column1', null))}
+                         </ul>
+                         </div>
+                         <div className="cell col-2">
+                         <ul>
+                         {markdownify(_.get(section, 'second_content.list.column2', null))}
+                         </ul>
+                         </div>
+                       </div>
+                       </div>
+                     )}
               </div>
             </section>
         );

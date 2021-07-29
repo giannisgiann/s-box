@@ -13,7 +13,7 @@ sections:
             <li>Complete your reservation with payment, conditional on availability.</li>
             </ul>
             Visit our Branch to sign your rental agreement and receive your Safe Deposit Box keys.
-            <a href="#" class="doc">Identification Documents</a>
+            <a href="/files/ΕΓΓΡΑΦΑ ΤΑΥΤΟΠΟΙΗΣΗΣ ΦΥΣΙΚΩΝ ΠΡΟΣΩΠΩΝ.pdf" target="_blank" class="doc">Identification Documents</a>
     actions:
       - label: Apply
         url: /#
@@ -40,8 +40,8 @@ sections:
             <li>Completion of reservation with payment, conditional on availability. </li>
             </ul>
             Visit our Branch to sign the rental agreement and receive the Safe Deposit Box keys.
-            <a href="#" class="doc">Legal documents - Foreign Legal Entities</a>
-            <a href="#" class="doc">Legal documents - Legal Entities of the Homeland</a>
+            <a href="/files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΑΛΛΟΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" target="_blank" class="doc"> Legal Documents - Foreign Legal Entities</a>
+            <a href="/files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΗΜΕΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf"  target="_blank" class="doc"> Legal Documents - Legal Entities of the Homeland</a>
     actions:
       - label: Apply
         url: /#
@@ -50,6 +50,21 @@ sections:
     second_content:
         image: /images/ipad_apply.png
         image_alt: Mobile image
+        has_list: true
+        list: 
+          title: All Legal Documents
+          column1: >-
+            <li> Legal Documents - Ανώνυμη Εταιρία <a href="/files/Νομιμοποιητικά έγγραφα_ΑΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Εταιρίες Άλλης Χώρας της Ε.Ε. <a href="/files/Νομιμοποιητικά έγγραφα_ΑΛΛΗΣ ΧΩΡΑΣ ΤΗΣ ΕΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Δικηγορική Συμβολαιογραφική Εταιρία <a href="/files/Νομιμοποιητικά έγγραφα_ΔΙΚΗΓΟΡΙΚΗ_ΣΥΜΒΟΛΑΙΟΓΡΑΦΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Εταιρία Περιορισμένης Ευθύνης <a href="/files/Νομιμοποιητικά έγγραφα_ΕΠΕ.pdf" target="_blank"></a></li>
+             <li> Legal Documents - Εταιρία Ιδιωτικών Πλοίων Αναψυχής <a href="/files/Νομιμοποιητικά έγγραφα_ΕΤΑΙΡΕΙΑ ΙΔΙΩΤΙΚΩΝ ΠΛΟΙΩΝ ΑΝΑΨΥΧΗΣ.pdf" target="_blank"></a></li>
+          column2: >-
+            <li> Legal Documents - Ιδιωτική Κεφαλαιούχικη Εταιρία <a href="/files/Νομιμοποιητικά έγγραφα_ΙΚΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Κυπριακές Εταιρίες <a href="/files/Νομιμοποιητικά έγγραφα_ΚΥΠΡΙΑΚΕΣ ΕΤΑΙΡΕΙΕΣ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Ναυτική Εταιρία / Ν.Ε.Π.Α  <a href="/files/Νομιμοποιητικά έγγραφα_ΝΑΥΤΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Ομόρρυθμη-Ετερόρρυθμη Εταιρία  <a href="/files/Νομιμοποιητικά έγγραφα_ΟΕ_ΕΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Υπεράκτιες Εταιρίες <a href="/files/Νομιμοποιητικά έγγραφα_ΥΠΕΡΑΚΤΙΕΣ ΕΤΑΙΡΕΙΕΣ.pdf"></a></li>
     
 seo:
   title: Apply
