@@ -1,5 +1,6 @@
 ---
 title: Επικοινωνία
+class: contact
 sections:
   - type: hero_section
     title: 

@@ -34,6 +34,7 @@
         .container{
             padding:0;
         }
+        
     }
 }
 
@@ -118,7 +119,7 @@
 .header-alt.site-header-alt-hidden{
     top:-160px;
 }
-
+ 
 //Home------------------
 .home{
     .hero{
@@ -208,9 +209,30 @@
     }
     .section--footer-image{
         .img-wrap{
-            background-position: top!important;
+            background: url('/images/mobile_footer_aboutus.jpg')!important;
         }
     }
+    
+    .bg-image__image{
+        background-image: url('/images/mobile_hero_aboutus.jpg')!important;
+    }
+}
+.about .hero .flex--col-2 {
+    padding-top: 0!important;
+.cell{
+    flex: 0 0 50%!important;
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+        br{
+            display: none;
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
 }
 .about .content .cell:nth-child(2) h2:nth-child(3), .about .content .cell:nth-child(2) .h2:nth-child(3){
     margin-top:0.8rem;
@@ -225,6 +247,31 @@
             line-height: 60px;
         }
     }
+    .bg-image__image{
+        background-image: url('/images/mobile_hero_sizes&prices.jpg')!important;
+    }
+    .section--footer-image .img-wrap{
+        background: url('/images/mobile_footer_sizes&prices.jpg')!important;
+    
+    }
+}
+.sizes_prices .hero .flex--col-2 {
+    padding-top: 0!important;
+.cell{
+    flex: 0 0 50%!important;
+    h1{
+        font-size: 40px;
+        line-height: 50px;
+        br{
+            display: none;
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
 }
 .sizes_prices .section--cta a{
     font-size:23px;
@@ -277,21 +324,26 @@
     .flex.ft{
         h3{
             font-size:22px!important;
+            padding-top: 2rem;
         }
         .primary,span{
             font-size: 25px;
             line-height: 30px;;
         }
     }
-    .section--footer-image{
-        .img-wrap{
-            background-position: 30%!important;
-        }
+    
+    .section--footer-image .cell {
+        padding-bottom:10rem!important;
+    .img-wrap{
+        background:url('/images/mobile_footer_security.jpg')!important;
+        background-repeat: no-repeat!important;
     }
+}
 }
 .insurance .section__copy:before{
     margin-top:100px;
 }
+
 //faq
 .faq{
 
@@ -316,6 +368,9 @@
          text-align: left!important;
      }
  }
+ .bg-image__image{
+    background-image: url('/images/mobile_hero_sizes&politikes_1.jpg')!important;
+}
 }
 
 //private policy
@@ -346,6 +401,15 @@
             
         }
     }
+    .bg-image__image{
+        background-image: url('/images/mobile_hero_sizes&politikes_3.jpg')!important;
+    }
+}
+//payment policy
+.payment_policy{
+    .bg-image__image{
+        background-image: url('/images/mobile_hero_sizes&politikes_2.jpg')!important;
+    }
 }
 //apply
 .apply{
@@ -373,8 +437,21 @@
     .info-list{
         padding:3rem;
     }
+    .bg-image__image{
+        background-image: url('/images/mobile_hero_contact.jpg')!important;
+    }
 }
+.section--footer-image{
+    .cell{
+        padding:20px!important;
+        .img-wrap{
+            background-size: contain!important;
+            background-repeat: no-repeat!important;
+            padding-bottom: 8rem!important;
+        }
+    }
 
+}
 //End of breakpoint
 }
 
@@ -429,4 +506,7 @@ section.section.section--tabs{
     color: #fff;
     padding:1rem 2rem;
 }
+
+
+
 }
