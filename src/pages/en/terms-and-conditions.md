@@ -176,7 +176,7 @@ sections:
     has_divider: true
     actions:
       - label: Download Agreement
-        url: /files/Safety_Box_Agreement.pdf
+        url: ../files/Safety_Box_Agreement.pdf
         style: primary
 seo:
   title: Terms & Conditions

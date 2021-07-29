@@ -1,8 +1,8 @@
 ---
-title: Πολιτική Απορρήτου
+title: Private Policy
 class: private-policy-page
 seo:
-  title: Πολιτική Απορρήτου
+  title: Private Policy
   description: Private Policy
   extra:
     - name: 'og:type'
