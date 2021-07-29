@@ -55,17 +55,17 @@ sections:
         list: 
           title: Βρείτε όλα τα έγγραφα
           column1: >-
-            <li>Νομιμοποιητικά έγγραφα - Ανώνυμη Εταιρία <a href="/files/Legal-Documents-AE" rel="noopener " target="_blank"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Ανώνυμη Εταιρία <a href="/files/Legal-Documents-AE.pdf" rel="noopener " target="_blank"></a></li>
             <li>Νομιμοποιητικά έγγραφα - Εταιρίες Άλλης Χώρας της Ε.Ε. <a href="/files/Legal-Documents-EU-Other-Country.pdf" target="_blank" rel="noopener "></a></li>
             <li>Νομιμοποιητικά έγγραφα - Δικηγορική Συμβολαιογραφική Εταιρία <a href="/files/Legal-Documents-Law-Firm-Notary-Company.pdf" rel="noopener " target="_blank"></a></li>
             <li>Νομιμοποιητικά έγγραφα - Εταιρία Περιορισμένης Ευθύνης <a href="/files/Legal-Documents-Limited-Liability-Company.pdf" target="_blank" rel="noopener "></a></li>
              <li>Νομιμοποιητικά έγγραφα - Εταιρία Ιδιωτικών Πλοίων Αναψυχής <a href="/files/Legal-Documents-Private-Pleasure-Boat-Company.pdf" rel="noopener " target="_blank"></a></li>
           column2: >-
-            <li>Νομιμοποιητικά έγγραφα - Ιδιωτική Κεφαλαιούχικη Εταιρία <a href="/files/Νομιμοποιητικά έγγραφα_ΙΚΕ.pdf" target="_blank"></a></li>
-            <li>Νομιμοποιητικά έγγραφα - Κυπριακές Εταιρίες <a href="/files/Νομιμοποιητικά έγγραφα_ΚΥΠΡΙΑΚΕΣ ΕΤΑΙΡΕΙΕΣ.pdf" target="_blank"></a></li>
-            <li>Νομιμοποιητικά έγγραφα - Ναυτική Εταιρία / Ν.Ε.Π.Α  <a href="/files/Νομιμοποιητικά έγγραφα_ΝΑΥΤΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
-            <li>Νομιμοποιητικά έγγραφα - Ομόρρυθμη-Ετερόρρυθμη Εταιρία  <a href="/files/Νομιμοποιητικά έγγραφα_ΟΕ_ΕΕ.pdf" target="_blank"></a></li>
-            <li>Νομιμοποιητικά έγγραφα - Υπεράκτιες Εταιρίες <a href="/files/Νομιμοποιητικά έγγραφα_ΥΠΕΡΑΚΤΙΕΣ ΕΤΑΙΡΕΙΕΣ.pdf"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Ιδιωτική Κεφαλαιούχικη Εταιρία <a href="/files/Legal-Documents-Private-Capital-Company.pdf" target="_blank"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Κυπριακές Εταιρίες <a href="/files/Legal-Documents-Cypriot-Companies.pdf" target="_blank"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Ναυτική Εταιρία / Ν.Ε.Π.Α  <a href="/files/Legal-Documents-Shipping-Company.pdf" target="_blank"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Ομόρρυθμη-Ετερόρρυθμη Εταιρία  <a href="/files/Legal-Documents-General-Liability-Company.pdf" target="_blank"></a></li>
+            <li>Νομιμοποιητικά έγγραφα - Υπεράκτιες Εταιρίες <a href="/files/Legal-Documents-Offshore-Companies.pdf"></a></li>
 seo:
   title: Αίτηση
   description: Apply 

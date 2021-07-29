@@ -13,7 +13,7 @@ sections:
             <li>Complete your reservation with payment, conditional on availability.</li>
             </ul>
             Visit our Branch to sign your rental agreement and receive your Safe Deposit Box keys.
-            <a href="../files/ΕΓΓΡΑΦΑ ΤΑΥΤΟΠΟΙΗΣΗΣ ΦΥΣΙΚΩΝ ΠΡΟΣΩΠΩΝ.pdf" target="_blank" class="doc">Identification Documents</a>
+            <a href="/files/ΕΓΓΡΑΦΑ ΤΑΥΤΟΠΟΙΗΣΗΣ ΦΥΣΙΚΩΝ ΠΡΟΣΩΠΩΝ.pdf" target="_blank" class="doc">Identification Documents</a>
     actions:
       - label: Apply
         url: /#
@@ -40,8 +40,8 @@ sections:
             <li>Completion of reservation with payment, conditional on availability. </li>
             </ul>
             Visit our Branch to sign the rental agreement and receive the Safe Deposit Box keys.
-            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΑΛΛΟΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener " target="_blank" class="doc"> Legal Documents - Foreign Legal Entities</a>
-            <a href="../files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΗΜΕΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener "  target="_blank" class="doc"> Legal Documents - Legal Entities of the Homeland</a>
+            <a href="/files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΑΛΛΟΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener " target="_blank" class="doc"> Legal Documents - Foreign Legal Entities</a>
+            <a href="/files/Νομιμοποιητικά έγγραφα_ΝΟΜΙΚΑ ΠΡΟΣΩΠΑ ΗΜΕΔΑΠΗΣ_ΓΕΝΙΚΑ.pdf" rel="noopener "  target="_blank" class="doc"> Legal Documents - Legal Entities of the Homeland</a>
     actions:
       - label: Apply
         url: /#
@@ -54,17 +54,17 @@ sections:
         list: 
           title: All Legal Documents
           column1: >-
-            <li> Legal Documents - SA <a href="../files/Νομιμοποιητικά έγγραφα_ΑΕ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - EU Other Country Companies <a href="../files/Νομιμοποιητικά έγγραφα_ΑΛΛΗΣ ΧΩΡΑΣ ΤΗΣ ΕΕ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Law Firm Notary Company <a href="../files/Νομιμοποιητικά έγγραφα_ΔΙΚΗΓΟΡΙΚΗ_ΣΥΜΒΟΛΑΙΟΓΡΑΦΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Limited Liability Company <a href="../files/Νομιμοποιητικά έγγραφα_ΕΠΕ.pdf" target="_blank"></a></li>
-             <li> Legal Documents - Private Pleasure Boat Company <a href="../files/Νομιμοποιητικά έγγραφα_ΕΤΑΙΡΕΙΑ ΙΔΙΩΤΙΚΩΝ ΠΛΟΙΩΝ ΑΝΑΨΥΧΗΣ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - SA <a href="/files/Νομιμοποιητικά έγγραφα_ΑΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - EU Other Country Companies <a href="/files/Νομιμοποιητικά έγγραφα_ΑΛΛΗΣ ΧΩΡΑΣ ΤΗΣ ΕΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Law Firm Notary Company <a href="/files/Νομιμοποιητικά έγγραφα_ΔΙΚΗΓΟΡΙΚΗ_ΣΥΜΒΟΛΑΙΟΓΡΑΦΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Limited Liability Company <a href="/files/Νομιμοποιητικά έγγραφα_ΕΠΕ.pdf" target="_blank"></a></li>
+             <li> Legal Documents - Private Pleasure Boat Company <a href="/files/Νομιμοποιητικά έγγραφα_ΕΤΑΙΡΕΙΑ ΙΔΙΩΤΙΚΩΝ ΠΛΟΙΩΝ ΑΝΑΨΥΧΗΣ.pdf" target="_blank"></a></li>
           column2: >-
-            <li> Legal Documents - Private Capital Company <a href="../files/Νομιμοποιητικά έγγραφα_ΙΚΕ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Cypriot Companies <a href="../files/Νομιμοποιητικά έγγραφα_ΚΥΠΡΙΑΚΕΣ ΕΤΑΙΡΕΙΕΣ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Shipping Company  <a href="../files/Νομιμοποιητικά έγγραφα_ΝΑΥΤΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - General-Liability Company  <a href="../files/Νομιμοποιητικά έγγραφα_ΟΕ_ΕΕ.pdf" target="_blank"></a></li>
-            <li> Legal Documents - Offshore Companies <a href="../files/Νομιμοποιητικά έγγραφα_ΥΠΕΡΑΚΤΙΕΣ ΕΤΑΙΡΕΙΕΣ.pdf"></a></li>
+            <li> Legal Documents - Private Capital Company <a href="/files/Νομιμοποιητικά έγγραφα_ΙΚΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Cypriot Companies <a href="/files/Νομιμοποιητικά έγγραφα_ΚΥΠΡΙΑΚΕΣ ΕΤΑΙΡΕΙΕΣ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Shipping Company  <a href="/files/Νομιμοποιητικά έγγραφα_ΝΑΥΤΙΚΗ ΕΤΑΙΡΕΙΑ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - General-Liability Company  <a href="/files/Νομιμοποιητικά έγγραφα_ΟΕ_ΕΕ.pdf" target="_blank"></a></li>
+            <li> Legal Documents - Offshore Companies <a href="/files/Νομιμοποιητικά έγγραφα_ΥΠΕΡΑΚΤΙΕΣ ΕΤΑΙΡΕΙΕΣ.pdf"></a></li>
     
 seo:
   title: Apply
