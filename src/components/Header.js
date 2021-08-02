@@ -38,6 +38,7 @@ export default class Header extends React.Component {
   
       const currentScrollPos = window.pageYOffset;
       const visible = prevScrollpos > currentScrollPos;
+
       this.setState({
         prevScrollpos: currentScrollPos,
         visible
@@ -89,6 +90,8 @@ export default class Header extends React.Component {
                                   </span>
                                   )}
                                   {_.get(action, 'has_subnav', null) && (  
+                                    <>
+                                    <div className="SiteHeaderArrow"></div>
                                   <ul className="dropdown">  
                                      {_.map(_.get(action, 'submenu', null), (submenu, submenu_idx) => {
                               let pageUrl = _.trim(_.get(this.props, 'pageContext.url', null), '/');
@@ -102,6 +105,7 @@ export default class Header extends React.Component {
                               )
                           })}
                            </ul>
+                           </>
                                  
                                    )}
                                  

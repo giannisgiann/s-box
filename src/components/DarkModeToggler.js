@@ -15,7 +15,7 @@ const scrollToTop = () =>{
 };
   return (
        <button style={{background:'none',border: 'none'}}
-       onClick={scrollToTop}
+      //  onClick={scrollToTop}
        >
     <DarkModeToggle
       onChange={darkMode.toggle}
