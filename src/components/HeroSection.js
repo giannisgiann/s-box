@@ -3,7 +3,9 @@ import _ from 'lodash';
 import AOS from 'aos';
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
 import SectionActions from './SectionActions';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import LazyImage from "../utils/lazyloadImage";
+
+
 
 export default class HeroSection extends React.Component {
   componentDidMount() {
@@ -38,7 +40,7 @@ export default class HeroSection extends React.Component {
                     </div>
                 )}
               {(_.get(section, 'has_background', null) && _.get(background, 'background_image', null)) && (
-              <LazyLoadImage src={withPrefix(_.get(background, 'background_image', null))} effect="blur" className="bg-image__image" style={toStyleObj( 'opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}
+              <LazyImage src={withPrefix(_.get(background, 'background_image', null))}   className="bg-image__image" style={toStyleObj( 'opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}
               />
               )}
               <div className="container container--lg">
