@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import {classNames, toStyleObj, withPrefix,markdownify} from '../utils';
 // import SectionActions from './SectionActions';
@@ -40,7 +41,7 @@ export default class HomeHeroSection extends React.Component {
                 <div className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(section, 'align', null) === 'center', 'align-right': _.get(section, 'align', null) === 'right'})}>
                   {_.get(section, 'image', null) && (
                   <div  className={classNames('cell', 'section__media','hero-images', {'section__media--right': _.get(section, 'image_position', null) === 'right'})}>
-                    <img  data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-left" data-aos-anchor-placement="top-center" className="phone-img"  src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                    <LazyLoadImage effect="blur" data-aos-once="false" data-aos-easing="ease-out" data-aos-duration="1000" data-aos="fade-left" data-aos-anchor-placement="top-center" className="phone-img" data-size="auto" src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                     <div className="flex key-wrap">
                       <div className="wrap-cont" data-aos-delay="800" data-aos-once="false"  data-aos-duration="1700" data-aos="fade-left" >
                     <img  className="key-img" src="/images/key.svg" alt={_.get(section, 'image_alt', null)} />
