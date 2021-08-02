@@ -4,19 +4,22 @@ import _ from 'lodash';
 import { Link ,withPrefix, classNames} from '../utils';
 
 export default class ActionHeader extends React.Component {
+    
     render() {
         let action = _.get(this.props, 'action', null);
-        if (typeof window !== 'undefined') {
-            var local = JSON.parse(localStorage.getItem('locale')) ; 
+        const windowGlobal = typeof window !== 'undefined' && window;
+
+        if (windowGlobal) {
+            var local = JSON.parse(localStorage.getItem('locale'))  || 'el' ; 
             }
             else{
-                var local = 'el';
+                   local = 'el';
             }
             if (local==='el' ||  _.get(action, 'label-en') == null ){
                 var label =  _.get(action, 'label', null)
             }
             else if(local ==='en'){
-                var label =  _.get(action, 'label-en', null)
+                  label =  _.get(action, 'label-en', null)
 
             }
         return (

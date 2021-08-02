@@ -18,7 +18,7 @@ export default class AboutSection extends React.Component {
                   {markdownify(_.get(section, 'content.content_first', null))}
                   </div>
                   {(_.get(section, 'has_second_content', null) && _.get(section, 'second_content.content_second', null)) && (
-                  <div className="cell">
+                  <div data-aos="fade-left" className="cell">
                   {markdownify(_.get(section, 'second_content.content_second', null))}
                     </div>
                     )}

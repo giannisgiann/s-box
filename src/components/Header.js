@@ -6,7 +6,6 @@ import classnames from "classnames";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import Language from "./language"
-
 export default class Header extends React.Component {
   
     constructor(props) {
@@ -17,8 +16,11 @@ export default class Header extends React.Component {
         prevScrollpos: windowGlobal.pageYOffset,
         visible: true
       };
+
+      
       
     }
+    
   
     // Adds an event listener when the component is mount.
     componentDidMount() {

@@ -176,3 +176,106 @@ figure {
     font-size: 1em;
   }
 }
+
+ 
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+body.dark-mode {
+  background-color: #2D3440;
+  color: white;
+  .home{
+  h1,h2,h3,h4,h5,p,span,li{
+    color:white!important;
+  }
+}
+.apply{
+  .section_divider{
+    h3{color:white!important;}
+  }
+  .btn{
+    background-color: #EF424C;
+
+  }
+}
+.contact{
+  .button{
+    background-color: #EF424C;
+  }
+  .info-list{
+    background: #EF424C;
+    width: 50%;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+  }
+}
+  .bg-white{
+    background-color: #2D3440;
+
+  }
+  .logo{
+    display: block!important;
+  }
+  .logo-sticky{
+    display: none!important;
+  }
+  .site-header-bg{
+    
+    background: #2D3440!important;
+     * {
+      color:white!important;
+    }
+    a:not(.btn){
+      background-image:linear-gradient(to right, #EF424C, #EF424C 49%, white 50%);
+
+    }
+    .lang{
+      button{
+        background-image:linear-gradient(to right, #EF424C, #EF424C 49%, white 50%);
+
+      }
+    }
+    .btn{
+      background: rgba(255, 255, 255, 0.7)!important;
+    }
+  }
+  .header-alt{
+    background: #2D3440!important;
+     * {
+      color:white!important;
+    }
+    a:not(.btn){
+      background-image:linear-gradient(to right, #EF424C, #EF424C 49%, white 50%);
+
+    }
+    .lang{
+      button{
+        background-image:linear-gradient(to right, #EF424C, #EF424C 49%, white 50%);
+
+      }
+    }
+    .btn{
+      background: rgba(255, 255, 255, 0.7)!important;
+    }
+  }
+  .navbar__item .dropdown{
+    background-color: #2D3440!important;
+  }
+  .insurance .section__copy:before{
+    left:0;
+  }
+.sec_text h3{
+  color:white;
+}
+.about{
+  .content{
+  .cell:nth-child(2){
+    h2:first-child{
+      color:white;
+    }
+  }
+}
+}
+}

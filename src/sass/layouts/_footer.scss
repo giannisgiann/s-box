@@ -169,3 +169,11 @@ max-width:17%;
   display: flex;
   align-items:center;
 }
+.toggler{
+  text-align: right;
+  button{
+    button{
+    overflow: visible!important;
+    }
+  }
+}

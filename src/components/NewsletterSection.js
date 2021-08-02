@@ -8,7 +8,7 @@ export default class NewsletterSection extends React.Component {
         var local = JSON.parse(localStorage.getItem('locale')) ; 
         }
         else{
-            var local = 'el';
+              local = 'el';
         }
         if (local==='el' ||   htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn', null)) == null ){
            
@@ -16,7 +16,7 @@ export default class NewsletterSection extends React.Component {
 
         }
         else if(local ==='en'){
-          var newsletterBtn =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn_en', null))
+            newsletterBtn =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_btn_en', null))
 
 
         }

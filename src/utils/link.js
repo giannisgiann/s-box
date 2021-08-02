@@ -16,7 +16,7 @@ export default function Link({ children, to, activeClassName, partiallyActive, .
         var local = JSON.parse(localStorage.getItem('locale')) ; 
         }
         else{
-            var local = 'el';
+              local = 'el';
         }
         if(local && local === 'en'){
            

@@ -38,7 +38,7 @@ export default class Insurance extends React.Component {
                 <div className="container container--lg mt-5">
                     <div className="flex flex--col-2 sec mt-5">
                         <div className="cell">
-                        <img className="sec_img" src={withPrefix(_.get(section, 'second_section.image', null))} alt={_.get(section, 'second_section.image_alt', null)} />
+                        <img data-aos="fade-up" data-aos-speed="1000" data-aos-delay="500" className="sec_img" src={withPrefix(_.get(section, 'second_section.image', null))} alt={_.get(section, 'second_section.image_alt', null)} />
                         </div>
                         <div className="cell sec_text">
                             <h3 data-aos="fade-left" data-aos-duration="1200">{_.get(section,'second_section.text',null)}</h3>
@@ -53,7 +53,7 @@ export default class Insurance extends React.Component {
               </div>
               {(_.get(section, 'has_second_section', null)  &&  _.get(section, 'second_section', null)) && (
                   <div className="container container--lg mt-10">
-                    <div className="flex ft">
+                    <div data-aos="fade-right" className="flex ft">
                         <h3>{_.get(section,'second_section.subtitle',null)}</h3>
                         <span><span className="primary">-</span> {_.get(section,'second_section.title',null)} <span className="primary">-</span></span>
                     </div>

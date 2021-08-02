@@ -10,13 +10,13 @@ export default class ActionHeader extends React.Component {
             var local = JSON.parse(localStorage.getItem('locale')) ; 
             }
             else{
-                var local = 'el';
+                  local = 'el';
             }
             if (local==='el' && _.get(action, 'label-en', null) !== null){
                 var label =  _.get(action, 'label', null)
             }
             else{
-                var label =  _.get(action, 'label-en', null)
+                  label =  _.get(action, 'label-en', null)
 
             }
         return (

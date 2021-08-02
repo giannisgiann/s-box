@@ -3,6 +3,7 @@ import _ from 'lodash';
 import NewsletterSection from './NewsletterSection'
 import Action from './Action';
 import {htmlToReact, Link, withPrefix} from '../utils';
+// import DarkModeToggler from './DarkModeToggler';
 
 export default class Footer extends React.Component {
 
@@ -12,7 +13,7 @@ export default class Footer extends React.Component {
         var local = JSON.parse(localStorage.getItem('locale')) ; 
         }
         else{
-            var local = 'el';
+              local = 'el';
         }
         if (local==='el' ||  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title', null)) == null ){
             var contact =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title', null))
@@ -21,9 +22,9 @@ export default class Footer extends React.Component {
 
         }
         else if(local ==='en'){
-            var contact = htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title_en', null))
-            var policies =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.policies_title_en', null))
-            var newsletter =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_text_en', null))
+              contact = htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.contact_title_en', null))
+              policies =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.policies_title_en', null))
+              newsletter =  htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.newsletter_text_en', null))
 
 
         }
@@ -138,8 +139,10 @@ export default class Footer extends React.Component {
                     <Action key={action_idx} {...this.props} action={action} />
                   ))}
                 </div>
+                <div className='toggler'>
+                {/* <DarkModeToggler /> */}
                 </div>
-             
+                </div>
               </div>
             </footer>
         );

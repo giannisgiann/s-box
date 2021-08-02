@@ -11,9 +11,12 @@ import HeaderAlt from './HeaderAlt';
 
 
 export default class Body extends React.Component {
+  
   constructor(props) {
     super(props);
-    if (typeof window !== 'undefined') {
+    const windowGlobal = typeof window !== 'undefined' && window;
+
+    if (windowGlobal) {
 
     this.state = {
       

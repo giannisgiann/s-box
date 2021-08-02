@@ -96,6 +96,7 @@ export default class HeaderAlt extends React.Component {
                           })}
                          <li className="navbar__item lang"> <Language locale={this.props.locale} /></li>
                         </ul>
+                        
                        </div>
                     </div>
                   </div>
