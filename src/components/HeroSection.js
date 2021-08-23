@@ -3,7 +3,10 @@ import _ from 'lodash';
 import AOS from 'aos';
 import {classNames, toStyleObj, withPrefix, markdownify} from '../utils';
 import SectionActions from './SectionActions';
- 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
+
 export default class HeroSection extends React.Component {
   componentDidMount() {
     // or simply just AOS.init();
@@ -36,15 +39,18 @@ export default class HeroSection extends React.Component {
                     <h1  className="banner"><span  className="banner_icon"><img src={(_.get(section, 'banner_image', null))} alt={_.get(section, 'banner_image_alt', null)} /></span><span  className="banner_text" >{_.get(section, 'banner', null)}</span></h1>
                     </div>
                 )}
+              
               {(_.get(section, 'has_background', null) && _.get(background, 'background_image', null)) && (
-              <div className="bg-image__image" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(background, 'background_image', null)) + '\'); opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}
+                 <LazyLoadComponent effect="blur">
+               <div className="bg-image__image" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(background, 'background_image', null)) + '\'); opacity: ' + background_opacity + '; background-size: ' + background_size + '; background-repeat: ' + background_repeat)}
               />
+                  </LazyLoadComponent>
               )}
               <div className="container container--lg">
                 <div className={classNames('flex', 'flex--middle', 'flex--center', 'flex--col-2', {'align-center': _.get(section, 'align', null) === 'center', 'align-right': _.get(section, 'align', null) === 'right'})}>
                   {_.get(section, 'image', null) && (
                   <div className={classNames('cell', 'section__media', {'section__media--right': _.get(section, 'image_position', null) === 'right'})}>
-                    <img  src={(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                    <LazyLoadImage  src={(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
                   </div>
                   )}
                   <div className="cell section__body">
